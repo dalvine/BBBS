@@ -1,0 +1,16 @@
+@import url('../vendor/normalize.css');
+@import url('../vendor/fonts/PT\ Root\ UI_Regular.css');
+@import url('../blocks/page/page.css');
+@import url('../blocks/header/header.css');
+@import url('../blocks/logo/logo.css');
+@import url('../blocks/header/__profile/header__profile.css');
+@import url('../blocks/header/__search/header__search.css');
+@import url('../blocks/header/__search-input/header__search-input.css');
+@import url('../blocks/header/__right-panel/header__right-panel.css');
+@import url('../blocks/navigation/navigation.css');
+@import url('../blocks/navigation/_inactive/navigation_inactive.css');
+@import url('../blocks/navigation/__list/navigation__list.css');
+@import url('../blocks/navigation/__item/navigation__item.css');
+@import url('../blocks/navigation/__item-box/navigation__item-box.css');
+@import url('../blocks/navigation/__item-box/_active/navigation__item-box_active.css');
+@import url('../blocks/navigation/__box-list/navigation__box-list.css');

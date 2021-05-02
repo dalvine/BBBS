@@ -1,0 +1,26 @@
+https://www.notion.so/a56a676fcce94c78bdb5261bc37cda97 
+
+https://miro.com/app/board/o9J_lIwvuN4=/ - схема структуры сайта
+
+**Дизайн и оформление**
+
+Шрифты: https://www.dropbox.com/sh/npbf5sygbkfmt29/AAD-exWd4_UZToaWozx204C3a/%D0%A8%D1%80%D0%B8%D1%84%D1%82%D1%8B?dl=0&subfolder_nav_tracking=1
+
+Иллюстрации и анимации: https://www.dropbox.com/sh/npbf5sygbkfmt29/AAC-bAjagyWpylr3fgWsKym_a?dl=0
+
+# **Материалы**
+
+Макеты + UI Kit: https://www.figma.com/file/cBzn7Z9AItXliUNSFme2ju/BBBS-(Copy)
+
+Иллюстрации и анимации: https://www.dropbox.com/sh/npbf5sygbkfmt29/AAC-bAjagyWpylr3fgWsKym_a?dl=0
+
+Шрифты: https://www.dropbox.com/sh/npbf5sygbkfmt29/AAD-exWd4_UZToaWozx204C3a/%D0%A8%D1%80%D0%B8%D1%84%D1%82%D1%8B?dl=0&subfolder_nav_tracking=1
+
+
+
+
+# **План работ**
+
+- Вёрстка
+- Функциональность
+- Бэкенд

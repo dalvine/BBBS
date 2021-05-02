@@ -1,0 +1,4 @@
+.navigation__item-box_active {
+   display: flex;
+   flex-direction: column;
+}

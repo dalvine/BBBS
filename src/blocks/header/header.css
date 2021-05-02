@@ -1,0 +1,11 @@
+.header {
+    margin: 0 auto;
+    max-width: 1770px;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .header{
+    border: .3px red solid;
+} */
