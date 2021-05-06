@@ -23,6 +23,7 @@
 
 }
 .description__title {
+   font-family: 'ProtoGrotesk', Georgia, Serif;
    font-weight: 300;
    font-style: normal;
    font-size: 23px;
@@ -45,6 +46,7 @@
    border-radius: 2%;
 }
 .description__link {
+   font-family: 'ProtoGrotesk', Georgia, Serif;
    margin: 15px auto 30px;
    font-weight: 300;
    font-style: normal;
