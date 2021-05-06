@@ -1,0 +1,22 @@
+.nav-list__item {
+    margin: 0;
+    margin-left: 30px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.25;
+    letter-spacing: .2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+    cursor: pointer;
+    color: black;
+
+}
+
+.nav-list__item:first-child {
+    margin-left: 0;
+}
+
+.nav-list__item:hover {
+    color: #224CFF;
+}

@@ -1,0 +1,6 @@
+.cover-history {
+    grid-area: cover-history;
+    height: 520px;
+    border-radius: 30px;
+    background-color: #464646;
+}

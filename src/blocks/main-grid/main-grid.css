@@ -1,0 +1,15 @@
+.main-grid {
+    margin: 0 auto;
+    width: 100%;
+    padding: 0;
+    display: grid;
+    grid-template-areas: 
+    'description description cover-history cover-history';
+    /* 'whereToGo whereToGo whereToGo whereToGo'
+    'article article article article'
+    'annotation annotation annotation annotation'
+    'video video video video'
+    'frame ask ask ask'
+    'article article article article'*/
+    gap: 30px;
+}

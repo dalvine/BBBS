@@ -11,36 +11,38 @@
 
 <body class="page">
     <header class="header">
-        <div class="logo">наставник.про</div>
-        <nav class="navigation">
-            <ul class="navigation__list">
-                <!-- <li class="navigation__item">календарь</li>
-                <li class="navigation__item">куда пойти</li>
-                <li class="navigation__item">вопросы</li>
-                <li class="navigation__item">читать и смотреть
-                    <ul class="navigation__item-box">
-                        <li class="navigation__box-list">cправочник</li>
-                        <li class="navigation__box-list">Видео</li>
-                        <li class="navigation__box-list">Статьи</li>
-                        <li class="navigation__box-list">Фильмы</li>
-                        <li class="navigation__box-list">Книги</li>
+        <div class="logo">наставники.про</div>
+        <nav class="nav-list">
+            <ul class="nav-list__items">
+                <li class="nav-list__item">календарь</li>
+                <li class="nav-list__item">куда пойти</li>
+                <li class="nav-list__item">вопросы</li>
+                <li class="nav-list__item">читать и смотреть
+                    <ul class="nav-list__submenu-list">
+                        <li class="nav-list__submenu-item">cправочник</li>
+                        <li class="nav-list__submenu-item">Видео</li>
+                        <li class="nav-list__submenu-item">Статьи</li>
+                        <li class="nav-list__submenu-item">Фильмы</li>
+                        <li class="nav-list__submenu-item">Книги</li>
                     </ul>
                 </li>
-                <li class="navigation__item">права детей</li> -->
+                <li class="nav-list__item">права детей</li>
+                <li class="nav-list__item">истории</li>
             </ul>
         </nav>
-        <div class="header__right-panel">
-            <div class="header__search"></div>
-            <input type="text" name="search" class="header__search-input">
-            <div class="header__profile"></div>
+        <div class="header__right-block">
+            <form class="search" name="search">
+                <input type="text" name="searchInput" class="search__input search__input_hidden">
+                <button type="button" name="searchSubmit" class="search__btn"></button>
+            </form>
+            <img src="./images/ico-profile.svg" class="profile"></div>
         </div>
     </header>
-    <template>
-        <ul class="navigation__list">
-
-        </ul>
-    </template>
-    <script src="./pages/index.js"></script>
+   <main class="main-grid">
+    <section class="describe-box"></section>
+    <section class="cover-history"></section>
+   </main>
+    <!-- <script src="./pages/index.js"></script> -->
 </body>
 
 </html>

@@ -1,0 +1,26 @@
+@keyframes checkout {
+    from {
+        width: 0px;
+    }
+    to {
+        width: 1050px;
+    }
+}
+
+
+.header__search-input {
+    display: none;
+    width: 1057px;
+    margin-left: 10px;
+    margin-right: 30px;
+    outline: none;
+    border: none;
+    background-color: inherit;
+    border-bottom: 1px solid #000000;
+}
+
+
+.header__search-input_active {
+    display: block;
+    animation: checkout .8s ease-in-out;
+}

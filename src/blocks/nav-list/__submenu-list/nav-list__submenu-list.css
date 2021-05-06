@@ -1,0 +1,14 @@
+.nav-list__submenu-list{
+    display: none;
+    margin: 0;
+    padding: 0;
+    width: calc(100% - 40px);
+    list-style: none;
+    text-transform: capitalize;
+    position: absolute;
+    top: calc(100% + 10px);
+    padding: 20px;
+    background-color: #F3F2F2;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 0px 30px 30px;
+}

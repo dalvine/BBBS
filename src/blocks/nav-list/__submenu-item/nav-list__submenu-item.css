@@ -1,0 +1,14 @@
+.nav-list__submenu-item {
+    margin: 0;
+    letter-spacing: 0.2px;
+    font-size: 15px;
+    font-weight: 1.27;
+    margin-top: 10px;
+    cursor: pointer;
+    color: #000;
+    text-decoration: none;
+}
+
+.nav-list__submenu-item:first-child {
+    margin-top: 0;
+}
