@@ -1,0 +1,31 @@
+.calendar__events-grid {
+  margin: 80px 75px 120px;
+  max-width: 1920px;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fill, minmax(570px, 1fr));
+  gap: 30px;
+}
+
+@media screen and (max-width: 1919px) {
+  .calendar__events-grid {
+    margin: 80px 135px 120px;
+    max-width: calc(100% - 135px*2);
+  }
+}
+
+@media screen and (max-width: 1439px) {
+  .calendar__events-grid {
+    margin: 50px 127px 100px;
+    max-width: calc(100% - 127px*2);
+    grid-template-columns: repeat(auto-fill, minmax(382px, 1fr));
+  }
+}
+
+@media screen and (max-width: 319px) {
+  .calendar__events-grid {
+    margin: 50px 15px 100px;
+    max-width: calc(100% - 15px*2);
+    grid-template-columns: 290px;
+  }
+}

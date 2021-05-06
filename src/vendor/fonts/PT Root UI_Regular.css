@@ -13,3 +13,12 @@
 	font-weight: normal;
 	font-style: normal;
 }
+
+@font-face {
+	font-family: 'PTRootUIWebRegular';
+	src:
+	     url('./Proto\ Grotesk-Light-Web.woff2') format('woff2'),
+	     url('./Proto\ Grotesk-Light-Web.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+}
