@@ -17,8 +17,8 @@
 @font-face {
 	font-family: 'PTRootUIWebRegular';
 	src:
-	     url('PT-Root-UI_Regular.woff2') format('woff2'),
-	     url('PT-Root-UI_Regular.woff') format('woff');
+	     url('./Proto\ Grotesk-Light-Web.woff2') format('woff2'),
+	     url('./Proto\ Grotesk-Light-Web.woff') format('woff');
 	font-weight: 300;
 	font-style: normal;
 }

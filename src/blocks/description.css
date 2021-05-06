@@ -1,4 +1,7 @@
 .description {
+   background-color:#F8D162;
+   flex: 1 0 1185px;
+;
 }
 .description__mark {
 }
@@ -11,4 +14,11 @@
 .description__link {
 }
 .description__mark_invisible {
+}
+.description_size_max {
+
+}
+
+.description_size_mini {
+   
 }
