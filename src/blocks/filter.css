@@ -5,6 +5,7 @@
    align-items: baseline;
    flex-wrap: nowrap;
    margin-bottom: 15px;
+   overflow: hidden;
 }
 .filter__button {
    font-weight: 300;
@@ -13,10 +14,29 @@
    line-height: 1.27;
    outline: none;
    border: 1px solid #000;
-   border-radius: 2em / 2em;
+   border-radius: 30px;
    padding: 13px 20px 16px;
+   white-space: nowrap;
+   cursor: pointer;
+   transition: opacity 0.2s ease;
 }
+
+.filter__button:hover {
+   opacity: 0.5;
+}
+
 .filter__button_active {
    background-color: #000;
    color: #F3F2F2;
+}
+
+@media (max-width: 1300px) {
+   .filter {
+      margin-bottom: 10px;
+   }
+   .filter__button {
+      font-size: 12px;
+      line-height: 1.42;
+      padding: 11px 15px 12px;
+   }
 }

@@ -1,4 +1,5 @@
-.description {
+
+.paper__description {
    background-color:#F8D162;
    width: 1185px;
    border-radius: 2em / 2em;
@@ -7,7 +8,7 @@
    justify-content: center;
    align-items: center;
 }
-.description__mark {
+.paper__description-mark {
    margin: 15px auto;
    padding: 2px 7px;
    background-color: #fadf91;
@@ -22,7 +23,7 @@
    color:#464646;
 
 }
-.description__title {
+.paper__description-title {
    font-family: 'ProtoGrotesk', Georgia, Serif;
    font-weight: 300;
    font-style: normal;
@@ -32,7 +33,7 @@
    width: calc(100% - 60px);
    margin: 0 auto 5px;
 }
-.description__subtitle {
+.paper__description-subtitle {
    font-weight: normal;
    font-style: normal;
    font-size: 14px;
@@ -41,11 +42,11 @@
    margin: 0 0 70px;
 
 }
-.description__image {
+.paper__description-image {
    width: calc(100% - 60px);
    border-radius: 2%;
 }
-.description__link {
+.paper__description-link {
    font-family: 'ProtoGrotesk', Georgia, Serif;
    margin: 15px auto 30px;
    font-weight: 300;
@@ -57,7 +58,7 @@
 }
 .description__mark_invisible {
 }
-.description_size_max {
+.paper__description_size_max {
 
 }
 
