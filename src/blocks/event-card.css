@@ -43,6 +43,13 @@
   color: #464646;
 }
 
+@media screen and (max-width: 1023px) {
+  .event__group {
+    font-size: 12px;
+    line-height: 17px;
+  }
+}
+
 .event__title {
   margin: 0;
   max-width: 75%;
