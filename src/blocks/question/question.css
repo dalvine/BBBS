@@ -1,0 +1,13 @@
+.question {
+    margin-bottom: 30px;
+    height: 189px;
+    padding: 50px;
+    background-color: white;
+    border-radius: 30px;
+    box-sizing: border-box;
+    
+}
+
+.question:last-child {
+    margin-bottom: 0;
+}

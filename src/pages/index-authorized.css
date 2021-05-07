@@ -17,12 +17,9 @@
 @import url('../blocks/search/__input/_hidden/search__input_hidden.css');
 @import url('../blocks/profile/profile.css');
 @import url('../blocks/main-grid/main-grid.css');
-@import url('../blocks/describe-box/describe-box.css');
-@import url('../blocks/describe-box/__figure/describe-box__figure.css');
-@import url('../blocks/describe-box/__logo/describe-box__logo.css');
+@import url('../blocks/main-grid/_authorized/main-grid_authorized.css');
+@import url('../blocks/event-card.css');
 @import url('../blocks/cover-history/cover-history.css');
-@import url('../blocks/describe-box/__ellips/describe-box__ellips.css');
-@import url('../blocks/describe-box/__text/describe-box__text.css');
 @import url('../blocks/cover-history/__image/cover-history__image.css');
 @import url('../blocks/cover-history/__layer/cover-history__layer.css');
 @import url('../blocks/cover-history/__title/cover-history__title.css');

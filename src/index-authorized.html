@@ -5,14 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./pages/index.css">
+    <link rel="stylesheet" href="./pages/index-authorized.css">
     <title>Старшие Братья Старшие Сестры</title>
 </head>
 
 <body class="page">
-    <div id="fb-root"></div>
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v10.0"
-        nonce="G2czwnJK"></script>
     <header class="header">
         <div class="logo">наставники.про</div>
         <nav class="nav-list">
@@ -38,18 +35,32 @@
                 <input type="text" name="searchInput" class="search__input search__input_hidden">
                 <button type="button" name="searchSubmit" class="search__btn"></button>
             </form>
-            <img src="./images/ico-profile.svg" class="profile">
+            <img src="./images/ico-profile-authorized.svg" class="profile">
         </div>
         </div>
     </header>
-    <main class="main-grid">
-        <section class="describe-box">
-            <div class="describe-box__figure"></div>
-            <img src="./images/logo-BBBS-blue.svg" alt="Логотип Big Brothers Big Sisters" class="describe-box__logo">
-            <div class="describe-box__ellips">
-                <p class="describe-box__text">Наставники.про – цифоровая информационная платформа огрганизации «Старшие
-                    Братья Старшие Сестры». Созданная для поддержки наставников программы.</p>
-            </div>
+    <main class="main-grid main-grid_authorized">
+        <section class="event event_place_index">
+            <div class="event__info">
+                <p class="event__group">Волонтёры + дети</p>
+                <p class="event__month-and-weekday">декабрь / понедельник</p>
+              </div>
+              <div class="event__info">
+                <h4 class="event__title">Субботний meet up: учимся проходить интевью</h4>
+                <p class="event__date">23</p>
+              </div>  
+              <ul class="event__additional-info">
+                <li class="event__additional-info-item event__time">12:00–14:00</li>
+                <li class="event__additional-info-item event__place">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</li>
+                <li class="event__additional-info-item event__contact-person">Александра, +7 926 356-78-90</li>
+              </ul>
+              <div class="event__controls">
+                <div class="event__signup-container">
+                  <button type="button" aria-label="Записаться" class="event__signup-button opacity-transition">Записаться</button>
+                  <p class="event__participants-counter">Осталось 5 мест</p>
+                </div>
+                <button type="button" aria-label="Посмотреть детали" class="event__details-button opacity-transition"></button>
+              </div>
         </section>
         <section class="cover-history">
             <img src="./images/history-friend.png" alt="" class="cover-history__image">
@@ -100,7 +111,10 @@
                 <li class="poster__item">
                     <div class="poster__layer">
                         <img class="poster__image" src="./images/poster-image.png" alt="постер">
-                        <div class="poster__categories"><p class="poster__category">рубрика</p><p class="poster__category">рубрика</p></div>
+                        <div class="poster__categories">
+                            <p class="poster__category">рубрика</p>
+                            <p class="poster__category">рубрика</p>
+                        </div>
                     </div>
                     <div class="poster__info">
                         <h3 class="poster__title">Жутко громко и запредельно близко</h3>
@@ -111,7 +125,10 @@
                 <li class="poster__item">
                     <div class="poster__layer">
                         <img class="poster__image" src="./images/poster-image.png" alt="постер">
-                        <div class="poster__categories"><p class="poster__category">рубрика</p><p class="poster__category">рубрика</p></div>
+                        <div class="poster__categories">
+                            <p class="poster__category">рубрика</p>
+                            <p class="poster__category">рубрика</p>
+                        </div>
                     </div>
                     <div class="poster__info">
                         <h3 class="poster__title">Жизнь Кабачка</h3>
@@ -122,7 +139,10 @@
                 <li class="poster__item">
                     <div class="poster__layer">
                         <img class="poster__image" src="./images/poster-image.png" alt="постер">
-                        <div class="poster__categories"><p class="poster__category">рубрика</p><p class="poster__category">рубрика</p></div>
+                        <div class="poster__categories">
+                            <p class="poster__category">рубрика</p>
+                            <p class="poster__category">рубрика</p>
+                        </div>
                     </div>
                     <div class="poster__info">
                         <h3 class="poster__title">Волчок</h3>
@@ -133,7 +153,10 @@
                 <li class="poster__item">
                     <div class="poster__layer">
                         <img class="poster__image" src="./images/poster-image.png" alt="постер">
-                        <div class="poster__categories"><p class="poster__category">рубрика</p><p class="poster__category">рубрика</p></div>
+                        <div class="poster__categories">
+                            <p class="poster__category">рубрика</p>
+                            <p class="poster__category">рубрика</p>
+                        </div>
                     </div>
                     <div class="poster__info">
                         <h3 class="poster__title">Жутко громко и запредельно близко</h3>

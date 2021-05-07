@@ -1,0 +1,10 @@
+.describe-article {
+    position: relative;
+    margin: 0;
+    height: 520px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

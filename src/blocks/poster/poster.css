@@ -1,0 +1,5 @@
+.poster {
+    grid-area: films;
+    width: 100%;
+    margin: 0;
+}

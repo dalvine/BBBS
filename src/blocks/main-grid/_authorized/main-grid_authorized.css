@@ -1,17 +1,10 @@
-.main-grid {
-    margin: 0 auto;
-    width: 100%;
-    padding: 80px 75px 120px;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+.main-grid_authorized {
     grid-template-areas: 
-    'description description cover-history cover-history'
+    'event event cover-history cover-history'
     'whereToGo whereToGo whereToGo whereToGo'
     'article-light-blue article-light-blue article-light-blue article-light-blue'
     'films films films films'
     'video video video video'
     'frame questions questions questions'
     'article-green article-green article-green article-green'; 
-    gap: 30px;
-    box-sizing: border-box;
 }

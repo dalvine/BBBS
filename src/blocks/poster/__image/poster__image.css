@@ -1,0 +1,9 @@
+.poster__image {
+    height: 100%;
+    width: 100%;
+    max-width: none;
+    max-height: none;
+    display: block;
+    position: relative;
+
+}

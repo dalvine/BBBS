@@ -1,0 +1,11 @@
+.video__info {
+    margin: 0;
+    padding: 30px 50px;
+    width: 32%;
+    background-color: #F8D162;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+}

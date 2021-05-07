@@ -1,0 +1,8 @@
+.question__text {
+    margin: 0;
+    max-width: 770px;
+    font-family: 'ProtoGrotesk';
+    font-weight: 300;
+    font-size: 23px;
+    line-height: 1.3;
+}

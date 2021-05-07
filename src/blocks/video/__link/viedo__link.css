@@ -1,0 +1,12 @@
+.video__link {
+    margin: 0;
+    margin-top: auto;
+    text-decoration: none;
+    font-family: 'ProtoGrotesk';
+    text-align: center;
+    color: #224CFF;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.27;
+    letter-spacing: 0.2px;
+}

@@ -1,7 +1,7 @@
 .header {
     font-family: 'ProtoGrotesk', Georgia, Serif;
+    padding: 40px 75px 0;
     margin: 0 auto;
-    padding-bottom: 80px;
     max-width: 1770px;
     height: 30px;
     display: flex;

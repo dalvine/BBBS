@@ -1,0 +1,11 @@
+.describe-article__link{
+    font-family: 'ProtoGrotesk';
+    position: absolute;
+    color: #224CFF;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 1.27;
+    letter-spacing: 0.2px;
+    bottom: 30px;
+    left: calc(50% - 52px);
+}

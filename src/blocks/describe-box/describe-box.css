@@ -1,5 +1,6 @@
 .describe-box {
     grid-area: description;
+    position: relative;
     margin: 0;
     height: 520px;
     border-radius: 30px;

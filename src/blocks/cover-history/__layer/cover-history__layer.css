@@ -1,0 +1,12 @@
+.cover-history__layer {
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: #464646;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

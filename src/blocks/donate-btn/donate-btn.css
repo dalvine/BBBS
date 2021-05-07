@@ -1,0 +1,16 @@
+.donate-btn {
+    font-family: 'ProtoGrotesk';
+    color: #F3F2F2;
+    background-color: transparent;
+    width: 169px;
+    height: 50px;
+    border: 1px solid #F3F2F2;
+    outline: none;
+    vertical-align: top;
+    border-radius: 100px;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.27;
+    letter-spacing: 0.2px;
+    cursor: pointer;
+}
