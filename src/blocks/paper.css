@@ -138,6 +138,9 @@
    overflow-y: auto;
    height: 513px;
    width: 585px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
 }
 
 .paper-text_size_mini {
@@ -181,7 +184,6 @@
    font-size: 23px;
    line-height: 1.3;
    text-align: center;
-   width: calc(100% - 60px);
    margin: 0 auto 5px;
 }
 
@@ -191,12 +193,19 @@
    font-size: 14px;
    line-height: 1.36;
    color: #464646;
-   margin: 0 0 70px;
-   padding: 0 25px;
+   margin: 0;   padding: 0 25px;
 }
 
 .paper__description-subtitle_size_mini {
-   margin: 0 auto 99px;
+   
+}
+
+.paper__description-info {
+   display: flex;
+   flex-direction: column;
+   justify-content: start;
+   align-items: center;
+   width: calc(100% - 10px);
 }
 
 .paper__description-image {
@@ -215,7 +224,7 @@
 
 .paper__description-link {
    font-family: 'ProtoGrotesk', Georgia, Serif;
-   margin: 15px auto 30px;
+   margin: 0 auto 30px;
    font-weight: 300;
    font-style: normal;
    font-size: 15px;

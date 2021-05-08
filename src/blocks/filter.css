@@ -1,5 +1,4 @@
 .filter {
-<<<<<<< HEAD
    font-family: 'ProtoGrotesk', Georgia, Serif;
    display: flex;
    justify-content: center;
@@ -20,28 +19,6 @@
    white-space: nowrap;
    cursor: pointer;
    transition: opacity 0.2s ease;
-=======
-  font-family: 'ProtoGrotesk', Georgia, Serif;
-  display: flex;
-  justify-content: center;
-  align-items: baseline;
-  flex-wrap: nowrap;
-  margin-bottom: 15px;
-  overflow: hidden;
-}
-.filter__button {
-  font-weight: 300;
-  font-style: normal;
-  font-size: 15px;
-  line-height: 1.27;
-  outline: none;
-  border: 1px solid #000;
-  border-radius: 30px;
-  padding: 13px 20px 16px;
-  white-space: nowrap;
-  cursor: pointer;
-  transition: opacity 0.2s ease;
->>>>>>> feature/main
 }
 
 .filter__button:hover {
@@ -54,7 +31,6 @@
 }
 
 @media (max-width: 1300px) {
-<<<<<<< HEAD
    .filter {
       margin-bottom: 10px;
    }
@@ -63,14 +39,4 @@
       line-height: 1.42;
       padding: 11px 15px 12px;
    }
-=======
-  .filter {
-     margin-bottom: 10px;
-  }
-  .filter__button {
-     font-size: 12px;
-     line-height: 1.42;
-     padding: 11px 15px 12px;
-  }
->>>>>>> feature/main
 }
