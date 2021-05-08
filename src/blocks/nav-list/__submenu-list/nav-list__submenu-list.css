@@ -14,3 +14,8 @@
     color: black;
     z-index: 1;
 }
+
+.nav-list__item_submenu:hover .nav-list__submenu-list {
+    display: flex;
+    flex-direction: column;
+}

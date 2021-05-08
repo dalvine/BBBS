@@ -159,11 +159,136 @@
             </div>
          </section>
       </div>
+      <!-- Первое модальное окно. Изменение видимости - добавление класса popup-recommendations_open -->
+      <section class="popup-recommendations">
+         <div class="popup__form">
+            <p class="info-recommendations__text">
+               Если вы были в интересном месте и хотите порекомендовать его другим наставникам – <a href=""
+                  class="paper__description-link info-recommendations__link">заполните форму</a>, и мы добавим вашу
+               рекомендацию.
+            </p>
+            <form action="#" method="post" name="form_recommendations" id="form_recommendations" class="recommendations-form" enctype="multipart/form-data">
+               <label for="recommendations__title" class="recommendations__label recommendations-form__label_type_title">
+                  <input type="text" name="recommendations__title" id="recommendations__title" class="recommendations-form__input" placeholder="Название*" required>
+               </label>
+               <label for="recommendations__url" class="recommendations__label  recommendations-form__label_type_url">
+                  <input type="url" name="recommendations__url" id="recommendations__url" class="recommendations-form__input" placeholder="Сайт">
+               </label>
+               <label for="recommendations__address" class="recommendations__label recommendations-form__label_type_address">
+                  <input type="text" name="recommendations__address" id="recommendations__address" class="recommendations-form__input" placeholder="Адрес*" required>
+               </label>
+               <label for="recommendations__boy" class="recommendations__label recommendations-form__label_type_boy">
+                  <input type="radio" name="recommendations__gender" id="recommendations__boy" class="recommendations-form__input" required value="Мальчик"><span class="recommendations__gender-type">Мальчик</span>
+                  <span class="recommendations__radio"></span>
+               </label>
+               <label for="recommendations__girl" class="recommendations__label recommendations-form__label_type_girl">
+                  <input type="radio" name="recommendations__gender" id="recommendations__girl" class="recommendations-form__input" required value="Девочка">
+                  <span class="recommendations__gender-type">Девочка</span>
+                  <span class="recommendations__radio"></span>
+               </label>
+               <label for="recommendations__age" class="recommendations__label recommendations-form__label_type_age">
+                  <input type="number" min="18" max="99" name="recommendations__age" id="recommendations__age" class="recommendations-form__input" placeholder="Возраст*" required>
+               </label>
+               <label for="recommendations__holiday" class="recommendations__label recommendations-form__label_type_holiday">
+                  <select name="recommendations__holiday" id="recommendations__holiday"  required class="recommendations-form__input recommendations-form__input_type_holiday">
+                     <option class="recommendations-form__holiday recommendations-form__holiday_disabled">Тип отдыха*</option>
+                     <option class="recommendations-form__holiday recommendations-form__holiday_enabled" value="Активный">Активный</option>
+                     <option class="recommendations-form__holiday recommendations-form__holiday_enabled" value="Развлекательный">Развлекательный</option>
+                     <option class="recommendations-form__holiday recommendations-form__holiday_enabled" value="Познавательный">Познавательный</option>
+                  </select>
+               </label>
+               <label for="recommendations__comments" class="recommendations__label recommendations-form__label_type_comments">
+                  <textarea name="recommendations__comments" id="recommendations__comments" placeholder="Комментарий* Поделитесь впечатлениями о проведенном времени" required class="recommendations-form__input recommendations-form__input_type_comments"></textarea>
+               </label>
+               <label for="recommendations__foto" class="recommendations__label recommendations-form__label_type_foto">
+                  <input type="file" accept="image/*" name="recommendations__foto" id="recommendations__foto" class="recommendations-form__input recommendations-form__input-add-foto">
+                  <span class="recommendations-form__add-foto">Добавить фото</span>
+               </label>
+               <input type="submit" value="Отправить"  class="recommendations-form__submit recommendations-form__submit_type_disabled">
+            </form>
+         </div>
+      </section>
+      <!-- Второе модальное окно (ошибка). Изменение видимости - добавление класса popup-recommendations_open -->
+      <section class="popup-recommendations">
+         <div class="popup__form">
+            <p class="info-recommendations__text">
+               Если вы были в интересном месте и хотите порекомендовать его другим наставникам – <a href=""
+                  class="paper__description-link info-recommendations__link">заполните форму</a>, и мы добавим вашу
+               рекомендацию.
+            </p>
+            <form action="#" method="post" name="form_recommendations" id="form_recommendations" class="recommendations-form recommendations-form_invalid"
+               enctype="multipart/form-data">
+               <label for="recommendations__title" class="recommendations__label recommendations-form__label_type_title">
+                  <input type="text" name="recommendations__title" id="recommendations__title"
+                     class="recommendations-form__input" placeholder="Название*" required>
+               </label>
+               <label for="recommendations__url" class="recommendations__label  recommendations-form__label_type_url">
+                  <input type="url" name="recommendations__url" id="recommendations__url" class="recommendations-form__input"
+                     placeholder="Сайт">
+               </label>
+               <label for="recommendations__address" class="recommendations__label recommendations-form__label_type_address">
+                  <input type="text" name="recommendations__address" id="recommendations__address"
+                     class="recommendations-form__input" placeholder="Адрес*" required>
+               </label>
+               <label for="recommendations__boy" class="recommendations__label recommendations-form__label_type_boy">
+                  <input type="radio" name="recommendations__gender" id="recommendations__boy"
+                     class="recommendations-form__input" required value="Мальчик"><span
+                     class="recommendations__gender-type">Мальчик</span>
+                  <span class="recommendations__radio"></span>
+               </label>
+               <label for="recommendations__girl" class="recommendations__label recommendations-form__label_type_girl">
+                  <input type="radio" name="recommendations__gender" id="recommendations__girl"
+                     class="recommendations-form__input" required value="Девочка">
+                  <span class="recommendations__gender-type">Девочка</span>
+                  <span class="recommendations__radio"></span>
+               </label>
+               <label for="recommendations__age" class="recommendations__label recommendations-form__label_type_age">
+                  <input type="number" min="18" max="99" name="recommendations__age" id="recommendations__age"
+                     class="recommendations-form__input" placeholder="Возраст*" required>
+               </label>
+               <label for="recommendations__holiday" class="recommendations__label recommendations-form__label_type_holiday">
+                  <select name="recommendations__holiday" id="recommendations__holiday" required
+                     class="recommendations-form__input recommendations-form__input_type_holiday">
+                     <option class="recommendations-form__holiday recommendations-form__holiday_disabled">Тип отдыха*</option>
+                     <option class="recommendations-form__holiday recommendations-form__holiday_enabled" value="Активный">
+                        Активный</option>
+                     <option class="recommendations-form__holiday recommendations-form__holiday_enabled"
+                        value="Развлекательный">Развлекательный</option>
+                     <option class="recommendations-form__holiday recommendations-form__holiday_enabled"
+                        value="Познавательный">Познавательный</option>
+                  </select>
+               </label>
+               <label for="recommendations__comments"
+                  class="recommendations__label recommendations-form__label_type_comments">
+                  <textarea name="recommendations__comments" id="recommendations__comments"
+                     placeholder="Комментарий* Поделитесь впечатлениями о проведенном времени" required
+                     class="recommendations-form__input recommendations-form__input_type_comments"></textarea>
+               </label>
+               <label for="recommendations__foto" class="recommendations__label recommendations-form__label_type_foto">
+                  <input type="file" accept="image/*" name="recommendations__foto" id="recommendations__foto"
+                     class="recommendations-form__input recommendations-form__input-add-foto">
+                  <span class="recommendations-form__add-foto">Добавить фото</span>
+               </label>
+               <input type="submit" value="Отправить"
+                  class="recommendations-form__submit recommendations-form__submit_type_disabled">
+            </form>
+         </div>
+      </section>
+      <!-- Третье модальное окно (отправка формы). Изменение видимости - добавление класса popup-recommendations_open -->
+      <section class="popup-recommendations">
+         <div class="popup__form popup__form_type_posted">
+            <div class="recommendations__posted-image"></div>
+            <h2 class="recommendations__posted-text">
+               Спасибо, мы проверим информацию, и скоро все пользователи смогут увидеть вашу рекомендацию
+            </h2>
+         </div>
+      </section>
    </main>
    <footer>
       <!--****************************************
          Footer от Влада
       *******************************************-->
    </footer>
+   <script src="../pages/popup_recomendations.js"></script>
 </body>
 </html>
