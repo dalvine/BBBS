@@ -1,0 +1,14 @@
+.iframe-social {
+    grid-area: frame;
+    height: 627px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+/* .fb-page {
+    width: 420px;
+    grid-area: frame;
+    height: 627px;
+    border-radius: 30px;
+    overflow: hidden;
+} */

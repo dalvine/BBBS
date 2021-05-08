@@ -1,3 +1,4 @@
+
 .event {
   padding: 30px;
   background: #fff;
@@ -210,3 +211,14 @@
   }
 }
 
+<<<<<<< HEAD
+=======
+.opacity-transition {
+  transition: opacity .20s ease;
+  cursor: pointer;
+}
+  
+.opacity-transition:hover {
+  opacity: .5;
+}
+>>>>>>> feature/main

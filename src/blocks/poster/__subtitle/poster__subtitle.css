@@ -1,0 +1,10 @@
+.poster__subtitle {
+    margin: 0;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.36;
+    letter-spacing: 0.2px;
+    color: #464646;
+}

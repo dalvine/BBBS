@@ -1,11 +1,16 @@
 .header {
+    font-family: 'ProtoGrotesk', Georgia, Serif;
+    padding: 40px 75px 0;
     margin: 0 auto;
     max-width: 1770px;
-    padding-top: 40px;
+    height: 30px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
-/* .header{
-    border: .3px red solid;
-} */
+@media screen and (max-width: 1196px) {
+    .header {
+        flex-direction: row-reverse;
+    }
+}

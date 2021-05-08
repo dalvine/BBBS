@@ -1,0 +1,12 @@
+.poster__item {
+    width: 420px;
+    max-height: 408px;
+    background-color:white;
+    border-radius: 30px;
+    margin-right: 30px;
+    overflow: hidden;
+}
+
+.poster__item:last-child {
+    margin-right: 0;
+}

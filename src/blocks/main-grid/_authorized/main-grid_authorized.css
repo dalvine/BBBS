@@ -1,0 +1,10 @@
+.main-grid_authorized {
+    grid-template-areas: 
+    'event event cover-history cover-history'
+    'whereToGo whereToGo whereToGo whereToGo'
+    'article-light-blue article-light-blue article-light-blue article-light-blue'
+    'films films films films'
+    'video video video video'
+    'frame questions questions questions'
+    'article-green article-green article-green article-green'; 
+}

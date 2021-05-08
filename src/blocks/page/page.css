@@ -1,6 +1,7 @@
 .page {
-  font-family: 'PTRootUIWebRegular', Georgia, Serif;
-  margin: 0 auto;
-  background-color: #F3F2F2;
-  max-width: 1920px;
+    font-family: 'PTRootUIWebRegular', Georgia, Serif;
+    margin: 0 auto;
+    background-color: #F3F2F2;
+    max-width: 1920px;
+    padding: 0;
 }

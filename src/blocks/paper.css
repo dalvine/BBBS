@@ -34,7 +34,79 @@
    padding: 34px 15px 69px 30px;
    box-sizing: border-box;
 }
-.paper-text__title {
+
+.paper__mark {
+   margin: 15px auto;
+   padding: 2px 7px;
+   background-color: rgba(255, 255, 255, 0.3);
+   border-radius: 30px;
+   display: inline-block;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 10px;
+   line-height: 1.3;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   color:#464646;
+}
+.paper__title {
+   font-family: 'ProtoGrotesk', Georgia, Serif;
+   font-weight: 300;
+   font-style: normal;
+   font-size: 23px;
+   line-height: 1.3;
+   text-align: center;
+   width: calc(100% - 60px);
+   margin: 0 auto 5px;
+}
+.paper__subtitle {
+   font-weight: normal;
+   font-style: normal;
+   font-size: 14px;
+   line-height: 1.36;
+   color: #464646;
+   margin: 0 0 70px;
+
+}
+.paper__image {
+   width: calc(100% - 60px);
+   border-radius: 2%;
+}
+.paper__link {
+   font-family: 'ProtoGrotesk', Georgia, Serif;
+   margin: 15px auto 30px;
+   font-weight: 300;
+   font-style: normal;
+   font-size: 15px;
+   line-height: 1.27;
+   color: #224CFF;
+   text-decoration: none;
+}
+
+.paper__annotation {
+   width: 585px;
+   background-color: #fff;
+   border-radius: 30px;
+   padding: 34px 15px 69px 30px;
+   box-sizing: border-box;
+}
+
+.paper__caption {
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 1.36;
+   color: #464646;
+   margin-bottom: 105px;
+}
+
+.paper__paragraphs {
+   max-height: 389px;
+   overflow-y: scroll;
+}
+
+
+.paper__paragraph {
    font-style: normal;
    font-weight: normal;
    font-size: 14px;

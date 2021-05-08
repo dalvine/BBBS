@@ -1,0 +1,11 @@
+.header__btn-menu {
+    display: none;
+    width: 30px;
+    height: 20px;
+}
+
+@media screen and (max-width: 1196px) {
+    .header__btn-menu {
+        display: block;
+    }
+}

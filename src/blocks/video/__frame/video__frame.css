@@ -1,0 +1,7 @@
+.video__frame {
+    margin: 0;
+    width: 68%;
+    background-color: yellowgreen;
+    border-radius:  30px;
+    border: none;
+}

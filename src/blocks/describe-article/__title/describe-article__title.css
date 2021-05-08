@@ -1,0 +1,9 @@
+.describe-article__text {
+    max-width: 970px;
+    font-family: 'ProtoGrotesk';
+    font-size: 44px;
+    font-weight: 300;
+    line-height: 1.14;
+    color: #1A1A1A;
+    text-align: center;
+}

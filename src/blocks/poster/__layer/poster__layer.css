@@ -1,0 +1,6 @@
+.poster__layer {
+    position: relative;
+    max-height: 239px;
+  margin: 0;
+  overflow: hidden;
+}

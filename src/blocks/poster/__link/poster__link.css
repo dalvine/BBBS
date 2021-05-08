@@ -1,0 +1,12 @@
+.poster__link {
+    font-family: 'ProtoGrotesk';
+    margin-top: auto;
+    text-decoration: none;
+    color: #224CFF;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.27;
+    letter-spacing: 0.2px;
+    text-align: center;
+    justify-self: flex-end;
+}

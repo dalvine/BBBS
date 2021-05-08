@@ -1,0 +1,10 @@
+.footer__column_content_navigation {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width:1280px) {
+    .footer__column_content_navigation {
+        grid-area: nav-list;
+    }
+}

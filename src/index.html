@@ -10,36 +10,229 @@
 </head>
 
 <body class="page">
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v10.0"
+        nonce="G2czwnJK"></script>
     <header class="header">
-        <div class="logo">наставник.про</div>
-        <nav class="navigation">
-            <ul class="navigation__list">
-                <!-- <li class="navigation__item">календарь</li>
-                <li class="navigation__item">куда пойти</li>
-                <li class="navigation__item">вопросы</li>
-                <li class="navigation__item">читать и смотреть
-                    <ul class="navigation__item-box">
-                        <li class="navigation__box-list">cправочник</li>
-                        <li class="navigation__box-list">Видео</li>
-                        <li class="navigation__box-list">Статьи</li>
-                        <li class="navigation__box-list">Фильмы</li>
-                        <li class="navigation__box-list">Книги</li>
+        <img class="header__btn-menu" src="./images/open-menu-btn.svg" alt="открыть меню">
+        <div class="logo">наставники.про</div>
+        <nav class="nav-list">
+            <ul class="nav-list__items">
+                <li class="nav-list__item">календарь</li>
+                <li class="nav-list__item">куда пойти</li>
+                <li class="nav-list__item">вопросы</li>
+                <li class="nav-list__item nav-list__item_submenu">читать и смотреть
+                    <ul class="nav-list__submenu-list">
+                        <li class="nav-list__submenu-item">cправочник</li>
+                        <li class="nav-list__submenu-item">Видео</li>
+                        <li class="nav-list__submenu-item">Статьи</li>
+                        <li class="nav-list__submenu-item">Фильмы</li>
+                        <li class="nav-list__submenu-item">Книги</li>
                     </ul>
                 </li>
-                <li class="navigation__item">права детей</li> -->
+                <li class="nav-list__item">права детей</li>
+                <li class="nav-list__item">истории</li>
             </ul>
         </nav>
-        <div class="header__right-panel">
-            <div class="header__search"></div>
-            <input type="text" name="search" class="header__search-input">
-            <div class="header__profile"></div>
+        <div class="header__right-block">
+            <form class="search" name="search">
+                <input type="text" name="searchInput" class="search__input search__input_hidden">
+                <button type="button" name="searchSubmit" class="search__btn"></button>
+            </form>
+            <img src="./images/ico-profile.svg" class="profile">
+        </div>
         </div>
     </header>
-    <template>
-        <ul class="navigation__list">
-
+    <main class="main-grid">
+        <section class="describe-box">
+            <div class="describe-box__figure"></div>
+            <img src="./images/logo-BBBS-blue.svg" alt="Логотип Big Brothers Big Sisters" class="describe-box__logo">
+            <div class="describe-box__ellips">
+                <p class="describe-box__text">Наставники.про – цифоровая информационная платформа огрганизации «Старшие
+                    Братья Старшие Сестры». Созданная для поддержки наставников программы.</p>
+            </div>
+        </section>
+        <section class="cover-history">
+            <img src="./images/history-friend.png" alt="" class="cover-history__image">
+            <div class="cover-history__layer">
+                <h2 class="cover-history__title">История Марины и Алины</h2>
+            </div>
+        </section>
+        <section class="paper paper_size_max paper_place_index">
+            <div class="paper__description paper__description_size_max">
+                <p class="paper__mark">выбор наставника</p>
+                <h3 class="paper__title">Сплав на байдарках в две строки</h3>
+                <p class="paper__subtitle">усадьба Архангельское в две строки</p>
+                <img src="./images/where_to_go_paper.jpg" alt="Сплав на байдарках в две строки" class="paper__image">
+                <a href="#" class="paper__link">перейти на сайт</a>
+            </div>
+            <div class="paper__annotation paper__annotation_size_max">
+                <p class="paper__caption">Девока, 10 лет. Активный отдых</p>
+                <div class="paper__paragraphs">
+                    <p class="paper__paragraph">
+                        Аннотация статьи в несколько абзацев. В тот момент, как ребёнок научился говорить, и не одно
+                        слово, а задавать
+                        бесконечное количество вопросов, жизнь меняется. Вы будете не понимать друг друга, потом
+                        понимать чуть лучше и,
+                        Аннотация статьи в несколько абзацев. В тот момент, как ребёнок научился говорить, и не одно
+                        слово, а задавать
+                        бесконечное количество вопросов, жизнь меняется. Вы будете не понимать друг друга, потом
+                        понимать чуть лучше и,
+                    </p>
+                    <p class="paper__paragraph">
+                        Аннотация статьи в несколько абзацев. В тот момент, как ребёнок научился говорить, и не одно
+                        слово, а задавать
+                        бесконечное количество вопросов, жизнь меняется. Вы будете не по Аннотация статьи в несколько
+                        абзацев. В тот момент,
+                        как
+                        ребёнок научился говорить, и не одно слово, а задавать бесконечное количество вопросов, жизнь
+                        меняется.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="describe-article describe-article_color_light-blue">
+            <h2 class="describe-article__text">Развитие детей-сирот отличается от развития детей, живущих в семьях. Все
+                этапы развития у детей-сирот проходят с искажениями и имеют ряд негативных особенностей.</h2>
+            <a class="describe-article__link" href="#">читать статью</a>
+        </section>
+        <section class="poster">
+            <ul class="poster__list">
+                <li class="poster__item poster__item_screen_tablet">
+                    <div class="poster__layer">
+                        <img class="poster__image" src="./images/poster-image.png" alt="постер">
+                        <div class="poster__categories">
+                            <p class="poster__category">рубрика</p>
+                            <p class="poster__category">рубрика</p>
+                        </div>
+                    </div>
+                    <div class="poster__info">
+                        <h3 class="poster__title">Жутко громко и запредельно близко</h3>
+                        <p class="poster__subtitle">Василий Сигарев, Борисов-Мусотов (Россия), 2009 год</p>
+                        <a href="#" class="poster__link">смотреть трейлер</a>
+                    </div>
+                </li>
+                <li class="poster__item poster__item_screen_laptop">
+                    <div class="poster__layer">
+                        <img class="poster__image" src="./images/poster-image.png" alt="постер">
+                        <div class="poster__categories">
+                            <p class="poster__category">рубрика</p>
+                            <p class="poster__category">рубрика</p>
+                        </div>
+                    </div>
+                    <div class="poster__info">
+                        <h3 class="poster__title">Жизнь Кабачка</h3>
+                        <p class="poster__subtitle">Клод Баррас, мультфильм, Швейцария, Франция, 2016</p>
+                        <a href="#" class="poster__link">смотреть трейлер</a>
+                    </div>
+                </li>
+                <li class="poster__item poster__item_screen_mobile">
+                    <div class="poster__layer">
+                        <img class="poster__image" src="./images/poster-image.png" alt="постер">
+                        <div class="poster__categories">
+                            <p class="poster__category">рубрика</p>
+                            <p class="poster__category">рубрика</p>
+                        </div>
+                    </div>
+                    <div class="poster__info">
+                        <h3 class="poster__title">Волчок</h3>
+                        <p class="poster__subtitle">Василий Сигарев, Россия, 2009 год</p>
+                        <a href="#" class="poster__link">смотреть трейлер</a>
+                    </div>
+                </li>
+                <li class="poster__item">
+                    <div class="poster__layer">
+                        <img class="poster__image" src="./images/poster-image.png" alt="постер">
+                        <div class="poster__categories">
+                            <p class="poster__category">рубрика</p>
+                            <p class="poster__category">рубрика</p>
+                        </div>
+                    </div>
+                    <div class="poster__info">
+                        <h3 class="poster__title">Жутко громко и запредельно близко</h3>
+                        <p class="poster__subtitle">Василий Сигарев, Борисов-Мусотов (Россия), 2009 год</p>
+                        <a href="#" class="poster__link">смотреть трейлер</a>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section class="video video_main">
+            <div class="video__info">
+                <h2 class="video__title">Эфир с выпускником нашей программы
+                </h2>
+                <h3 class="video__subtitle">Иван Рустаев, выпускник программы
+                </h3>
+                <a class="video__link" href="#">смотреть видео</a>
+            </div>
+            <iframe class="video__frame" src="https://www.youtube.com/embed/KA1wI3X5WSU"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </section>
+        <section class='iframe-social'>
+            <div id="fb-root"></div>
+            <script async defer crossorigin="anonymous"
+                src="https://connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v10.0" nonce="6lNn222L"></script>
+            <div class="fb-page" data-href="https://www.facebook.com/BigBrothers.BigSisters.Russia" data-tabs="timeline"
+                data-width="427px" data-height="627px" data-small-header="false" data-adapt-container-width="true"
+                data-hide-cover="false" data-show-facepile="true">
+                <blockquote cite="https://www.facebook.com/BigBrothers.BigSisters.Russia" class="fb-xfbml-parse-ignore">
+                    <a href="https://www.facebook.com/BigBrothers.BigSisters.Russia">Старшие Братья Старшие Сестры / Big
+                        Brothers Big Sisters of Russia</a>
+                </blockquote>
+            </div>
+        </section>
+        <ul class="questions-list">
+            <li class="question">
+                <p class="question__text">Я боюсь, что ребёнок ко мне слишком сильно привяжется. Что делать?</p>
+                <p class="question__category">рубрика</p>
+            </li>
+            <li class="question">
+                <p class="question__text">Возможно ли продлить срок участия в программе, если и я и мой «младший» хотим
+                    остаться в программе?</p>
+                <p class="question__category">рубрика</p>
+            </li>
+            <li class="question">
+                <p class="question__text">Что делать если Ваш младший решил закрыть пару, т.к. слишком занят с учебой и
+                    друзьями?</p>
+                <p class="question__category">рубрика</p>
+            </li>
         </ul>
-    </template>
+        <section class="describe-article describe-article_color_green">
+            <h2 class="describe-article__text">У таких детей возникает ощущение отверженности. Оно приводит к
+                напряженности и недоверию к людям и, как итог, к реальному неприятию себя и окружающих.</h2>
+            <a class="describe-article__link" href="#">читать статью</a>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__columns">
+            <div class="footer__column footer__column_content_info">
+                <img class="footer__logo" src="./images/logo-BBBS-white.svg" alt="Логотип Big Brothers Big Sisters">
+                <button class="donate-btn">Помочь деньгами</button>
+                <p class="footer__copyright"> &copy; Старшие Братья Старшие Сестры</p>
+                <div class="footer__authors">
+                    <p class="footer__author">Разработка – студенты <a href="#"
+                            class="footer__author-site">Яндекс.Практикум</a></p>
+                    <p class="footer__author">Концепия и дизайн – <a href="#"
+                            class="footer__author-site">krkr.design</a></p>
+                </div>
+            </div>
+            <div class="footer__column footer__column_content_navigation">
+                <a class="footer__link" href="#">о проекте</a>
+                <a class="footer__link" href="#">календарь</a>
+                <a class="footer__link" href="#">куда пойти</a>
+                <a class="footer__link" href="#">вопросы</a>
+                <a class="footer__link" href="#">читать и смотреть</a>
+                <a class="footer__link" href="#">права детей</a>
+                <a class="footer__link" href="#">истории</a>
+            </div>
+            <div class="footer__column footer__column_content_social">
+                <a class="footer__link" href="#">facebook</a>
+                <a class="footer__link" href="#">vkontakte</a>
+                <a class="footer__link" href="#">instagram</a>
+                <a class="footer__link" href="#">youtube</a>
+            </div>
+    </footer>
     <script src="./pages/index.js"></script>
 </body>
 
