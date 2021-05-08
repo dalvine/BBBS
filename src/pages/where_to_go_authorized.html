@@ -4,7 +4,7 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="../pages/where_to_go.css">
+   <link rel="stylesheet" href="../pages/where_to_go_authorized.css">
    <title>Куда пойти</title>
 </head>
 <body class="page">
@@ -16,11 +16,11 @@
    <main class="where-to-go-page">
       <h1 class="title">Куда пойти</h1>
       <div class="filter">
-         <button type="button" aria-label="Все" class="filter__button filter__button_active">Все</button>
-         <button type="button" aria-label="Выбор наставников" class="filter__button">Выбор наставников</button>
+         <button type="button" aria-label="Все" class="filter__button">Все</button>
+         <button type="button" aria-label="Выбор наставников" class="filter__button filter__button_active">Выбор наставников</button>
          <button type="button" aria-label="Музеи" class="filter__button">Музеи</button>
          <button type="button" aria-label="Парки" class="filter__button">Парки</button>
-         <button type="button" aria-label="Театры" class="filter__button">Театры</button>
+         <button type="button" aria-label="Театры" class="filter__button filter__button_active">Театры</button>
          <button type="button" aria-label="Спорт" class="filter__button">Спорт</button>
          <button type="button" aria-label="Экскурсии" class="filter__button">Экскурсии</button>
          <button type="button" aria-label="Секции" class="filter__button">Секции</button>
@@ -28,8 +28,14 @@
       <div class="filter">
          <button type="button" aria-label="8–10 лет" class="filter__button">8–10 лет</button>
          <button type="button" aria-label="11–13 лет" class="filter__button">11–13 лет</button>
-         <button type="button" aria-label="14–18 лет" class="filter__button">14–18 лет</button>
-         <button type="button" aria-label="18+ лет" class="filter__button">18+ лет</button>
+         <button type="button" aria-label="14–18 лет" class="filter__button filter__button_active">14–18 лет</button>
+         <button type="button" aria-label="18+ лет" class="filter__button filter__button_active">18+ лет</button>
+      </div>
+      <div class="info-recommendations">
+         <p class="info-recommendations__text">
+            Если вы были в интересном месте и хотите порекомендовать его другим наставникам – <a href="" class="paper__description-link info-recommendations__link">заполните форму</a>, и мы добавим вашу
+            рекомендацию.
+         </p>
       </div>
       <div class="paper__container">
          <section class="paper paper_size_max">
