@@ -1,3 +1,7 @@
+.calendar {
+  margin: 0;
+}
+
 .calendar__events-grid {
   margin: 80px 75px 120px;
   max-width: 1920px;

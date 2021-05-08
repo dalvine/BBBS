@@ -8,12 +8,36 @@
   <title>Календарь</title>
 </head>
 <body class="page">
-  <header>
-    <!--************************************
-    Header от Влада
-    ***************************************-->
-  </header>
-  <main class="main"> 
+  <header class="header">
+    <div class="logo">наставники.про</div>
+    <nav class="nav-list">
+        <ul class="nav-list__items">
+            <li class="nav-list__item">календарь</li>
+            <li class="nav-list__item">куда пойти</li>
+            <li class="nav-list__item">вопросы</li>
+            <li class="nav-list__item">читать и смотреть
+                <ul class="nav-list__submenu-list">
+                    <li class="nav-list__submenu-item">cправочник</li>
+                    <li class="nav-list__submenu-item">Видео</li>
+                    <li class="nav-list__submenu-item">Статьи</li>
+                    <li class="nav-list__submenu-item">Фильмы</li>
+                    <li class="nav-list__submenu-item">Книги</li>
+                </ul>
+            </li>
+            <li class="nav-list__item">права детей</li>
+            <li class="nav-list__item">истории</li>
+        </ul>
+    </nav>
+    <div class="header__right-block">
+        <form class="search" name="search">
+            <input type="text" name="searchInput" class="search__input search__input_hidden">
+            <button type="button" name="searchSubmit" class="search__btn"></button>
+        </form>
+        <img src="../images/ico-profile.svg" class="profile">
+    </div>
+    </div>
+</header>
+  <main class="calendar"> 
       <h3 class="section-title">Календарь</h3>
       <div class="filter">
         <button type="button" aria-label="Все" class="filter__button filter__button_active">Декабрь</button>

@@ -2,13 +2,14 @@
 @import url('../vendor/fonts/fonts.css');
 @import url('../blocks/page/page.css');
 @import url('../blocks/header/header.css');
+@import url('../blocks/header/__btn-menu/header__btn-menu.css');
 @import url('../blocks/header/__right-block/header__right-block.css');
 @import url('../blocks/logo/logo.css');
 @import url('../blocks/nav-list/nav-list.css');
 @import url('../blocks/nav-list/_hidden/nav-list_hidden.css');
 @import url('../blocks/nav-list/__items/nav-list__items.css');
 @import url('../blocks/nav-list/__item/nav-list__item.css');
-@import url('../blocks/nav-list/__submenu-items/nav-list__submenu-item.css');
+@import url('../blocks/nav-list/__submenu-item/nav-list__submenu-item.css');
 @import url('../blocks/nav-list/__submenu-list/nav-list__submenu-list.css');
 @import url('../blocks/nav-list/__submenu-list/_opened/nav-list__submenu-list_opened.css');
 @import url('../blocks/search/search.css');
@@ -34,6 +35,9 @@
 @import url('../blocks/paper.css');
 @import url('../blocks/poster/poster.css');
 @import url('../blocks/poster/__item/poster__item.css');
+@import url('../blocks/poster/__item/_screen/poster__item_screen_mobile.css');
+@import url('../blocks/poster/__item/_screen/poster__item_screen_tablet.css');
+@import url('../blocks/poster/__item/_screen/poster__item_screen_laptop.css');
 @import url('../blocks/poster/__list/poster__list.css');
 @import url('../blocks/poster/__subtitle/poster__subtitle.css');
 @import url('../blocks/poster/__layer/poster__layer.css');

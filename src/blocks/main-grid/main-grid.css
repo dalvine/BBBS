@@ -14,4 +14,33 @@
     'article-green article-green article-green article-green'; 
     gap: 30px;
     box-sizing: border-box;
+
+}
+
+@media screen and (max-width: 1196px) {
+    .main-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+    'description cover-history'
+    'whereToGo whereToGo'
+    'article-light-blue article-light-blue'
+    'films films'
+    'video video'
+    'frame questions'
+    'article-green article-green'; 
+    }
+}
+
+@media screen and (max-width: 1520px) {
+    .main-grid {
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-areas: 
+        'description description description cover-history cover-history cover-history'
+        'whereToGo whereToGo whereToGo whereToGo whereToGo whereToGo'
+        'article-light-blue article-light-blue article-light-blue article-light-blue article-light-blue article-light-blue'
+        'films films films films films films'
+        'video video video video video video'
+        'frame frame questions questions questions questions'
+        'article-green article-green article-green article-green article-green article-green'; 
+        }
 }

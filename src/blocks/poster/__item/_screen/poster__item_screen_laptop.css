@@ -1,0 +1,5 @@
+@media screen and (max-width: 1441px) {
+    .poster__item_screen_laptop {
+        display: none;
+    }
+}

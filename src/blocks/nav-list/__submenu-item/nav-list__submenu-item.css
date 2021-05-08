@@ -1,5 +1,6 @@
 .nav-list__submenu-item {
     margin: 0;
+    margin-bottom: 10px;
     letter-spacing: 0.2px;
     font-size: 15px;
     font-weight: 1.27;
@@ -9,6 +10,11 @@
     text-decoration: none;
 }
 
-.nav-list__submenu-item:first-child {
-    margin-top: 0;
+.nav-list__submenu-item:last-child {
+    margin-bottom: 0;
 }
+
+.nav-list__submenu-item:hover {
+    color: #224CFF;
+}
+

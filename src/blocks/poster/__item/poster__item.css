@@ -1,5 +1,5 @@
 .poster__item {
-    max-width: 420px;
+    width: 420px;
     max-height: 408px;
     background-color:white;
     border-radius: 30px;

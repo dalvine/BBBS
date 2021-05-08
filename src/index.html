@@ -14,13 +14,14 @@
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v10.0"
         nonce="G2czwnJK"></script>
     <header class="header">
+        <img class="header__btn-menu" src="./images/open-menu-btn.svg" alt="открыть меню">
         <div class="logo">наставники.про</div>
         <nav class="nav-list">
             <ul class="nav-list__items">
                 <li class="nav-list__item">календарь</li>
                 <li class="nav-list__item">куда пойти</li>
                 <li class="nav-list__item">вопросы</li>
-                <li class="nav-list__item">читать и смотреть
+                <li class="nav-list__item nav-list__item_submenu">читать и смотреть
                     <ul class="nav-list__submenu-list">
                         <li class="nav-list__submenu-item">cправочник</li>
                         <li class="nav-list__submenu-item">Видео</li>
@@ -97,10 +98,13 @@
         </section>
         <section class="poster">
             <ul class="poster__list">
-                <li class="poster__item">
+                <li class="poster__item poster__item_screen_tablet">
                     <div class="poster__layer">
                         <img class="poster__image" src="./images/poster-image.png" alt="постер">
-                        <div class="poster__categories"><p class="poster__category">рубрика</p><p class="poster__category">рубрика</p></div>
+                        <div class="poster__categories">
+                            <p class="poster__category">рубрика</p>
+                            <p class="poster__category">рубрика</p>
+                        </div>
                     </div>
                     <div class="poster__info">
                         <h3 class="poster__title">Жутко громко и запредельно близко</h3>
@@ -108,10 +112,13 @@
                         <a href="#" class="poster__link">смотреть трейлер</a>
                     </div>
                 </li>
-                <li class="poster__item">
+                <li class="poster__item poster__item_screen_laptop">
                     <div class="poster__layer">
                         <img class="poster__image" src="./images/poster-image.png" alt="постер">
-                        <div class="poster__categories"><p class="poster__category">рубрика</p><p class="poster__category">рубрика</p></div>
+                        <div class="poster__categories">
+                            <p class="poster__category">рубрика</p>
+                            <p class="poster__category">рубрика</p>
+                        </div>
                     </div>
                     <div class="poster__info">
                         <h3 class="poster__title">Жизнь Кабачка</h3>
@@ -119,10 +126,13 @@
                         <a href="#" class="poster__link">смотреть трейлер</a>
                     </div>
                 </li>
-                <li class="poster__item">
+                <li class="poster__item poster__item_screen_mobile">
                     <div class="poster__layer">
                         <img class="poster__image" src="./images/poster-image.png" alt="постер">
-                        <div class="poster__categories"><p class="poster__category">рубрика</p><p class="poster__category">рубрика</p></div>
+                        <div class="poster__categories">
+                            <p class="poster__category">рубрика</p>
+                            <p class="poster__category">рубрика</p>
+                        </div>
                     </div>
                     <div class="poster__info">
                         <h3 class="poster__title">Волчок</h3>
@@ -133,7 +143,10 @@
                 <li class="poster__item">
                     <div class="poster__layer">
                         <img class="poster__image" src="./images/poster-image.png" alt="постер">
-                        <div class="poster__categories"><p class="poster__category">рубрика</p><p class="poster__category">рубрика</p></div>
+                        <div class="poster__categories">
+                            <p class="poster__category">рубрика</p>
+                            <p class="poster__category">рубрика</p>
+                        </div>
                     </div>
                     <div class="poster__info">
                         <h3 class="poster__title">Жутко громко и запредельно близко</h3>
@@ -151,7 +164,10 @@
                 </h3>
                 <a class="video__link" href="#">смотреть видео</a>
             </div>
-            <iframe class="video__frame"></iframe>
+            <iframe class="video__frame" src="https://www.youtube.com/embed/KA1wI3X5WSU"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
         </section>
         <section class='iframe-social'>
             <div id="fb-root"></div>
@@ -217,6 +233,7 @@
                 <a class="footer__link" href="#">youtube</a>
             </div>
     </footer>
+    <script src="./pages/index.js"></script>
 </body>
 
 </html>
