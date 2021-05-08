@@ -24,6 +24,14 @@
 
 @media screen and (max-width: 1024px) {
   .calendar__events-grid {
+    margin: 50px 45px 100px;
+    max-width: calc(100% - 45px*2);
+    grid-template-columns: repeat(auto-fill, minmax(335px, 1fr));
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .calendar__events-grid {
     margin: 50px 15px 100px;
     max-width: calc(100% - 15px*2);
     grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));

@@ -2,8 +2,9 @@
 @import url('../vendor/fonts/fonts.css');
 
 @import url('../blocks/page/page.css');
-@import url('../blocks/main.css');
+@import url('../blocks/calendar-page.css');
 @import url('../blocks/section-title.css');
 @import url('../blocks/filter.css');
 @import url('../blocks/calendar-events-grid.css');
 @import url('../blocks/event-card.css');
+@import url('../blocks/calendar-modal.css');

@@ -1,0 +1,70 @@
+.calendar-modal {
+  position: relative;
+  margin: auto;
+  max-width: 770px;
+  background: #fff;
+  color: #000;
+  border-radius: 30px;
+}
+
+@media screen and (max-width: 1919px) {
+    .calendar__modal {
+      margin: 80px 135px 120px;
+      max-width: calc(100% - 135px*2);
+    }
+  }
+  
+  @media screen and (max-width: 1439px) {
+    .calendar__modal {
+      margin: 50px 127px 100px;
+      max-width: calc(100% - 127px*2);
+    }
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .calendar__modal {
+      margin: 50px 45px 100px;
+      max-width: calc(100% - 45px*2);
+    }
+  }
+  
+  @media screen and (max-width: 420px) {
+    .calendar__modal {
+      margin: 50px 15px 100px;
+      max-width: calc(100% - 15px*2);
+    }
+  }
+
+.calendar-modal__close-button {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  background: url('../images/calendar-modal__close-button.svg') no-repeat;
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  border: none;
+}
+
+.calendar-modal__content {
+  padding: 50px 100px;
+}
+
+.event__additional-info-item_place_modal {
+  margin-bottom: 11px;
+  padding-bottom: 11px;
+}
+
+.calendar-modal__description {
+  margin: 30px 0;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.44;
+  color: #1A1A1A;
+  text-align: justify;
+  letter-spacing: 0.2px;
+}
+
+.event__participants-counter_place_modal {
+  margin-left: 20px;
+}

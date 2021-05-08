@@ -13,11 +13,11 @@
     Header от Влада
     ***************************************-->
   </header>
-  <main class="main"> 
+  <main class="calendar-page"> 
       <h3 class="section-title">Календарь</h3>
       <div class="filter">
         <button type="button" aria-label="Все" class="filter__button filter__button_active">Декабрь</button>
-        <button type="button" aria-label="Выбор наставников" class="filter__button opacity-transition">Январь</button>
+        <button type="button" aria-label="Выбор наставников" class="filter__button">Январь</button>
       </div>
       <section class="calendar__events-grid">
         <article class="event__signed">
@@ -26,19 +26,21 @@
             <p class="event__month-and-weekday">декабрь / понедельник</p>
           </div>
           <div class="event__info">
-            <h4 class="event__title">Субботний meet up: учимся проходить интевью</h4>
+            <h2 class="event__title">Субботний meet up: учимся проходить интевью</h4>
             <p class="event__date">05</p>
           </div>
           <ul class="event__additional-info">
-            <li class="event__additional-info-item event__additional-info-item_type-time">12:00–14:00</li>
-            <li class="event__additional-info-item event__additional-info-item_type-place">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</li>
-            <li class="event__additional-info-item event__additional-info-item_type-contact-person">Александра, +7 926 356-78-90</li>
+            <li class="event__additional-info-item event__additional-info-item_type_time">12:00–14:00</li>
+            <li class="event__additional-info-item event__additional-info-item_type_place">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</li>
+            <li class="event__additional-info-item event__additional-info-item_type_contact-person">Александра, +7 926 356-78-90</li>
           </ul>
           <div class="event__controls">
             <div class="event__signup-container">
-              <button type="button" aria-label="Записаться" class="event__cancel-button opacity-transition">Отменить запись</button>
+              <button type="button" aria-label="Отменить запись" class="event__button event__button_active 
+                event__button_type_cancel">Отменить запись</button>
             </div>
-            <button type="button" aria-label="Посмотреть детали" class="event__details-button opacity-transition"></button>
+            <button type="button" aria-label="Посмотреть детали" class="event__button event__button_active 
+              event__button_type_details"></button>
           </div>
         </article>
         <article class="event">
@@ -47,20 +49,21 @@
             <p class="event__month-and-weekday">декабрь / понедельник</p>
           </div>
           <div class="event__info">
-              <h4 class="event__title">Ресурсная группа «Вовлечение в волонтёрство</h4>
-              <p class="event__date">16</p>
+            <h2 class="event__title">Ресурсная группа «Вовлечение в волонтёрство</h4>
+            <p class="event__date">16</p>
           </div>
           <ul class="event__additional-info">
-            <li class="event__additional-info-item event__additional-info-item_type-time">12:00–14:00</li>
-            <li class="event__additional-info-item event__additional-info-item_type-place">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</li>
-            <li class="event__additional-info-item event__additional-info-item_type-contact-person">Александра, +7 926 356-78-90</li>
+            <li class="event__additional-info-item event__additional-info-item_type_time">12:00–14:00</li>
+            <li class="event__additional-info-item event__additional-info-item_type_place">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</li>
+            <li class="event__additional-info-item event__additional-info-item_type_contact-person">Александра, +7 926 356-78-90</li>
           </ul>
           <div class="event__controls">
             <div class="event__signup-container">
-              <button type="button" aria-label="Записаться" class="event__signup-button_disabled">Записаться</button>
+              <button type="button" aria-label="Записаться" class="event__button event__button_disabled">Записаться</button>
               <p class="event__participants-counter">Запись закрыта</p>
             </div>
-            <button type="button" aria-label="Посмотреть детали" class="event__details-button opacity-transition" ></button>
+            <button type="button" aria-label="Посмотреть детали" class="event__button event__button_active 
+              event__button_type_details" ></button>
           </div>
         </article>
         <article class="event">
@@ -69,20 +72,22 @@
             <p class="event__month-and-weekday">декабрь / понедельник</p>
           </div>
           <div class="event__info">
-            <h4 class="event__title">Занятие с выпускниками: как составить резюме</h4>
+            <h2 class="event__title">Занятие с выпускниками: как составить резюме</h4>
             <p class="event__date">20</p>
           </div>
           <ul class="event__additional-info">
-            <li class="event__additional-info-item event__additional-info-item_type-time">12:00–14:00</li>
-            <li class="event__additional-info-item event__additional-info-item_type-place">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</li>
-            <li class="event__additional-info-item event__additional-info-item_type-contact-person">Александра, +7 926 356-78-90</li>
+            <li class="event__additional-info-item event__additional-info-item_type_time">12:00–14:00</li>
+            <li class="event__additional-info-item event__additional-info-item_type_place">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</li>
+            <li class="event__additional-info-item event__additional-info-item_type_contact-person">Александра, +7 926 356-78-90</li>
           </ul>
           <div class="event__controls">
             <div class="event__signup-container">
-              <button type="button" aria-label="Записаться" class="event__signup-button opacity-transition">Записаться</button>
+              <button type="button" aria-label="Записаться" class="event__button event__button_active
+                event__button_type_signup">Записаться</button>
               <p class="event__participants-counter">Осталось 5 мест</p>
             </div>
-            <button type="button" aria-label="Посмотреть детали" class="event__details-button opacity-transition"></button>
+            <button type="button" aria-label="Посмотреть детали" class="event__button event__button_active 
+              event__button_type_details"></button>
           </div>
         </article>
         <article class="event">
@@ -91,20 +96,22 @@
             <p class="event__month-and-weekday">декабрь / понедельник</p>
           </div>
           <div class="event__info">
-            <h4 class="event__title">Субботний meet up: учимся проходить интевью</h4>
+            <h2 class="event__title">Субботний meet up: учимся проходить интевью</h4>
             <p class="event__date">23</p>
           </div>  
           <ul class="event__additional-info">
-            <li class="event__additional-info-item event__additional-info-item_type-time">12:00–14:00</li>
-            <li class="event__additional-info-item event__additional-info-item_type-place">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</li>
-            <li class="event__additional-info-item event__additional-info-item_type-contact-person">Александра, +7 926 356-78-90</li>
+            <li class="event__additional-info-item event__additional-info-item_type_time">12:00–14:00</li>
+            <li class="event__additional-info-item event__additional-info-item_type_place">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</li>
+            <li class="event__additional-info-item event__additional-info-item_type_contact-person">Александра, +7 926 356-78-90</li>
           </ul>
           <div class="event__controls">
             <div class="event__signup-container">
-              <button type="button" aria-label="Записаться" class="event__signup-button opacity-transition">Записаться</button>
+              <button type="button" aria-label="Записаться" class="event__button event__button_active 
+                event__button_type_signup">Записаться</button>
               <p class="event__participants-counter">Осталось 5 мест</p>
             </div>
-            <button type="button" aria-label="Посмотреть детали" class="event__details-button opacity-transition"></button>
+            <button type="button" aria-label="Посмотреть детали" class="event__button event__button_active 
+              event__button_type_details"></button>
           </div>
         </article>
         <article class="event">
@@ -113,22 +120,53 @@
             <p class="event__month-and-weekday">декабрь / понедельник</p>
           </div>
           <div class="event__info">
-            <h4 class="event__title">Субботний meet up: учимся проходить интевью</h4>
+            <h2 class="event__title">Субботний meet up: учимся проходить интевью</h4>
             <p class="event__date">28</p>
           </div>  
           <ul class="event__additional-info">
-            <li class="event__additional-info-item event__additional-info-item_type-time">12:00–14:00</li>
-            <li class="event__additional-info-item event__additional-info-item_type-place">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</li>
-            <li class="event__additional-info-item event__additional-info-item_type-contact-person">Александра, +7 926 356-78-90</li>
+            <li class="event__additional-info-item event__additional-info-item_type_time">12:00–14:00</li>
+            <li class="event__additional-info-item event__additional-info-item_type_place">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</li>
+            <li class="event__additional-info-item event__additional-info-item_type_contact-person">Александра, +7 926 356-78-90</li>
           </ul>
           <div class="event__controls">
             <div class="event__signup-container">
-              <button type="button" aria-label="Записаться" class="event__signup-button opacity-transition">Записаться</button>
+              <button type="button" aria-label="Записаться" class="event__button event__button_active 
+                event__button_type_signup">Записаться</button>
               <p class="event__participants-counter">Осталось 5 мест</p>
             </div>
-            <button type="button" aria-label="Посмотреть детали" class="event__details-button opacity-transition"></button>
+            <button type="button" aria-label="Посмотреть детали" class="event__button event__button_active 
+              event__button_type_details"></button>
           </div>
         </article>
+      </section>
+      <section class="calendar-modal">
+        <button type="button" aria-label="Закрыть" class="calendar-modal__close-button"></button>
+        <div class="calendar-modal__content">
+          <div class="event__info">
+            <p class="event__group">Волонтёры + дети</p>
+            <p class="event__month-and-weekday">декабрь / понедельник</p>
+          </div>
+          <div class="event__info">
+            <h2 class="event__title">Субботний meet up: учимся проходить интевью</h4>
+            <p class="event__date">05</p>
+          </div>
+          <ul class="event__additional-info">
+            <li class="event__additional-info-item event__additional-info-item_place_modal
+              event__additional-info-item_type_time">12:00–14:00</li>
+            <li class="event__additional-info-item event__additional-info-item_place_modal
+              event__additional-info-item_type_place">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</li>
+            <li class="event__additional-info-item event__additional-info-item_place_modal
+              event__additional-info-item_type_contact-person">Александра, +7 926 356-78-90</li>
+          </ul>
+          <p class = "calendar-modal__description">Наконец-то наступила весна и мы пережили эту долгую зиму! И возможно, что внутренних сил и ресурса сейчас не так много, 
+            а до окончания учебного года ещё целых несколько месяцев. Поэтому приглашаем вас на встречу нашего ресурсного клуба "Наставник PRO", 
+            которую мы хотим посвятить теме поиска моральных сил, смыслов и внутреннего ресурса для общения и взаимодействия с нашими подопечными. </p>
+          <div class="event__signup-container">
+            <button type="button" aria-label="Записаться" class="event__button event__button_active 
+              event__button_type_signup">Записаться</button>
+            <p class="event__participants-counter">Осталось 5 мест</p>
+          </div>
+        </div>
       </section>
     </main>
     <footer>

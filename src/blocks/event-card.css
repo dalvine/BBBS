@@ -120,6 +120,7 @@
 }
 
 .event__additional-info-item:last-child {
+  padding-bottom: 0;
   border-bottom: none;
 }
 
@@ -144,66 +145,68 @@
   }
 }
 
-.event__signup-button {
-  padding: 13px 20px 8px;
-  background: #fff;
-  border: 1px solid #224CFF;
+.event__button {
+  padding: 13px 20px;
   box-sizing: border-box;
   border-radius: 100px;
-  color: #224CFF;
   letter-spacing: 0.2px;
 }
 
-.event__signup-button_disabled {
-  padding: 13px 20px 8px;
+.event__button_active {
+  background: #fff;
+  border: 1px solid #224CFF;
+  color: #224CFF;
+}
+
+.event__button_disabled {
   background: #fff;
   border: 1px solid #A7A6A6;
-  box-sizing: border-box;
-  border-radius: 100px;
   color: #A7A6A6;
-  letter-spacing: 0.2px;
 }
 
-.event__signup-button_disabled:hover {
-  cursor: default;
-  transition: none;
+.event__button_type_signup {
+  transition: background-color .2s ease;
+  transition: color .2s ease;
+  cursor: pointer;
 }
 
-.event__cancel-button {
-  padding: 13px 20px 8px;
+.event__button_type_signup:hover {
+  background-color: #224CFF;
+  color: #fff;
+}
+
+.event__button_type_cancel {
   background: #224CFF;
   border: 1px solid #224CFF;
-  box-sizing: border-box;
-  border-radius: 100px;
   color: #fff;
-  letter-spacing: 0.2px;
+  transition: background-color .2s ease;
+  transition: border .2s ease;
+  cursor: pointer;
+}
+
+.event__button_type_cancel:hover {
+  background-color: #2E2468;
+  border: 1px solid #2E2468;
 }
 
 .event__participants-counter {
   margin-left: 10px;
 }
 
-.event__details-button {
+.event__button_type_details {
   padding: 0;
   background: url('../images/event-card__details-button.svg') no-repeat;
   background-size: cover;
   border: none;
   width: 48px;
   height: 48px;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 1023px) {
-  .event__details-button {
+  .event__button_type_details {
     width: 40px;
     height: 40px;
   }
 }
 
-.opacity-transition {
-  transition: opacity .20s ease;
-  cursor: pointer;
-}
-  
-.opacity-transition:hover {
-  opacity: .5;
-}
