@@ -1,18 +1,12 @@
 .calendar-modal {
   position: relative;
-  margin: auto;
-  max-width: 770px;
+  margin: 0 auto;
   background: #fff;
   color: #000;
   border-radius: 30px;
+  margin: 0 135px 0;
+  max-width: 770px;
 }
-
-@media screen and (max-width: 1919px) {
-    .calendar-modal {
-      margin: 0 135px 0;
-      max-width: calc(100% - 135px*2);
-    }
-  }
   
   @media screen and (max-width: 1439px) {
     .calendar-modal {
@@ -63,10 +57,14 @@
 
 .calendar-modal__content {
   padding: 50px 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 @media screen and (max-width: 1023px) {
-  .calendar-modal__content {
+  .calendar-modal__content  {
     padding: 60px 45px 30px;
   }
 }
@@ -83,7 +81,7 @@
 }
 
 .calendar-modal__description {
-  margin: 30px 0;
+  margin: 0 0 30px 0;
   font-size: 18px;
   font-weight: 400;
   line-height: 1.44;
@@ -92,45 +90,65 @@
   letter-spacing: 0.2px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 420px) {
   .calendar-modal__description {
     font-size: 12px;
     line-height: 1.42;
   }
 }
 
+.event__signup-container_place_confirmation {
+  margin: 30px auto 0;
+}
+
 .event__participants-counter_place_modal {
   margin-left: 20px;
 }
 
-.calendar-modal__content_type_confirmation {
+.calendar-modal__content_place_confirmation {
   padding: 251px 100px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: calc(100% - 100px*2);;
 }
 
-.calendar-modal__content_type_after-confirmation {
+@media screen and (max-width: 1023px) {
+  .calendar-modal__content_place_confirmation {
+    padding: 150px 45px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .calendar-modal__content_place_confirmation {
+    padding: 60px 15px;
+  }
+}
+
+.calendar-modal__content_place_after-confirmation {
   padding: 80px 100px 133px;
+}
+
+@media screen and (max-width: 1023px) {
+  .calendar-modal__content_place_after-confirmation {
+    padding: 40px 45px 60px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .calendar-modal__content_place_after-confirmation {
+    padding: 20px 15px 30px;
+  }
+}
+
+.event__title_place_after-confirmation:nth-last-of-type(2){
+  padding-bottom: 30px;
+}
+
+.event__signup-container_place_confirmation {
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
-}
-
-.event__title_type_confirmation,
-.event__title_type_after-confirmation {
-  width: 100%;
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-.event__signup-container_type_confirmation {
-  display: flex;
-  justify-content: space-between;
   max-width: 320px;
+}
+
+.event__signup-container_place_confirmation {
+  margin-top: 30px;
 }
 
 .event-modal__button_active {
@@ -139,19 +157,34 @@
   color: #000;
 }
 
+.event-modal__button_type_signup {
+  margin-right: 15px;
+  padding: 6px 15px 5px;
+}
+
 .event-modal__button_type_cancel,
 .event-modal__button_type_return-to-calendar {
   transition: all .2s ease;
   cursor: pointer;
 }
 
+.event-modal__button_type_return-to-calendar {
+  margin-top: 30px;
+}
+
 .calendar-modal__image {
-  margin: 0 0 30px 0;
-  max-width: 413px;
-  width: 100%;
+  margin: 0 auto 30px;
+  max-width: 100%;
   min-height: 169px;
   background: url('../images//calendar-modal-decoration.svg') no-repeat;
-  background-size: cover;
+  background-size: contain;
+  background-position: center;
+}
+
+@media screen and (max-width: 768px) {
+  .calendar-modal__image {
+    margin-bottom: 15px;
+  }
 }
 
 .event-modal__button_type_cancel:hover,

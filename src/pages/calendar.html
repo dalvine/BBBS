@@ -26,7 +26,7 @@
             <p class="event__month-and-weekday">декабрь / понедельник</p>
           </div>
           <div class="event__info">
-            <h2 class="event__title">Субботний meet up: учимся проходить интевью</h2>
+            <h2 class="event__title event__title_place_card">Субботний meet up: учимся проходить интевью</h2>
             <p class="event__date">05</p>
           </div>
           <ul class="event__additional-info">
@@ -49,7 +49,7 @@
             <p class="event__month-and-weekday">декабрь / понедельник</p>
           </div>
           <div class="event__info">
-            <h2 class="event__title">Ресурсная группа «Вовлечение в волонтёрство</h2>
+            <h2 class="event__title event__title_place_card">Ресурсная группа «Вовлечение в волонтёрство</h2>
             <p class="event__date">16</p>
           </div>
           <ul class="event__additional-info">
@@ -72,7 +72,7 @@
             <p class="event__month-and-weekday">декабрь / понедельник</p>
           </div>
           <div class="event__info">
-            <h2 class="event__title">Занятие с выпускниками: как составить резюме</h2>
+            <h2 class="event__title event__title_place_card">Занятие с выпускниками: как составить резюме</h2>
             <p class="event__date">20</p>
           </div>
           <ul class="event__additional-info">
@@ -96,7 +96,7 @@
             <p class="event__month-and-weekday">декабрь / понедельник</p>
           </div>
           <div class="event__info">
-            <h2 class="event__title">Субботний meet up: учимся проходить интевью</h2>
+            <h2 class="event__title event__title_place_card">Субботний meet up: учимся проходить интевью</h2>
             <p class="event__date">23</p>
           </div>  
           <ul class="event__additional-info">
@@ -120,7 +120,7 @@
             <p class="event__month-and-weekday">декабрь / понедельник</p>
           </div>
           <div class="event__info">
-            <h2 class="event__title">Субботний meet up: учимся проходить интевью</h2>
+            <h2 class="event__title event__title_place_card">Субботний meet up: учимся проходить интевью</h2>
             <p class="event__date">28</p>
           </div>  
           <ul class="event__additional-info">
@@ -147,7 +147,7 @@
             <p class="event__month-and-weekday">декабрь / понедельник</p>
           </div>
           <div class="event__info">
-            <h2 class="event__title">Субботний meet up: учимся проходить интевью</h2>
+            <h2 class="event__title event__title_place_card">Субботний meet up: учимся проходить интевью</h2>
             <p class="event__date">05</p>
           </div>
           <ul class="event__additional-info">
@@ -168,11 +168,13 @@
       </section>
       <section class="calendar-modal calendar-modal_type_confirmation">
         <button type="button" aria-label="Закрыть" class="calendar-modal__close-button"></button>
-        <div class="сalendar-modal__content calendar-modal__content_type_confirmation">
-          <h2 class = "event__title event__title_type_confirmation">Подтвердить запись на&nbsp;мероприятие Субботний meetup: учимся проходить интервью 5 декабря с&nbsp;12:00&ndash;14:00</h2>
-          <div class="event__signup-container event__signup-container_type_confirmation">
+        <div class="сalendar-modal__content calendar-modal__content_place_confirmation">
+          <p class="event__title event__title_place_confirmation">Подтвердить запись на мероприятие</p> 
+          <h2 class="event__title event__title_place_confirmation">«Субботний meet up: учимся проходить интервью»</h2>
+          <p class="event__title event__title_place_confirmation">5 декабря с 12:00–14:00.</p> 
+          <div class="event__signup-container event__signup-container_place_confirmation">
             <button type="button" aria-label="Подтвердить запись" class="event__button event__button_active 
-              event__button_type_signup">Подтвердить запись</button>
+            event__button_type_signup event-modal__button_type_signup">Подтвердить запись</button>
             <button type="button" aria-label="Отменить запись" class="event__button event-modal__button_active 
               event-modal__button_type_cancel">Отменить</button>
           </div>
@@ -180,11 +182,14 @@
       </section>
       <section class="calendar-modal calendar-modal_type_after-confirmation">
         <button type="button" aria-label="Закрыть" class="calendar-modal__close-button"></button>
-        <div class="сalendar-modal__content calendar-modal__content_type_after-confirmation">
+        <div class="сalendar-modal__content calendar-modal__content_place_after-confirmation">
           <div class="calendar-modal__image"></div>
-          <h2 class = "event__title event__title_type_after-confirmation">Вы записаны на мероприятие «Субботний&nbsp;meet up: учимся проходить&nbsp;интервью» 5&nbsp;декабря с 12:00–14:00. Если у вас не получится прийти — отмените, пожалуйста, запись.</h2>
+          <p class="event__title event__title_place_after-confirmation">Вы записаны на мероприятие</p> 
+          <h2 class="event__title event__title_place_after-confirmation">«Субботний meet up: учимся проходить интервью»</h2>
+          <p class="event__title event__title_place_after-confirmation">5 декабря с 12:00–14:00.</p> 
+          <p class="event__title event__title_place_after-confirmation">Если у вас не получится прийти — отмените, пожалуйста, запись.</p>
           <button type="button" aria-label="Вернуться к календарю" class="event__button event-modal__button_active 
-              event-modal__button_type_return-to-calendar">Вернуться к календарю</button>
+            event-modal__button_type_return-to-calendar">Вернуться к календарю</button>
         </div>
       </section>
     </main>

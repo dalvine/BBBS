@@ -42,10 +42,13 @@
 
 .event__title {
   margin: 0;
-  max-width: 75%;
   font-size: 23px;
   font-weight: 300;
   line-height: 1.30;
+}
+
+.event__title_place_card {
+  max-width: 70%;
   text-align: left;
 }
 
