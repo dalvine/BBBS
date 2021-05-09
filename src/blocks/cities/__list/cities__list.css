@@ -1,0 +1,9 @@
+.cities__list {
+    list-style: none;
+    padding: 0;
+    border-bottom: 0.5px solid #A7A6A6;
+}
+
+.cities__list:last-child {
+    border-bottom: none;
+}

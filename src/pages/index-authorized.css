@@ -1,6 +1,11 @@
 @import url('../vendor/normalize.css');
 @import url('../vendor/fonts/fonts.css');
 @import url('../blocks/page/page.css');
+@import url('../blocks/cities/cities.css');
+@import url('../blocks/cities/__item/cities__item.css');
+@import url('../blocks/cities/__link/cities__link.css');
+@import url('../blocks/cities/__list/cities__list.css');
+@import url('../blocks/cities/__title/cities__title.css');
 @import url('../blocks/header/header.css');
 @import url('../blocks/header/__btn-menu/header__btn-menu.css');
 @import url('../blocks/header/__btn-menu/_opening/header__btn-menu_opening.css');
