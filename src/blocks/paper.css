@@ -145,6 +145,7 @@
 
 .paper-text_size_mini {
    padding: 30px;
+   border-radius: 30px;
 }
 
 .paper__description {
