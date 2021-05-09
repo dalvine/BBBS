@@ -7,10 +7,33 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 
-@media screen and (max-width: 1196px) {
+
+@media screen and (max-width: 1441px) {
+    .header {
+        padding: 40px 135px 0;
+    }
+}
+
+@media screen and (max-width: 1370px) {
     .header {
         flex-direction: row-reverse;
     }
 }
+
+@media screen and (max-width: 1025px) {
+    .header {
+        padding: 30px 127px 0;
+    }
+}
+
+@media screen and (max-width: 940px) {
+    .header {
+        padding: 10px 15px 0;
+    }
+}
+
+
+

@@ -6,3 +6,21 @@
     border-radius: 30px;
     background-color: #8CDD94;
 }
+
+@media screen and (max-width: 1025px) {
+    .describe-box {
+        height: 382px;
+    }
+}
+
+@media screen and (max-width: 1441px) {
+    .describe-box {
+        height: 414px;
+    }
+}
+
+@media screen and (max-width: 1160px) {
+    .describe-box {
+        height: 382px;
+    }
+}

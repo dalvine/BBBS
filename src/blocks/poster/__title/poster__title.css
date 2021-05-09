@@ -6,3 +6,10 @@
     font-weight: 300;
     text-align: center;
 }
+
+@media screen and (max-width: 1025px) {
+    .poster__title {
+        font-size: 19px;
+        line-height: 1.21;
+    }
+}

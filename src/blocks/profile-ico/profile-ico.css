@@ -1,0 +1,17 @@
+.profile-ico {
+  width: 20px;
+  height: 20px;
+  padding-left: 20px;
+  cursor: pointer;
+  object-fit: scale-down;
+  border-left: 0.7px solid #A7A6A6;
+}
+
+@media screen and (max-width: 1370px) {
+  .profile-ico {
+      display: none;
+      border-left: none;
+      padding-left: 0;
+  }
+}
+

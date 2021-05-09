@@ -7,3 +7,10 @@
     line-height: 1.12;
     color: blue;
 }
+
+
+@media screen and (max-width: 1370px) {
+    .logo {
+        transform: scale(0.8, 0.8);
+    }
+}

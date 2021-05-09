@@ -14,3 +14,9 @@
     letter-spacing: 0.2px;
     cursor: pointer;
 }
+
+@media screen and (min-width: 1178px) {
+    .donate-btn {
+        grid-area: donate;
+    }   
+}

@@ -1,3 +1,7 @@
+.event_place_index {
+  grid-area: event;
+}
+
 
 .event {
   padding: 30px;

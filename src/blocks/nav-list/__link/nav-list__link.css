@@ -1,0 +1,15 @@
+.nav-list__link {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.25;
+    letter-spacing: .2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+    cursor: pointer;
+    color: black;
+}
+
+.nav-list__link:hover {
+    color: #224CFF;
+}
