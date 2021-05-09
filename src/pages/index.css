@@ -1,6 +1,8 @@
 @import url('../vendor/normalize.css');
 @import url('../vendor/fonts/fonts.css');
 @import url('../blocks/page/page.css');
+
+/***********ИМПОРТЫ ДЛЯ ХЭДЕРА **************/
 @import url('../blocks/header/header.css');
 @import url('../blocks/header/__btn-menu/header__btn-menu.css');
 @import url('../blocks/header/__btn-menu/_opening/header__btn-menu_opening.css');
@@ -19,16 +21,6 @@
 @import url('../blocks/nav-list/__submenu-list/nav-list__submenu-list.css');
 @import url('../blocks/nav-list/__submenu-list/_opened/nav-list__submenu-list_opened.css');
 @import url('../blocks/nav-list/__link/nav-list__link.css');
-@import url('../blocks/popup/popup.css');
-@import url('../blocks/popup/__container/popup__container.css');
-@import url('../blocks/popup/__close/popup__close.css');
-@import url('../blocks/form/form.css');
-@import url('../blocks/form/__input/form__input.css');
-@import url('../blocks/form/__restore-password/form__restore-password.css');
-@import url('../blocks/form/__submit/form__submit.css');
-@import url('../blocks/form/__submit/_disabled/form__submit_disabled.css');
-@import url('../blocks/form/__text/form__text.css');
-@import url('../blocks/form/__title/form__title.css');
 @import url('../blocks/profile/profile.css');
 @import url('../blocks/profile/__city-edit/profile__city-edit.css');
 @import url('../blocks/profile/__city/profile__city.css');
@@ -40,6 +32,20 @@
 @import url('../blocks/search/__input/_reduced/search__input_reduced.css');
 @import url('../blocks/profile-ico/profile-ico.css');
 @import url('../blocks/profile-ico/_visible/profile-ico_visible.css');
+/***********ИМПОРТЫ ДЛЯ ХЭДЕРА**************/
+/*******************END*********************/
+
+
+@import url('../blocks/popup/popup.css');
+@import url('../blocks/popup/__container/popup__container.css');
+@import url('../blocks/popup/__close/popup__close.css');
+@import url('../blocks/form/form.css');
+@import url('../blocks/form/__input/form__input.css');
+@import url('../blocks/form/__restore-password/form__restore-password.css');
+@import url('../blocks/form/__submit/form__submit.css');
+@import url('../blocks/form/__submit/_disabled/form__submit_disabled.css');
+@import url('../blocks/form/__text/form__text.css');
+@import url('../blocks/form/__title/form__title.css');
 @import url('../blocks/main-grid/main-grid.css');
 @import url('../blocks/describe-box/describe-box.css');
 @import url('../blocks/describe-box/__figure/describe-box__figure.css');
@@ -83,7 +89,8 @@
 @import url('../blocks/question/__text/question__text.css');
 @import url('../blocks/question/__category/question__category.css');
 
-
+/***********ИМПОРТЫ ДЛЯ ФУТЕРА**************/
 @import url('../blocks/donate-btn/donate-btn.css');
-
 @import url('../blocks/footer.css');
+/***********ИМПОРТЫ ДЛЯ ФУТЕРА**************/
+/*******************END*********************/
