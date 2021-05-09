@@ -1,6 +1,6 @@
 .title {
    font-family: 'ProtoGrotesk', Georgia, Serif;
-   margin: 0 auto 40px;
+   margin: 85px auto 40px;
    font-weight: 300;
    font-style: normal;
    font-size: 74px;
@@ -10,8 +10,14 @@
 
 @media (max-width: 1300px) {
    .title {
-      margin-bottom: 20px;
+      margin: 49px auto 20px;
       font-size: 37px;
       line-height: 1.05;
+   }
+}
+
+@media (max-width: 400px) {
+   .title {
+      margin-top: 29px;
    }
 }
