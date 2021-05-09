@@ -1,0 +1,14 @@
+.video__info_place_list {
+    width: 100%;
+    height: 169px;
+    border-radius: 0 0 30px 30px;
+    padding: 15px 30px;
+    background-color: white;
+}
+
+
+@media screen and (max-width: 1180px) {
+    .video__info_place_list {
+        height: 147px;
+    }
+}

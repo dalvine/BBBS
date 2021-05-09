@@ -1,4 +1,5 @@
 .video__subtitle {
+    color: #464646;
     margin: 0;
     padding-top: 5px;
     font-weight: normal;
@@ -6,4 +7,11 @@
     line-height: 1.36;
     text-align: center;
     letter-spacing: 0.2px;
+}
+
+@media screen and (max-width: 1025px) {
+    .video__subtitle {
+        font-size: 12px;
+        line-height: 1.42;
+    }
 }

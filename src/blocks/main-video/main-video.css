@@ -1,0 +1,25 @@
+.main-video {
+    box-sizing: border-box;
+    padding: 80px 75px 120px;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 1441px) {
+    .main-video {
+        padding: 80px 135px 120px;
+    }
+}
+
+
+@media screen and (max-width: 1025px) {
+    .main-video {
+        padding: 30px 127px 100px;
+    }
+}
+
+@media screen and (max-width: 940px) {
+    .main-video {
+        padding: 10px 15px 50px;
+    }
+}
