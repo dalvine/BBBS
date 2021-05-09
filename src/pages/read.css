@@ -1,0 +1,38 @@
+@import url('./index.css');
+
+
+
+
+.main-read {
+}
+.read {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.read__title {
+}
+.read__title-text {
+}
+.read__arrow-left {
+}
+.read__arrow-right {
+}
+.guide {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+.guide__items {
+}
+.guide__image {
+}
+.guide__image_type_square {
+}
+.guide__title-image {
+}
+.guide__image_type_circle {
+}
+.guide__image_type_arc {
+}

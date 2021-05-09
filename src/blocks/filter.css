@@ -18,16 +18,21 @@
    padding: 13px 20px 16px;
    white-space: nowrap;
    cursor: pointer;
-   transition: opacity 0.2s ease;
+   transition: all 0.2s ease;
 }
 
 .filter__button:hover {
-   opacity: 0.5;
+   background-color: #E0E0E0;
 }
 
 .filter__button_active {
    background-color: #000;
    color: #F3F2F2;
+   transition: all 0.2s ease;
+}
+
+.filter__button_active:hover {
+   background-color: #2E2468;
 }
 
 @media (max-width: 1300px) {
