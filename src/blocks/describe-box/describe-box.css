@@ -5,6 +5,8 @@
     height: 520px;
     border-radius: 30px;
     background-color: #8CDD94;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 
