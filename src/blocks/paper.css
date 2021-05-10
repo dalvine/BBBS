@@ -145,6 +145,7 @@
 
 .paper-text_size_mini {
    padding: 30px;
+   border-radius: 30px;
 }
 
 .paper__description {
@@ -275,6 +276,13 @@
 
 .paper__description_color_orange {
    background-color: #FF8585;
+}
+
+.paper_place_index {
+   grid-column-start: whereToGo;
+   grid-column-end: whereToGo;
+   grid-row-start: whereToGo;
+   grid-row-end: whereToGo;
 }
 
 @media (max-width: 1746px) {

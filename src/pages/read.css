@@ -1,0 +1,225 @@
+@import url('./index.css');
+
+.read {
+   font-family: 'ProtoGrotesk', Georgia, Serif;
+   width: min(1170px, calc(100% - 30px));
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+   overflow: hidden;
+}
+.read__title {
+   margin-bottom: 50px;
+   border-bottom: 1px solid #224CFF;
+   width: 100%;
+}
+.read__title-text {
+   margin: 0;
+   margin-top: 80px;
+   padding-bottom: 20px;
+   color: #224CFF;
+   font-weight: 300;
+   font-style: normal;
+   font-size: 44px;
+   line-height: 1.14;
+   text-align: center;
+   position: relative;
+}
+.read__arrow-left {
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   right: 60px;
+   width: 30px;
+   height: 30px;
+   background: transparent url('../images/arrow_left.svg') no-repeat center;
+   background-size: contain;
+}
+.read__arrow-right {
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   right: 5px;
+   width: 30px;
+   height: 30px;
+   background: transparent url('../images/arrow_right.svg') no-repeat center;
+   background-size: contain;
+}
+.guide {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   justify-content: flex-start;
+   align-items: flex-start;
+   gap: 30px;
+   overflow: hidden;
+}
+.guide__items {
+   width: 370px;
+}
+.guide__image {
+   width: 100%;
+}
+.guide__image_type_square {
+}
+.guide__title-image {
+   padding: 0;
+   margin: 0;
+   margin-top: 20px;
+   text-align: center;
+   font-weight: 300;
+   font-style: normal;
+   font-size: 23px;
+   line-height: 1.3;
+}
+.guide__image_type_circle {
+   border-radius: 50%;
+}
+.guide__image_type_arc {
+   border-radius: 50% 50% 0 0;
+}
+.read-video {
+   width: 100%;
+   height: 208px;
+   bottom: 0;
+}
+.read-video__info {
+   margin: 0;
+   padding: 15px 30px;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   min-height: 169px;
+   box-sizing: border-box;
+}
+
+.read-paper {
+   padding: 37px 30px 15px;
+}
+
+.book {
+   width: 240px;
+   height: 320px;
+   margin: 30px auto;
+   padding: 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+   text-align: center;
+   box-sizing: border-box;
+}
+.book_color_orange {
+   background-color:#FF8585;
+}
+.book__items {
+   min-height: 602px;
+   background-color: transparent;
+}
+.book__item {
+   min-height: 380px;
+   background-color: #fff;
+   border-radius: 30px;
+}
+.book__title {
+   margin: 0;
+   font-weight: 300;
+   font-size: 23px;
+   line-height: 1.3;
+   font-style: normal;
+}
+.book__line {
+   margin: 0 auto 20px;
+   display: block;
+   width: 67px;
+   border-bottom: 1px solid #000;
+}
+.book__author {
+   margin: 0;
+}
+.book__year {
+   margin: 0;
+}
+.book_color_light_blue {
+   background-color:#C8D1FF;
+}
+.paper__items {
+   min-height: 446px;
+   background-color: transparent;
+}
+
+@media (max-width: 600px) {
+   .guide__items {
+      width: 290px;
+   }
+   .read__title-text {
+      text-align: left;
+      font-size: 23px;
+      line-height: 1.3;
+      margin-top: 25px;
+      padding-bottom: 10px;
+   }
+   .read__title {
+      margin-bottom: 20px;
+   }
+   .read__arrow-left {
+      width: 20px;
+      height: 20px;
+      right: 40px;
+   }
+   .read__arrow-right {
+      width: 20px;
+      height: 20px;
+   }
+   .read-video {
+      height: 163px;
+   }
+   .guide__title-image {
+      font-size: 19px;
+      line-height: 1.21;
+      margin-top: 10px;
+   }
+   .read-video__title {
+      font-size: 19px;
+      line-height: 1.21;
+      margin-top: 0px;
+   }
+   .read-video__subtitle {
+      font-size: 12px;
+      line-height: 1.42;
+   }
+   .read-video__link {
+      font-size: 12px;
+      line-height: 1.42;
+   }
+   .read-video__info {
+      min-height: 147px;
+      box-sizing: border-box;
+   }
+   .read-paper {
+      padding: 37px 15px 15px;
+   }
+   .book__title {
+      font-size: 19px;
+      line-height: 1.21;
+   }
+   .book__info {
+      font-size: 12px;
+      line-height: 1.42;
+   }
+   .book {
+      width: 200px;
+      height: 272px;
+      padding: 15px;
+   }
+   .book__item {
+      min-height: 332px;
+   }
+   .book__line {
+      margin-bottom: 20px;
+      width: 60px;
+   }
+}

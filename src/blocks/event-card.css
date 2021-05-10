@@ -248,6 +248,7 @@
   }
 }
 
+
 .opacity-transition {
   transition: opacity .20s ease;
   cursor: pointer;
