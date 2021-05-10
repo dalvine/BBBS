@@ -1,7 +1,39 @@
 .footer {
-    display: flex;
-    justify-content: center;
-    width: 100%;
+    display: grid;
+    box-sizing: border-box;
+    max-width: 1920px;
     background-color: #2E2468;
     min-height: 436px;
+    padding: 90px 360px;
+    grid-template-rows: 76px 124px 1fr;
+    grid-template-columns: minmax(min-content, 415px) 300px minmax(min-content);
+    grid-template-areas: 
+    'logo donate navigation social'
+    '.. .. navigation social'
+    'owners owners navigation social';
+}
+
+@media screen and (max-width: 1680px) {
+    .footer {
+        padding: 90px 135px;
+    }
+}
+
+@media screen and (max-width: 1180px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 1920px;
+        background-color: #2E2468;
+        min-height: 436px;
+        padding: 40px 34px 30px;
+    }
+}
+
+
+@media screen and (max-width: 440px) {
+    .footer {
+        padding: 40px 18px 30px;
+    }
 }

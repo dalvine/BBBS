@@ -1,9 +1,16 @@
 .footer__link {
-    margin-bottom: 20px;
+    font-family: 'ProtoGrotesk';
+    font-weight: 300;
     text-transform: uppercase;
     text-decoration: none;
     color: #F3F2F2;
     font-size: 14px;
     line-height: 1.25;
     letter-spacing: 0.2px;
+}
+
+@media screen and (max-width: 830px) {
+    .footer__link {
+        line-height: 2;
+    }
 }

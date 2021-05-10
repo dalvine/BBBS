@@ -1,0 +1,21 @@
+.footer__owners {
+    grid-area: owners;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+/* .footer__owners {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+} */
+
+
+@media screen and (max-width: 1180px) {
+    .footer__owners {
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+}

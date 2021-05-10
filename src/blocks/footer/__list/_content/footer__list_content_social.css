@@ -1,0 +1,10 @@
+.footer__list_content_social {
+    grid-area: social;
+}
+
+@media screen and (max-width: 1180px) {
+    .footer__list_content_social {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+}

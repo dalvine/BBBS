@@ -1,3 +1,15 @@
 .footer__authors {
+    margin: 0;
     display: flex;
+    margin-top: 12px;
+}
+
+
+@media screen and (max-width: 1180px) {
+    .footer__authors {
+        display: inherit;
+        flex-wrap: inherit;
+        justify-content: inherit;
+        align-items: inherit;
+    }
 }

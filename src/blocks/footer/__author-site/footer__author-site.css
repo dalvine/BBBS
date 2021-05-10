@@ -2,4 +2,27 @@
     color: #F3F2F2;
     font-size: 18px;
     line-height: 1.44;
+    margin-right: 30px;
+}
+
+@media screen and (max-width: 1180px) {
+    .footer__author-site {
+        color: #F3F2F2;
+        font-size: 18px;
+        line-height: 1.44;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .footer__author-site {
+        font-size: 12px;
+        line-height: 1.42;
+        letter-spacing: 0.2px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .footer__author-site {
+        margin-right: 0;
+    }
 }

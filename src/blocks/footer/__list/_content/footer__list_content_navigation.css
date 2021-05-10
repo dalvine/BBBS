@@ -1,0 +1,10 @@
+.footer__list_content_navigation {
+    grid-area: navigation;
+}
+
+@media screen and (max-width: 1180px) {
+    .footer__list_content_navigation {
+        padding-bottom: 20px;
+        border-bottom: 1px solid #C8D1FF;
+    }
+}

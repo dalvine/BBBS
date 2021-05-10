@@ -1,11 +1,12 @@
 .footer__logo {
-    width: 415px;
-    height: 76px;
-    margin-right: 85px;
+    grid-area: logo;
 }
 
-@media screen and (max-width:1280px) {
+@media screen and (max-width: 1180px) {
     .footer__logo {
-       grid-area: logo;
+        margin-bottom: 40px;
+        width: 252px;
+        height: 46px;
     }
 }
+

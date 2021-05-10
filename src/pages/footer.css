@@ -1,5 +1,16 @@
 /***********ИМПОРТЫ ДЛЯ ФУТЕРА**************/
 @import url('../blocks/donate-btn/donate-btn.css');
-@import url('../blocks/footer.css');
+@import url('../blocks/footer/footer.css');
+@import url('../blocks/footer/__author-site/footer__author-site.css');
+@import url('../blocks/footer/__author/footer__author.css');
+@import url('../blocks/footer/__authors/footer__authors.css');
+@import url('../blocks/footer/__copyright/footer__copyright.css');
+@import url('../blocks/footer/__link/footer__link.css');
+@import url('../blocks/footer/__list-item/footer__list-item.css');
+@import url('../blocks/footer/__list/footer__list.css');
+@import url('../blocks/footer/__list/_content/footer__list_content_navigation.css');
+@import url('../blocks/footer/__list/_content/footer__list_content_social.css');
+@import url('../blocks/footer/__logo/footer__logo.css');
+@import url('../blocks/footer/__owners/footer__owners.css');
 /***********ИМПОРТЫ ДЛЯ ФУТЕРА**************/
 /*******************END*********************/
