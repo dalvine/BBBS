@@ -1,0 +1,9 @@
+@import url('../vendor/normalize.css');
+@import url('../vendor/fonts/fonts.css');
+
+@import url('../blocks/page/page.css');
+@import url('../blocks/answers-page.css');
+@import url('../blocks/section-title.css');
+@import url('../blocks/filter.css');
+@import url('../blocks/questions-set.css');
+@import url('../blocks/answers.css');
