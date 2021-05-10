@@ -1,4 +1,6 @@
 @import url('./index.css');
+@import url('./header.css');
+@import url('./footer.css');
 
 .read {
    font-family: 'ProtoGrotesk', Georgia, Serif;

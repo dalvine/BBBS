@@ -2,6 +2,8 @@
 @import url('./read.css');
 @import url('./where_to_go.css');
 @import url('./where_to_go_authorized.css');
+@import url('./header.css');
+@import url('./footer.css');
 
 .guide__subtitle {
    margin: 0 auto 80px;

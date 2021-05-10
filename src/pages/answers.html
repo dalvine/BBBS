@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,14 +8,70 @@
   <link rel="stylesheet" href="../pages/answers.css">
   <title>Ответы на вопросы</title>
 </head>
+
 <body class="page">
-  <header>
-    <!--************************************
-    Header от Влада
-    ***************************************-->
+  <header class="header">
+    <div class="header__btn-menu"></div>
+    <a class="logo" href="../index.html">наставники.про</a>
+    <!-- В index-authorized ссылка ведет на страницу неавторизованного пользователя-->
+    <!-- Сделано для удобства просмотра двух страниц-->
+    <nav class="nav-list">
+      <div class="nav-list__container">
+        <ul class="nav-list__items nav-list__items_content_navigation">
+          <li class="nav-list__item"><a href="./calendar.html" class="nav-list__link">календарь</a></li>
+          <li class="nav-list__item"><a href="./where_to_go.html" class="nav-list__link">куда пойти</a></li>
+          <li class="nav-list__item"><a href="./answers.html" class="nav-list__link">вопросы</a></li>
+          <li class="nav-list__item nav-list__item_submenu"><a href="./read.html" class="nav-list__link">читать и
+              смотреть</a>
+            <ul class="nav-list__submenu-list">
+              <li class="nav-list__submenu-item"><a href="./guide.html" class="nav-list__link">cправочник</a></li>
+              <li class="nav-list__submenu-item"><a href="./video.html" class="nav-list__link">Видео</a></li>
+              <li class="nav-list__submenu-item"><a href="#" class="nav-list__link">Статьи</a></li>
+              <li class="nav-list__submenu-item"><a href="#" class="nav-list__link">Фильмы</a></li>
+              <li class="nav-list__submenu-item"><a href="#" class="nav-list__link">Книги</a></li>
+            </ul>
+          </li>
+          <li class="nav-list__item"><a href="#" class="nav-list__link">права детей</a></li>
+          <li class="nav-list__item"><a href="#" class="nav-list__link">истории</a></li>
+        </ul>
+        <ul class="nav-list__items nav-list__items_content_social">
+          <li class="nav-list__item"><a href="" class="nav-list__link">facebook</a></li>
+          <li class="nav-list__item"><a href="" class="nav-list__link">vkontakte</a></li>
+          <li class="nav-list__item"><a href="" class="nav-list__link">instagram</a></li>
+          <li class="nav-list__item"><a href="" class="nav-list__link">youtube</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="header__right-block">
+      <form class="search" name="search">
+        <div class="search__container">
+          <input type="text" name="searchInput" class="search__input">
+          <ul class="search__results">
+            <li class="search__result">
+              <p class="search__result-text">Причины подростковой агрессии</p>
+              <a href="" class="search__result-link">статьи</a>
+            </li>
+            <li class="search__result">
+              <p class="search__result-text">Агрессивное поведение детей-сирот</p>
+              <a href="" class="search__result-link">видео</a>
+            </li>
+            <li class="search__result">
+              <p class="search__result-text">Что делать если ваш младший агрессивно себя ведет, решил закрыть пару?</p>
+              <a href="" class="search__result-link">вопросы</a>
+            </li>
+            <li class="search__result">
+              <p class="search__result-text">Как реагировать на агрессивное поведения ребенка</p>
+              <a href="" class="search__result-link">книги</a>
+            </li>
+          </ul>
+        </div>
+        <button type="button" name="searchSubmit" class="search__btn"></button>
+      </form>
+      <img src="../images/ico-profile.svg" class="profile-ico profile-ico_state_non-authorize">
+    </div>
   </header>
   <main class="answers-page">
-    <h1 class="section-title">Ответы на вопросы</h1> 
+    <h1 class="section-title">Ответы на вопросы</h1>
     <!-- <section class="questions-sets">
       <div class="questions-set">
         <button type="button" aria-label="Все" class="filter__button filter__button_active">Все</button>
@@ -49,27 +106,35 @@
             <p class="answers__rubric">Рубрика</p>
             <button type="button" aria-label="Открыть ответ" class="answers__toggle-modal-state-button"></button>
             <p class="answers__question-full-answer answers__question-full-answer_hidden">
-              Настоящие дружеские отношения строятся на взаимном интересе, доверии и привязанности. 
-              Когда наставник для ребенка становится именно другом, а не просто знакомым или волонтером, то подопечный начинает быть 
-              искренне заинтересован в общении, начинает ждать встреч, звонить по телефону. Но тут важно, чтобы наставник оставался 
-              именно в роли друга, старшего брата или сестры, а не потенциального родителя. Перед включением ребенка в программу кураторы 
-              обязательно объясняют ребенку, кто такой наставник и какую роль он может сыграть в его жизни. Конечно, здесь многое зависит 
-              от умения самого наставника выстраивать отношения и границы, но, если человек сомневается в своих навыках, то в рамках нашей 
-              программы проводятся поддерживающие мероприятия, которые развивают компетенции наставников и их коммуникативные способности, 
+              Настоящие дружеские отношения строятся на взаимном интересе, доверии и привязанности.
+              Когда наставник для ребенка становится именно другом, а не просто знакомым или волонтером, то подопечный
+              начинает быть
+              искренне заинтересован в общении, начинает ждать встреч, звонить по телефону. Но тут важно, чтобы
+              наставник оставался
+              именно в роли друга, старшего брата или сестры, а не потенциального родителя. Перед включением ребенка в
+              программу кураторы
+              обязательно объясняют ребенку, кто такой наставник и какую роль он может сыграть в его жизни. Конечно,
+              здесь многое зависит
+              от умения самого наставника выстраивать отношения и границы, но, если человек сомневается в своих навыках,
+              то в рамках нашей
+              программы проводятся поддерживающие мероприятия, которые развивают компетенции наставников и их
+              коммуникативные способности,
               которые помогают в общении с детьми, а также есть всегда возможность обратиться к куратору программы.
             </p>
           </div>
         </article>
         <article class="answers__item">
           <div class="answers__question">
-            <p class="answers__answer-title">Возможно ли продлить срок участия в программе, если и я и мой «младший» хотим остаться в программе?</p>
+            <p class="answers__answer-title">Возможно ли продлить срок участия в программе, если и я и мой «младший»
+              хотим остаться в программе?</p>
             <p class="answers__rubric">Рубрика</p>
             <button type="button" aria-label="Открыть ответ" class="answers__toggle-modal-state-button"></button>
           </div>
         </article>
         <article class="answers__item">
           <div class="answers__question">
-            <p class="answers__answer-title">Что делать если Ваш младший решил закрыть пару, т.к. слишком занят с учебой и друзьями?</p>
+            <p class="answers__answer-title">Что делать если Ваш младший решил закрыть пару, т.к. слишком занят с учебой
+              и друзьями?</p>
             <p class="answers__rubric">Рубрика</p>
             <button type="button" aria-label="Открыть ответ" class="answers__toggle-modal-state-button"></button>
           </div>
@@ -83,13 +148,16 @@
         </article>
       </div>
       <form class="answers-form form">
-        <h2 class="answers-form__title">Если вы не нашли ответ на свой вопрос — напишите нам, и мы включим его в список</h2>
+        <h2 class="answers-form__title">Если вы не нашли ответ на свой вопрос — напишите нам, и мы включим его в список
+        </h2>
         <div class="answers-form__question-container">
           <div class="answers-form__input-container">
-            <input type="text" value="" placeholder="Введите вопрос" minlength="1" maxlength="30" required class="answers-form__input form__input" id="form__input-question">
+            <input type="text" value="" placeholder="Введите вопрос" minlength="1" maxlength="30" required
+              class="answers-form__input form__input" id="form__input-question">
             <span class="form__input-error" id="form__input-question-error"></span>
           </div>
-          <button type="button" aria-label="Отправить вопрос" class="answers-form__sent-button form__submit-button">Отправить</button>
+          <button type="button" aria-label="Отправить вопрос"
+            class="answers-form__sent-button form__submit-button">Отправить</button>
         </div>
       </form>
     </section>
@@ -100,5 +168,6 @@
     ****************************************-->
   </footer>
   <script src="./answers.js"></script>
- </body>
- </html>
+</body>
+
+</html>

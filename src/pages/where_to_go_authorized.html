@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,17 +8,75 @@
    <link rel="stylesheet" href="../pages/where_to_go_authorized.css">
    <title>Куда пойти</title>
 </head>
+
 <body class="page">
-   <header>
-      <!--************************************
-      Header от Влада
-      ***************************************-->
+   <header class="header">
+      <div class="header__btn-menu"></div>
+      <a class="logo" href="../index.html">наставники.про</a>
+      <!-- В index-authorized ссылка ведет на страницу неавторизованного пользователя-->
+      <!-- Сделано для удобства просмотра двух страниц-->
+      <nav class="nav-list">
+         <div class="nav-list__container">
+           <ul class="nav-list__items nav-list__items_content_navigation">
+             <li class="nav-list__item"><a href="./calendar.html" class="nav-list__link">календарь</a></li>
+             <li class="nav-list__item"><a href="./where_to_go.html" class="nav-list__link">куда пойти</a></li>
+             <li class="nav-list__item"><a href="./answers.html" class="nav-list__link">вопросы</a></li>
+             <li class="nav-list__item nav-list__item_submenu"><a href="./read.html" class="nav-list__link">читать и
+                 смотреть</a>
+               <ul class="nav-list__submenu-list">
+                 <li class="nav-list__submenu-item"><a href="./guide.html" class="nav-list__link">cправочник</a></li>
+                 <li class="nav-list__submenu-item"><a href="./video.html" class="nav-list__link">Видео</a></li>
+                 <li class="nav-list__submenu-item"><a href="#" class="nav-list__link">Статьи</a></li>
+                 <li class="nav-list__submenu-item"><a href="#" class="nav-list__link">Фильмы</a></li>
+                 <li class="nav-list__submenu-item"><a href="#" class="nav-list__link">Книги</a></li>
+               </ul>
+             </li>
+             <li class="nav-list__item"><a href="#" class="nav-list__link">права детей</a></li>
+             <li class="nav-list__item"><a href="#" class="nav-list__link">истории</a></li>
+           </ul>
+           <ul class="nav-list__items nav-list__items_content_social">
+             <li class="nav-list__item"><a href="" class="nav-list__link">facebook</a></li>
+             <li class="nav-list__item"><a href="" class="nav-list__link">vkontakte</a></li>
+             <li class="nav-list__item"><a href="" class="nav-list__link">instagram</a></li>
+             <li class="nav-list__item"><a href="" class="nav-list__link">youtube</a></li>
+           </ul>
+         </div>
+       </nav>
+      <div class="header__right-block">
+         <form class="search" name="search">
+            <div class="search__container">
+               <input type="text" name="searchInput" class="search__input">
+               <ul class="search__results">
+                  <li class="search__result">
+                     <p class="search__result-text">Причины подростковой агрессии</p>
+                     <a href="" class="search__result-link">статьи</a>
+                  </li>
+                  <li class="search__result">
+                     <p class="search__result-text">Агрессивное поведение детей-сирот</p>
+                     <a href="" class="search__result-link">видео</a>
+                  </li>
+                  <li class="search__result">
+                     <p class="search__result-text">Что делать если ваш младший агрессивно себя ведет, решил закрыть
+                        пару?</p>
+                     <a href="" class="search__result-link">вопросы</a>
+                  </li>
+                  <li class="search__result">
+                     <p class="search__result-text">Как реагировать на агрессивное поведения ребенка</p>
+                     <a href="" class="search__result-link">книги</a>
+                  </li>
+               </ul>
+            </div>
+            <button type="button" name="searchSubmit" class="search__btn"></button>
+         </form>
+         <img src="../images/ico-profile.svg" class="profile-ico profile-ico_state_non-authorize">
+      </div>
    </header>
    <main class="where-to-go-page">
       <h1 class="title">Куда пойти</h1>
       <div class="filter">
          <button type="button" aria-label="Все" class="filter__button">Все</button>
-         <button type="button" aria-label="Выбор наставников" class="filter__button filter__button_active">Выбор наставников</button>
+         <button type="button" aria-label="Выбор наставников" class="filter__button filter__button_active">Выбор
+            наставников</button>
          <button type="button" aria-label="Музеи" class="filter__button">Музеи</button>
          <button type="button" aria-label="Парки" class="filter__button">Парки</button>
          <button type="button" aria-label="Театры" class="filter__button filter__button_active">Театры</button>
@@ -33,7 +92,8 @@
       </div>
       <div class="info-recommendations">
          <p class="info-recommendations__text">
-            Если вы были в интересном месте и хотите порекомендовать его другим наставникам – <a href="" class="paper__description-link info-recommendations__link">заполните форму</a>, и мы добавим вашу
+            Если вы были в интересном месте и хотите порекомендовать его другим наставникам – <a href=""
+               class="paper__description-link info-recommendations__link">заполните форму</a>, и мы добавим вашу
             рекомендацию.
          </p>
       </div>
@@ -43,7 +103,8 @@
                <p class="paper__description-mark">выбор наставника</p>
                <h3 class="paper__description-title">Сплав на байдарках в две строки</h3>
                <p class="paper__description-subtitle">усадьба Архангельское в две строки</p>
-               <img src="../images/where_to_go_paper.jpg" alt="Сплав на байдарках в две строки" class="paper__description-image">
+               <img src="../images/where_to_go_paper.jpg" alt="Сплав на байдарках в две строки"
+                  class="paper__description-image">
                <a href="#" class="paper__description-link">перейти на сайт</a>
             </div>
             <div class="paper-text paper-text_size_max">
@@ -51,16 +112,23 @@
                   <p class="paper-text__title">Девока, 10 лет. Активный отдых</p>
                   <div class="paper-text__text">
                      <p class="paper-text__paragraph">
-                        Аннотация статьи в несколько абзацев. В тот момент, как ребёнок научился говорить, и не одно слово, а задавать
-                        бесконечное количество вопросов, жизнь меняется. Вы будете не понимать друг друга, потом понимать чуть лучше и,
-                        Аннотация статьи в несколько абзацев. В тот момент, как ребёнок научился говорить, и не одно слово, а задавать
-                        бесконечное количество вопросов, жизнь меняется. Вы будете не понимать друг друга, потом понимать чуть лучше и,
+                        Аннотация статьи в несколько абзацев. В тот момент, как ребёнок научился говорить, и не одно
+                        слово, а задавать
+                        бесконечное количество вопросов, жизнь меняется. Вы будете не понимать друг друга, потом
+                        понимать чуть лучше и,
+                        Аннотация статьи в несколько абзацев. В тот момент, как ребёнок научился говорить, и не одно
+                        слово, а задавать
+                        бесконечное количество вопросов, жизнь меняется. Вы будете не понимать друг друга, потом
+                        понимать чуть лучше и,
                      </p>
                      <p class="paper-text__paragraph">
-                        Аннотация статьи в несколько абзацев. В тот момент, как ребёнок научился говорить, и не одно слово, а задавать
-                        бесконечное количество вопросов, жизнь меняется. Вы будете не по Аннотация статьи в несколько абзацев. В тот момент,
+                        Аннотация статьи в несколько абзацев. В тот момент, как ребёнок научился говорить, и не одно
+                        слово, а задавать
+                        бесконечное количество вопросов, жизнь меняется. Вы будете не по Аннотация статьи в несколько
+                        абзацев. В тот момент,
                         как
-                        ребёнок научился говорить, и не одно слово, а задавать бесконечное количество вопросов, жизнь меняется.
+                        ребёнок научился говорить, и не одно слово, а задавать бесконечное количество вопросов, жизнь
+                        меняется.
                      </p>
                   </div>
                </div>
@@ -70,7 +138,8 @@
             <div class="paper__description paper__description_size_mini paper__description_color_green">
                <p class="paper__description-mark paper__description-mark_size_mini">выбор наставника</p>
                <h3 class="paper__description-title">Название места несколько слов</h3>
-               <p class="paper__description-subtitle paper__description-subtitle_size_mini">Адрес места в одну строку</p>
+               <p class="paper__description-subtitle paper__description-subtitle_size_mini">Адрес места в одну строку
+               </p>
                <a href="#" class="paper__description-link paper__description-link_size_mini">перейти на сайт</a>
             </div>
             <div class="paper-text paper-text_size_mini">
@@ -78,16 +147,22 @@
                   <p class="paper-text__title paper-text__title_size_mini">Девочка, 10 лет. Познавательный отдых</p>
                   <div class="paper-text__text">
                      <p class="paper-text__paragraph">
-                        Аннотация книги в несколько абзацев. В тот момент, как ребёнок научился говорить, и не одно слово, а задавать
-                        бесконечное количество вопросов, жизнь меняется. Вы будете не понимать друг друга, потом понимать чуть лучше и, в конце
-                        концов, научитесь даже шутить. В тот момент, как ребёнок научился говорить, и не одно слово, а задавать бесконечное
+                        Аннотация книги в несколько абзацев. В тот момент, как ребёнок научился говорить, и не одно
+                        слово, а задавать
+                        бесконечное количество вопросов, жизнь меняется. Вы будете не понимать друг друга, потом
+                        понимать чуть лучше и, в конце
+                        концов, научитесь даже шутить. В тот момент, как ребёнок научился говорить, и не одно слово,
+                        а задавать бесконечное
                         количество вопросов, жизнь меняется.
 
                      </p>
                      <p class="paper-text__paragraph">
-                        Аннотация статьи в несколько абзацев. Аннотация статьи в несколько абзацев. В тот момент, как ребёнок научился говорить,
-                        и не одно слово, а задавать бесконечное количество вопросов, жизнь меняется. Вы будете не понимать друг друга, потом
-                        понимать чуть лучше и, в конце концов, научитесь даже шутить. Аннотация статьи в несколько абзацев.
+                        Аннотация статьи в несколько абзацев. Аннотация статьи в несколько абзацев. В тот момент, как
+                        ребёнок научился говорить,
+                        и не одно слово, а задавать бесконечное количество вопросов, жизнь меняется. Вы будете
+                        не понимать друг друга, потом
+                        понимать чуть лучше и, в конце концов, научитесь даже шутить. Аннотация статьи в несколько
+                        абзацев.
                      </p>
                   </div>
                </div>
@@ -95,31 +170,40 @@
          </section>
          <section class="paper paper_size_mini">
             <div class="paper__description paper__description_size_mini paper__description_color_yellow">
-               <p class="paper__description-mark paper__description-mark_size_mini paper__description-mark_invisible">выбор наставника</p>
+               <p class="paper__description-mark paper__description-mark_size_mini paper__description-mark_invisible">
+                  выбор наставника</p>
                <h3 class="paper__description-title">Название места</h3>
-               <p class="paper__description-subtitle paper__description-subtitle_size_mini">Длинный адрес места в несколько строк, длинный адрес места.</p>
+               <p class="paper__description-subtitle paper__description-subtitle_size_mini">Длинный адрес места в
+                  несколько строк, длинный адрес места.</p>
                <a href="#" class="paper__description-link paper__description-link_size_mini">перейти на сайт</a>
             </div>
             <div class="paper-text paper-text_size_mini">
                <div class="paper-text__wrapper_size_mini">
                   <div class="paper-text__text">
                      <p class="paper-text__paragraph">
-                        Аннотация статьи в несколько абзацев. В тот момент, как ребёнок научился говорить, и не одно слово,
+                        Аннотация статьи в несколько абзацев. В тот момент, как ребёнок научился говорить, и не одно
+                        слово,
                         а задавать
-                        бесконечное количество вопросов, жизнь меняется. Вы будете не понимать друг друга, потом понимать чуть лучше
+                        бесконечное количество вопросов, жизнь меняется. Вы будете не понимать друг друга, потом
+                        понимать чуть лучше
                         и,
-                        Аннотация статьи в несколько абзацев. В тот момент, как ребёнок научился говорить, и не одно слово,
+                        Аннотация статьи в несколько абзацев. В тот момент, как ребёнок научился говорить, и не одно
+                        слово,
                         а задавать
-                        бесконечное количество вопросов, жизнь меняется. Вы будете не понимать друг друга, потом понимать чуть лучше
+                        бесконечное количество вопросов, жизнь меняется. Вы будете не понимать друг друга, потом
+                        понимать чуть лучше
                         и,
                      </p>
                      <p class="paper-text__paragraph">
-                        Аннотация статьи в несколько абзацев. В тот момент, как ребёнок научился говорить, и не одно слово,
+                        Аннотация статьи в несколько абзацев. В тот момент, как ребёнок научился говорить, и не одно
+                        слово,
                         а задавать
-                        бесконечное количество вопросов, жизнь меняется. Вы будете не по Аннотация статьи в несколько абзацев. В тот
+                        бесконечное количество вопросов, жизнь меняется. Вы будете не по Аннотация статьи в несколько
+                        абзацев. В тот
                         момент,
                         как
-                        ребёнок научился говорить, и не одно слово, а задавать бесконечное количество вопросов, жизнь меняется.
+                        ребёнок научился говорить, и не одно слово, а задавать бесконечное количество вопросов, жизнь
+                        меняется.
                      </p>
                   </div>
                </div>
@@ -129,30 +213,40 @@
             <div class="paper__description paper__description_size_mini paper__description_color_orange">
                <p class="paper__description-mark paper__description-mark_size_mini">выбор наставника</p>
                <h3 class="paper__description-title">Фотосессия на природе</h3>
-               <p class="paper__description-subtitle paper__description-subtitle_size_mini">Адрес места в одну строку</p>
-               <a href="#" class="paper__description-link paper__description-link_invisible paper__description-link_size_mini">перейти на сайт</a>
+               <p class="paper__description-subtitle paper__description-subtitle_size_mini">Адрес места в одну строку
+               </p>
+               <a href="#"
+                  class="paper__description-link paper__description-link_invisible paper__description-link_size_mini">перейти
+                  на сайт</a>
             </div>
             <div class="paper-text paper-text_size_mini">
                <div class="paper-text__wrapper_size_mini">
                   <p class="paper-text__title paper-text__title_size_mini">Девочка, 10 лет. Познавательный отдых</p>
                   <div class="paper-text__text">
                      <p class="paper-text__paragraph">
-                        Аннотация статьи в несколько абзацев. В тот момент, как ребёнок научился говорить, и не одно слово,
+                        Аннотация статьи в несколько абзацев. В тот момент, как ребёнок научился говорить, и не одно
+                        слово,
                         а задавать
-                        бесконечное количество вопросов, жизнь меняется. Вы будете не понимать друг друга, потом понимать чуть лучше
+                        бесконечное количество вопросов, жизнь меняется. Вы будете не понимать друг друга, потом
+                        понимать чуть лучше
                         и,
-                        Аннотация статьи в несколько абзацев. В тот момент, как ребёнок научился говорить, и не одно слово,
+                        Аннотация статьи в несколько абзацев. В тот момент, как ребёнок научился говорить, и не одно
+                        слово,
                         а задавать
-                        бесконечное количество вопросов, жизнь меняется. Вы будете не понимать друг друга, потом понимать чуть лучше
+                        бесконечное количество вопросов, жизнь меняется. Вы будете не понимать друг друга, потом
+                        понимать чуть лучше
                         и,
                      </p>
                      <p class="paper-text__paragraph">
-                        Аннотация статьи в несколько абзацев. В тот момент, как ребёнок научился говорить, и не одно слово,
+                        Аннотация статьи в несколько абзацев. В тот момент, как ребёнок научился говорить, и не одно
+                        слово,
                         а задавать
-                        бесконечное количество вопросов, жизнь меняется. Вы будете не по Аннотация статьи в несколько абзацев. В тот
+                        бесконечное количество вопросов, жизнь меняется. Вы будете не по Аннотация статьи в несколько
+                        абзацев. В тот
                         момент,
                         как
-                        ребёнок научился говорить, и не одно слово, а задавать бесконечное количество вопросов, жизнь меняется.
+                        ребёнок научился говорить, и не одно слово, а задавать бесконечное количество вопросов, жизнь
+                        меняется.
                      </p>
                   </div>
                </div>
@@ -167,66 +261,19 @@
                   class="paper__description-link info-recommendations__link">заполните форму</a>, и мы добавим вашу
                рекомендацию.
             </p>
-            <form action="#" method="post" name="form_recommendations" id="form_recommendations" class="recommendations-form" enctype="multipart/form-data">
-               <label for="recommendations__title" class="recommendations__label recommendations-form__label_type_title">
-                  <input type="text" name="recommendations__title" id="recommendations__title" class="recommendations-form__input" placeholder="Название*" required>
-               </label>
-               <label for="recommendations__url" class="recommendations__label  recommendations-form__label_type_url">
-                  <input type="url" name="recommendations__url" id="recommendations__url" class="recommendations-form__input" placeholder="Сайт">
-               </label>
-               <label for="recommendations__address" class="recommendations__label recommendations-form__label_type_address">
-                  <input type="text" name="recommendations__address" id="recommendations__address" class="recommendations-form__input" placeholder="Адрес*" required>
-               </label>
-               <label for="recommendations__boy" class="recommendations__label recommendations-form__label_type_boy">
-                  <input type="radio" name="recommendations__gender" id="recommendations__boy" class="recommendations-form__input" required value="Мальчик"><span class="recommendations__gender-type">Мальчик</span>
-                  <span class="recommendations__radio"></span>
-               </label>
-               <label for="recommendations__girl" class="recommendations__label recommendations-form__label_type_girl">
-                  <input type="radio" name="recommendations__gender" id="recommendations__girl" class="recommendations-form__input" required value="Девочка">
-                  <span class="recommendations__gender-type">Девочка</span>
-                  <span class="recommendations__radio"></span>
-               </label>
-               <label for="recommendations__age" class="recommendations__label recommendations-form__label_type_age">
-                  <input type="number" min="18" max="99" name="recommendations__age" id="recommendations__age" class="recommendations-form__input" placeholder="Возраст*" required>
-               </label>
-               <label for="recommendations__holiday" class="recommendations__label recommendations-form__label_type_holiday">
-                  <select name="recommendations__holiday" id="recommendations__holiday"  required class="recommendations-form__input recommendations-form__input_type_holiday">
-                     <option class="recommendations-form__holiday recommendations-form__holiday_disabled">Тип отдыха*</option>
-                     <option class="recommendations-form__holiday recommendations-form__holiday_enabled" value="Активный">Активный</option>
-                     <option class="recommendations-form__holiday recommendations-form__holiday_enabled" value="Развлекательный">Развлекательный</option>
-                     <option class="recommendations-form__holiday recommendations-form__holiday_enabled" value="Познавательный">Познавательный</option>
-                  </select>
-               </label>
-               <label for="recommendations__comments" class="recommendations__label recommendations-form__label_type_comments">
-                  <textarea name="recommendations__comments" id="recommendations__comments" placeholder="Комментарий* Поделитесь впечатлениями о проведенном времени" required class="recommendations-form__input recommendations-form__input_type_comments"></textarea>
-               </label>
-               <label for="recommendations__foto" class="recommendations__label recommendations-form__label_type_foto">
-                  <input type="file" accept="image/*" name="recommendations__foto" id="recommendations__foto" class="recommendations-form__input recommendations-form__input-add-foto">
-                  <span class="recommendations-form__add-foto">Добавить фото</span>
-               </label>
-               <input type="submit" value="Отправить"  class="recommendations-form__submit recommendations-form__submit_type_disabled">
-            </form>
-         </div>
-      </section>
-      <!-- Второе модальное окно (ошибка). Изменение видимости - добавление класса popup-recommendations_open -->
-      <section class="popup-recommendations">
-         <div class="popup__form">
-            <p class="info-recommendations__text">
-               Если вы были в интересном месте и хотите порекомендовать его другим наставникам – <a href=""
-                  class="paper__description-link info-recommendations__link">заполните форму</a>, и мы добавим вашу
-               рекомендацию.
-            </p>
-            <form action="#" method="post" name="form_recommendations" id="form_recommendations" class="recommendations-form recommendations-form_invalid"
-               enctype="multipart/form-data">
-               <label for="recommendations__title" class="recommendations__label recommendations-form__label_type_title">
+            <form action="#" method="post" name="form_recommendations" id="form_recommendations"
+               class="recommendations-form" enctype="multipart/form-data">
+               <label for="recommendations__title"
+                  class="recommendations__label recommendations-form__label_type_title">
                   <input type="text" name="recommendations__title" id="recommendations__title"
                      class="recommendations-form__input" placeholder="Название*" required>
                </label>
                <label for="recommendations__url" class="recommendations__label  recommendations-form__label_type_url">
-                  <input type="url" name="recommendations__url" id="recommendations__url" class="recommendations-form__input"
-                     placeholder="Сайт">
+                  <input type="url" name="recommendations__url" id="recommendations__url"
+                     class="recommendations-form__input" placeholder="Сайт">
                </label>
-               <label for="recommendations__address" class="recommendations__label recommendations-form__label_type_address">
+               <label for="recommendations__address"
+                  class="recommendations__label recommendations-form__label_type_address">
                   <input type="text" name="recommendations__address" id="recommendations__address"
                      class="recommendations-form__input" placeholder="Адрес*" required>
                </label>
@@ -246,11 +293,84 @@
                   <input type="number" min="18" max="99" name="recommendations__age" id="recommendations__age"
                      class="recommendations-form__input" placeholder="Возраст*" required>
                </label>
-               <label for="recommendations__holiday" class="recommendations__label recommendations-form__label_type_holiday">
+               <label for="recommendations__holiday"
+                  class="recommendations__label recommendations-form__label_type_holiday">
                   <select name="recommendations__holiday" id="recommendations__holiday" required
                      class="recommendations-form__input recommendations-form__input_type_holiday">
-                     <option class="recommendations-form__holiday recommendations-form__holiday_disabled">Тип отдыха*</option>
-                     <option class="recommendations-form__holiday recommendations-form__holiday_enabled" value="Активный">
+                     <option class="recommendations-form__holiday recommendations-form__holiday_disabled">Тип отдыха*
+                     </option>
+                     <option class="recommendations-form__holiday recommendations-form__holiday_enabled"
+                        value="Активный">Активный</option>
+                     <option class="recommendations-form__holiday recommendations-form__holiday_enabled"
+                        value="Развлекательный">Развлекательный</option>
+                     <option class="recommendations-form__holiday recommendations-form__holiday_enabled"
+                        value="Познавательный">Познавательный</option>
+                  </select>
+               </label>
+               <label for="recommendations__comments"
+                  class="recommendations__label recommendations-form__label_type_comments">
+                  <textarea name="recommendations__comments" id="recommendations__comments"
+                     placeholder="Комментарий* Поделитесь впечатлениями о проведенном времени" required
+                     class="recommendations-form__input recommendations-form__input_type_comments"></textarea>
+               </label>
+               <label for="recommendations__foto" class="recommendations__label recommendations-form__label_type_foto">
+                  <input type="file" accept="image/*" name="recommendations__foto" id="recommendations__foto"
+                     class="recommendations-form__input recommendations-form__input-add-foto">
+                  <span class="recommendations-form__add-foto">Добавить фото</span>
+               </label>
+               <input type="submit" value="Отправить"
+                  class="recommendations-form__submit recommendations-form__submit_type_disabled">
+            </form>
+         </div>
+      </section>
+      <!-- Второе модальное окно (ошибка). Изменение видимости - добавление класса popup-recommendations_open -->
+      <section class="popup-recommendations">
+         <div class="popup__form">
+            <p class="info-recommendations__text">
+               Если вы были в интересном месте и хотите порекомендовать его другим наставникам – <a href=""
+                  class="paper__description-link info-recommendations__link">заполните форму</a>, и мы добавим вашу
+               рекомендацию.
+            </p>
+            <form action="#" method="post" name="form_recommendations" id="form_recommendations"
+               class="recommendations-form recommendations-form_invalid" enctype="multipart/form-data">
+               <label for="recommendations__title"
+                  class="recommendations__label recommendations-form__label_type_title">
+                  <input type="text" name="recommendations__title" id="recommendations__title"
+                     class="recommendations-form__input" placeholder="Название*" required>
+               </label>
+               <label for="recommendations__url" class="recommendations__label  recommendations-form__label_type_url">
+                  <input type="url" name="recommendations__url" id="recommendations__url"
+                     class="recommendations-form__input" placeholder="Сайт">
+               </label>
+               <label for="recommendations__address"
+                  class="recommendations__label recommendations-form__label_type_address">
+                  <input type="text" name="recommendations__address" id="recommendations__address"
+                     class="recommendations-form__input" placeholder="Адрес*" required>
+               </label>
+               <label for="recommendations__boy" class="recommendations__label recommendations-form__label_type_boy">
+                  <input type="radio" name="recommendations__gender" id="recommendations__boy"
+                     class="recommendations-form__input" required value="Мальчик"><span
+                     class="recommendations__gender-type">Мальчик</span>
+                  <span class="recommendations__radio"></span>
+               </label>
+               <label for="recommendations__girl" class="recommendations__label recommendations-form__label_type_girl">
+                  <input type="radio" name="recommendations__gender" id="recommendations__girl"
+                     class="recommendations-form__input" required value="Девочка">
+                  <span class="recommendations__gender-type">Девочка</span>
+                  <span class="recommendations__radio"></span>
+               </label>
+               <label for="recommendations__age" class="recommendations__label recommendations-form__label_type_age">
+                  <input type="number" min="18" max="99" name="recommendations__age" id="recommendations__age"
+                     class="recommendations-form__input" placeholder="Возраст*" required>
+               </label>
+               <label for="recommendations__holiday"
+                  class="recommendations__label recommendations-form__label_type_holiday">
+                  <select name="recommendations__holiday" id="recommendations__holiday" required
+                     class="recommendations-form__input recommendations-form__input_type_holiday">
+                     <option class="recommendations-form__holiday recommendations-form__holiday_disabled">Тип отдыха*
+                     </option>
+                     <option class="recommendations-form__holiday recommendations-form__holiday_enabled"
+                        value="Активный">
                         Активный</option>
                      <option class="recommendations-form__holiday recommendations-form__holiday_enabled"
                         value="Развлекательный">Развлекательный</option>
@@ -291,4 +411,5 @@
    </footer>
    <script src="../pages/popup_recomendations.js"></script>
 </body>
+
 </html>

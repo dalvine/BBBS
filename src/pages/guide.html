@@ -10,39 +10,69 @@
 </head>
 
 <body class="page">
+   <header class="header">
+      <div class="header__btn-menu"></div>
+      <a class="logo" href="../index.html">наставники.про</a>
+      <!-- В index-authorized ссылка ведет на страницу неавторизованного пользователя-->
+      <!-- Сделано для удобства просмотра двух страниц-->
+      <nav class="nav-list">
+         <div class="nav-list__container">
+           <ul class="nav-list__items nav-list__items_content_navigation">
+             <li class="nav-list__item"><a href="./calendar.html" class="nav-list__link">календарь</a></li>
+             <li class="nav-list__item"><a href="./where_to_go.html" class="nav-list__link">куда пойти</a></li>
+             <li class="nav-list__item"><a href="./answers.html" class="nav-list__link">вопросы</a></li>
+             <li class="nav-list__item nav-list__item_submenu"><a href="./read.html" class="nav-list__link">читать и
+                 смотреть</a>
+               <ul class="nav-list__submenu-list">
+                 <li class="nav-list__submenu-item"><a href="./guide.html" class="nav-list__link">cправочник</a></li>
+                 <li class="nav-list__submenu-item"><a href="./video.html" class="nav-list__link">Видео</a></li>
+                 <li class="nav-list__submenu-item"><a href="#" class="nav-list__link">Статьи</a></li>
+                 <li class="nav-list__submenu-item"><a href="#" class="nav-list__link">Фильмы</a></li>
+                 <li class="nav-list__submenu-item"><a href="#" class="nav-list__link">Книги</a></li>
+               </ul>
+             </li>
+             <li class="nav-list__item"><a href="#" class="nav-list__link">права детей</a></li>
+             <li class="nav-list__item"><a href="#" class="nav-list__link">истории</a></li>
+           </ul>
+           <ul class="nav-list__items nav-list__items_content_social">
+             <li class="nav-list__item"><a href="" class="nav-list__link">facebook</a></li>
+             <li class="nav-list__item"><a href="" class="nav-list__link">vkontakte</a></li>
+             <li class="nav-list__item"><a href="" class="nav-list__link">instagram</a></li>
+             <li class="nav-list__item"><a href="" class="nav-list__link">youtube</a></li>
+           </ul>
+         </div>
+       </nav>
+      <div class="header__right-block">
+        <form class="search" name="search">
+          <div class="search__container">
+            <input type="text" name="searchInput" class="search__input">
+            <ul class="search__results">
+              <li class="search__result">
+                <p class="search__result-text">Причины подростковой агрессии</p>
+                <a href="" class="search__result-link">статьи</a>
+              </li>
+              <li class="search__result">
+                <p class="search__result-text">Агрессивное поведение детей-сирот</p>
+                <a href="" class="search__result-link">видео</a>
+              </li>
+              <li class="search__result">
+                <p class="search__result-text">Что делать если ваш младший агрессивно себя ведет, решил закрыть пару?</p>
+                <a href="" class="search__result-link">вопросы</a>
+              </li>
+              <li class="search__result">
+                <p class="search__result-text">Как реагировать на агрессивное поведения ребенка</p>
+                <a href="" class="search__result-link">книги</a>
+              </li>
+            </ul>
+          </div>
+          <button type="button" name="searchSubmit" class="search__btn"></button>
+        </form>
+        <img src="../images/ico-profile.svg" class="profile-ico profile-ico_state_non-authorize">
+      </div>
+    </header>
    <div id="fb-root"></div>
    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v10.0"
       nonce="G2czwnJK"></script>
-   <header class="header">
-      <img class="header__btn-menu" src="../images/open-menu-btn.svg" alt="открыть меню">
-      <div class="logo">наставники.про</div>
-      <nav class="nav-list">
-         <ul class="nav-list__items">
-            <li class="nav-list__item">календарь</li>
-            <li class="nav-list__item">куда пойти</li>
-            <li class="nav-list__item">вопросы</li>
-            <li class="nav-list__item nav-list__item_submenu">читать и смотреть
-               <ul class="nav-list__submenu-list">
-                  <li class="nav-list__submenu-item">cправочник</li>
-                  <li class="nav-list__submenu-item">Видео</li>
-                  <li class="nav-list__submenu-item">Статьи</li>
-                  <li class="nav-list__submenu-item">Фильмы</li>
-                  <li class="nav-list__submenu-item">Книги</li>
-               </ul>
-            </li>
-            <li class="nav-list__item">права детей</li>
-            <li class="nav-list__item">истории</li>
-         </ul>
-      </nav>
-      <div class="header__right-block">
-         <form class="search" name="search">
-            <input type="text" name="searchInput" class="search__input search__input_hidden">
-            <button type="button" name="searchSubmit" class="search__btn"></button>
-         </form>
-         <img src="../images/ico-profile.svg" class="profile">
-      </div>
-      </div>
-   </header>
    <main class="main-guide">
       <h1 class="title">Справочник</h1>
       <p class="guide__subtitle">

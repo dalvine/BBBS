@@ -1,27 +1,21 @@
-@media screen and (max-width: 1439px) {
-  .questions-set {
-    display: flex;
-    flex-wrap: wrap;
-  }
+.answers-set {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
+
 .answers {
-  margin: 80px 475px 120px;
+  padding-top: 80px;
   font-weight: 300;
   font-size: 23px;
   line-height: 1.30;
   text-align: left;
 }
 
-@media screen and (max-width: 1919px) {
-  .answers {
-    margin: 80px 235px;
-  }
-}
-
 @media screen and (max-width: 1439px) {
   .answers {
-    margin: 50px 127px;
+    padding-top: 50px;
     font-size: 19px;
     line-height: 1.21;
   }
@@ -29,36 +23,31 @@
 
 @media screen and (max-width: 1023px) {
   .answers {
-    margin: 40px 90px;
+    padding-top: 30px;
   }
-}
-
-@media screen and (max-width: 768px) {
-  .answers {
-    margin: 30px 45px;
-  }
-}
-
-@media screen and (max-width: 423px) {
-  .answers {
-    margin: 30px 15px;
- }
 }
 
 .answers__item {
   margin: 0 0 30px 0;
   display: flex;
   justify-content: stretch;
+  width: 870px;
 }
 
 @media screen and (max-width: 1439px) {
+  .answers__item {
+    max-width: 770px;
+  }
+}
+
+@media screen and (max-width: 840px) {
   .answers__item {
     max-width: 100%;
   }
 }
 
 .answers-set {
-  margin: 0 0 80px 0;
+  padding-bottom: 80px;
 }
 
 @media screen and (max-width: 423px) {
@@ -70,7 +59,7 @@
 .answers__question {
   position: relative;
   padding: 50px 50px 47px;
-  max-width: calc((100% - 50px*2) - 100px);
+  /* max-width: calc((100% - 50px*2) - 100px); */
   width: 100%;
   background: #fff;
   border-radius: 30px;

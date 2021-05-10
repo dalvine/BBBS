@@ -3,4 +3,24 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  box-sizing: border-box;
+  padding: 80px 75px 120px;
+}
+
+@media screen and (max-width: 1441px) {
+  .answers-page {
+      padding: 80px 135px 120px;
+      }
+}
+
+@media screen and (max-width: 1025px) {
+  .answers-page {
+      padding: 40px 127px 100px;
+      }
+}
+
+@media screen and (max-width: 940px) {
+  .answers-page {
+      padding: 40px 15px 50px;
+  }
 }
