@@ -3,3 +3,9 @@
     height: 675px;
     width: 100%;
 }
+
+@media screen and (max-width: 1260px) {
+    .video_main {
+        flex-direction: column-reverse;
+    }
+}

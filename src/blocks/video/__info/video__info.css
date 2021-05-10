@@ -8,4 +8,11 @@
     flex-direction: column;
     justify-content: flex-start;
     align-content: center;
+    box-sizing: border-box;
+}
+@media screen and (max-width: 1260px) {
+    .video__info {
+        width: 100%;
+        border-radius: 0 0 30px 30px;
+    }
 }

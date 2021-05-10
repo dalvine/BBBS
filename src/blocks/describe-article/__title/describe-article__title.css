@@ -7,3 +7,12 @@
     color: #1A1A1A;
     text-align: center;
 }
+
+
+@media screen and (max-width: 1025px) {
+    .describe-article__text {
+        font-size: 19px;
+        line-height: 1.21;
+    }
+}
+

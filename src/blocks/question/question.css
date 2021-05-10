@@ -5,9 +5,20 @@
     background-color: white;
     border-radius: 30px;
     box-sizing: border-box;
-    
 }
 
 .question:last-child {
     margin-bottom: 0;
+}
+
+
+@media screen and (min-width: 980px) and (max-width: 1360px) {
+    .question:last-child {
+        display: none;
+    }
+}
+@media screen and (max-width: 1180px) {
+    .question {
+        padding: 30px 15px;
+    }
 }

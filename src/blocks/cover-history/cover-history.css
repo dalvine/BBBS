@@ -9,3 +9,21 @@
     margin: 0;
     cursor: pointer;
 }
+
+@media screen and (max-width: 1025px) {
+    .cover-history {
+        height: 382px;
+    }
+}
+
+@media screen and (max-width: 1441px) {
+    .cover-history {
+        height: 414px;
+    }
+}
+
+@media screen and (max-width: 1160px) {
+    .cover-history {
+        height: 382px;
+    }
+}

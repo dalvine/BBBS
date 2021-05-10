@@ -1,5 +1,14 @@
 .describe-box__logo {
+    width: 252px;
+    height: 46px;
     position: absolute;
     top: 40px;
     left: 30px;
+}
+
+@media screen and (max-width: 1180px) {
+    .describe-box__logo {
+        width: 164px;
+        height: 30px;
+    }
 }

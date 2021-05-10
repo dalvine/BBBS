@@ -2,9 +2,14 @@
     display: none;
     width: 30px;
     height: 20px;
+    background-image: url('../../../images/open-menu-btn.svg');
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
 }
 
-@media screen and (max-width: 1196px) {
+
+@media screen and (max-width: 1370px) {
     .header__btn-menu {
         display: block;
     }

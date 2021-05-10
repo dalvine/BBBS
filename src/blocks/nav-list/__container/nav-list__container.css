@@ -1,0 +1,5 @@
+.nav-list__container {
+    margin: 0;
+    display: flex;
+    align-self: center;
+}

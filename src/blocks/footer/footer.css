@@ -5,16 +5,3 @@
     background-color: #2E2468;
     min-height: 436px;
 }
-
-@media screen and (max-width:1280px) {
-    .footer {
-        display: grid;
-        grid-template-areas: 
-        'logo'
-        'menu'
-        'social'
-        'nav-list'
-        'donate'
-        'copyright'
-    }
-}
