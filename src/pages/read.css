@@ -2,10 +2,38 @@
 @import url('./header.css');
 @import url('./footer.css');
 
+.main-read {
+   padding: 80px 75px 120px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+@media screen and (max-width: 1441px) {
+   .main-read {
+       padding: 80px 135px 120px;
+       }
+ }
+ 
+ @media screen and (max-width: 1025px) {
+   .main-read {
+ 
+       padding: 40px 127px 100px;
+       }
+ }
+ 
+ @media screen and (max-width: 940px) {
+   .main-read {
+       padding: 40px 15px 50px;
+   }
+ }
+ 
+
+
 .read {
    font-family: 'ProtoGrotesk', Georgia, Serif;
    width: min(1170px, calc(100% - 30px));
-   margin: 0 auto;
+   margin: 0;
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -19,7 +47,6 @@
 }
 .read__title-text {
    margin: 0;
-   margin-top: 80px;
    padding-bottom: 20px;
    color: #224CFF;
    font-weight: 300;

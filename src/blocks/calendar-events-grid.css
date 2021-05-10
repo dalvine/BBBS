@@ -9,6 +9,7 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
   margin-top: 50px;
+  padding-bottom: 80px;
 }
 
 
