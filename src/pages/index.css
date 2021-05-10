@@ -28,8 +28,16 @@
 @import url('../blocks/search/search.css');
 @import url('../blocks/search/__btn/search__btn.css');
 @import url('../blocks/search/__input/search__input.css');
-@import url('../blocks/search/__input/_active/search__input_active.css');
-@import url('../blocks/search/__input/_reduced/search__input_reduced.css');
+/* @import url('../blocks/search/__input/_active/search__input_active.css');
+@import url('../blocks/search/__input/_reduced/search__input_reduced.css'); */
+@import url('../blocks/search/__container/search__container.css');
+@import url('../blocks/search/__container/_active/search__container_active.css');
+@import url('../blocks/search/__container/_reduced/search__container_reduced.css');
+@import url('../blocks/search/__results/search__results.css');
+@import url('../blocks/search/__results/_show/search__results_show.css');
+@import url('../blocks/search/__result/search__result.css');
+@import url('../blocks/search/__result-text/search__result-text.css');
+@import url('../blocks/search/__result-link/search__result-link.css');
 @import url('../blocks/profile-ico/profile-ico.css');
 @import url('../blocks/profile-ico/_visible/profile-ico_visible.css');
 /***********ИМПОРТЫ ДЛЯ ХЭДЕРА**************/

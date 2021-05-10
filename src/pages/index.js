@@ -5,7 +5,7 @@ const submenuItem = navigation.querySelector('.nav-list__item_submenu')
 const submenuList = navigation.querySelector('.nav-list__submenu-list')
 const searchElement = page.querySelector('.search')
 const searchButton = searchElement.querySelector('.search__btn')
-const searchInput = searchElement.querySelector('.search__input')
+const searchContainer = searchElement.querySelector('.search__container')
 const headerRightElement = header.querySelector('.header__right-block')
 const btnOpenMenu = header.querySelector('.header__btn-menu')
 const profile = header.querySelector('.profile-ico')
@@ -42,16 +42,16 @@ const closeSubmenu = (evt) => {
     submenuItem.removeEventListener('mouseout', closeSubmenu)
 }
 
-const toggleSearchInput = () => {
-    if (searchInput.classList.contains('search__input_active')) {
-        searchInput.classList.add('search__input_reduced')
+const toggleSearchContainer = () => {
+    if (searchContainer.classList.contains('search__container_active')) {
+        searchContainer.classList.add('search__container_reduced')
         setTimeout(() => {
-            searchInput.classList.remove('search__input_active')
+            searchContainer.classList.remove('search__container_active')
             navigation.classList.remove('nav-list_hidden')
-            searchInput.classList.remove('search__input_reduced')
+            searchContainer.classList.remove('search__container_reduced')
         }, 700)
     } else {
-        searchInput.classList.add('search__input_active')
+        searchContainer.classList.add('search__container_active')
         navigation.classList.add('nav-list_hidden')
     }
     headerRightElement.classList.toggle('header__right-block_disclosed')
@@ -76,7 +76,7 @@ const closePopup = (evt) => {
 
 btnOpenMenu.addEventListener('click', openMenu)
 submenuItem.addEventListener('mouseenter', openSubmenu)
-searchButton.addEventListener('click', toggleSearchInput)
+searchButton.addEventListener('click', toggleSearchContainer)
 profile.addEventListener('click', () => {
     if(profile.classList.contains('profile-ico_state_non-authorize')) {
         const popupAuthorization = document.querySelector('.popup_content_authorization-form')
