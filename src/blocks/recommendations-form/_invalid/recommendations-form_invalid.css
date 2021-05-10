@@ -1,0 +1,36 @@
+.recommendations-form_invalid .recommendations-form__input[required]::-webkit-input-placeholder { /* Chrome */
+    color: #FF4E4E;
+ }
+ .recommendations-form_invalid .recommendations-form__input[required]:-ms-input-placeholder { /* IE 10+ */
+    color: #FF4E4E;
+ }
+ .recommendations-form_invalid .recommendations-form__input[required]::-moz-placeholder { /* Firefox 19+ */
+    color: #FF4E4E;
+    opacity: 1;
+ }
+ .recommendations-form_invalid .recommendations-form__input[required]:-moz-placeholder { /* Firefox 4 - 18 */
+    color: #FF4E4E;
+    opacity: 1;
+ }
+ 
+ .recommendations-form_invalid .recommendations-form__input[required] {
+    color: #FF4E4E;
+ }
+ 
+ .recommendations-form_invalid .recommendations__gender-type {
+    color: #FF4E4E;
+ }
+ 
+ .recommendations-form_invalid .recommendations-form__add-foto {
+    color: #FF4E4E;
+ }
+ 
+ .recommendations-form_invalid .recommendations-form__add-foto::after {
+    border-color: #FF4E4E;
+    background-image: url('../../../images/plus_red.svg');
+ }
+ 
+ .recommendations-form_invalid .recommendations__radio {
+    background: #FF4E4E;
+    opacity: 0.2;
+ }

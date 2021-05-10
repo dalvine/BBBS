@@ -1,0 +1,4 @@
+.paper__paragraphs {
+    max-height: 389px;
+    overflow-y: scroll;
+ }

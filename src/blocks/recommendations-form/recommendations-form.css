@@ -1,0 +1,40 @@
+.recommendations-form {
+    font-family: 'ProtoGrotesk', Georgia, Serif;
+    font-size: 15px;
+    line-height: 1.27;
+    font-weight: 300;
+    font-style: normal;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas: 
+       "title title title url url url"
+       "address address address address address address"
+       "boy boy girl girl age age"
+       "holiday holiday holiday holiday holiday holiday"
+       "comments comments comments comments comments comments"
+       "foto foto foto ... ... submit";
+       width: min(570px, 95%);
+       margin: auto;
+       row-gap: 20px;
+       column-gap: 30px;
+ }
+
+
+ @media (max-width: 600px){
+    .recommendations-form {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+           "title title"
+           "url url"
+           "address address"
+           "boy girl"
+           "age age"
+           "holiday holiday"
+           "comments comments"
+           "foto submit";
+           row-gap: 10px;
+           column-gap: 10px;
+           font-size: 12px;
+           line-height: 1.42;
+     }
+ }

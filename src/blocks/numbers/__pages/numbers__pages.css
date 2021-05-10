@@ -1,0 +1,32 @@
+.numbers__pages {
+    margin-left: 10px;
+    position: relative;
+ }
+ 
+ .numbers__pages:last-of-type {
+    margin-left: 0;
+ }
+ 
+ .numbers__pages:last-of-type::after {
+    content: "";
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: -55px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent url('../images/arrow_right.svg') no-repeat center;
+    filter: grayscale(100%); 
+    background-size: contain;
+ }
+
+ @media (max-width: 1250px) {
+   .numbers__pages {
+      margin-left: 0px;
+   }
+   .numbers__pages:last-of-type::after {
+   width: 20px;
+   height: 20px;
+   right: -30px;
+}
+ }

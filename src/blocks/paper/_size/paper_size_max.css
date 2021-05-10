@@ -1,0 +1,14 @@
+.paper_size_max {
+    grid-column-start: 1;
+    grid-column-end: -1;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    width: 100%;
+ }
+
+ @media (max-width: 1300px) {
+    .paper_size_max {
+       flex-direction: column;
+    }
+
+}

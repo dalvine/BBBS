@@ -1,0 +1,31 @@
+.answers-form__submit {
+    padding: 11px 15px;;
+    font-family: 'ProtoGrotesk';
+    background: #fff;
+    border: 1px solid #224CFF;
+    box-sizing: border-box;
+    border-radius: 100px;
+    color: #224CFF;
+    cursor: pointer;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.27;
+    letter-spacing: 0.2px;
+}
+
+
+.answers-form__submit:hover {
+    background-color: #C8D1FF;
+}
+
+@media screen and (max-width: 423px) {
+    .answers-form__submit {
+        margin-top: 20px;
+        width: 100%;
+        font-size: 12px;
+        line-height: 1.42;
+    }
+  }

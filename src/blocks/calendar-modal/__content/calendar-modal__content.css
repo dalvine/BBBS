@@ -1,0 +1,19 @@
+.calendar-modal__content {
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @media screen and (max-width: 1023px) {
+    .calendar-modal__content  {
+      padding: 60px 45px 30px;
+    }
+  }
+  
+  @media screen and (max-width: 420px) {
+    .calendar-modal__content {
+      padding: 60px 15px 30px;
+    }
+  }

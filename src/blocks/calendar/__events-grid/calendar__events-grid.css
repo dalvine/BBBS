@@ -1,0 +1,23 @@
+
+.calendar__events-grid {
+    max-width: 1920px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 50px;
+    padding-bottom: 80px;
+  }
+  
+  
+  @media screen and (max-width: 1439px) {
+    .calendar__events-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media screen and (max-width: 780px) {
+    .calendar__events-grid {
+      grid-template-columns: 1fr;
+    }
+  }

@@ -1,0 +1,14 @@
+.event__participants-counter {
+    margin-left: 15px;
+    font-size: 14px;
+    line-height: 1.36;
+    letter-spacing: 0.2px;;
+  }
+  
+  @media screen and (max-width: 420px) {
+    .event__participants-counter {
+      margin-left: 10x;
+      font-size: 12px;
+      line-height: 1.42;
+    }
+  }

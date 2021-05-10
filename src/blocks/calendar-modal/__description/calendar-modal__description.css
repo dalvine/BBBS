@@ -1,0 +1,16 @@
+.calendar-modal__description {
+    margin: 0 0 30px 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.44;
+    color: #1A1A1A;
+    text-align: justify;
+    letter-spacing: 0.2px;
+  }
+  
+  @media screen and (max-width: 420px) {
+    .calendar-modal__description {
+      font-size: 12px;
+      line-height: 1.42;
+    }
+  }

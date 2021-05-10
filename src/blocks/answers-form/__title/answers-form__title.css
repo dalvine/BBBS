@@ -1,0 +1,14 @@
+.answers-form__title {
+    font-family: 'ProtoGrotesk';
+    font-size: 23px;
+    line-height: 30px;
+    font-weight: 300;
+    max-width: 650px;
+  }
+  
+  @media screen and (max-width: 423px) {
+    .answers-form__title {
+      font-size: 19px;
+      line-height: 1.21;
+    }
+  }

@@ -34,7 +34,7 @@
 /*******************END*********************/
 
 /*********ЗАГОЛОВКИ И ПОДЗАГОЛОВКИ**********/
-@import url('../blocks/section-title.css');
+@import url('../blocks/title/title.css');
 /*******************END*********************/
 
 /***********ФИЛЬТРАЦИЯ ПО ТЕГАМ*************/
@@ -44,6 +44,14 @@
 /***********ВЕРХНИЙ ОТСТУП*************/
 @import url('../blocks/margin-top/margin-top.css');
 /*******************END*********************/
+
+
+/***********ФИЛЬТР*************/
+@import url('../blocks/filter/filter.css');
+@import url('../blocks/filter/__button/filter__button.css');
+@import url('../blocks/filter/__button/_active/filter__button_active.css');
+/*******************END*********************/
+
 
 /****************ПОПАП*******************/
 @import url('../blocks/popup/popup.css');

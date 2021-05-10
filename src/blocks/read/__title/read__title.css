@@ -1,0 +1,12 @@
+.read__title {
+    margin-bottom: 50px;
+    border-bottom: 1px solid #224CFF;
+    width: 100%;
+ }
+
+
+ @media (max-width: 600px) {
+    .read__title {
+        margin-bottom: 20px;
+     }
+ }

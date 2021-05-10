@@ -1,0 +1,14 @@
+.event__signup-container {
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    letter-spacing: 0.2px;
+  }
+  
+  @media screen and (max-width: 420px) {
+    .event__signup-container {
+      font-size: 12px;
+      line-height: 1.42;
+    }
+  }
+  

@@ -1,0 +1,16 @@
+.paper-text_size_mini {
+    padding: 30px;
+    border-radius: 30px;
+ }
+
+ @media (max-width: 1746px) {
+    .paper-text_size_mini {
+       width: 100%;
+    }
+ }
+
+ @media (max-width: 800px) {
+    .paper-text_size_mini {
+       max-width: 100%;
+    }
+}

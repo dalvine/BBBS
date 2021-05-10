@@ -1,0 +1,8 @@
+
+@media (max-width: 600px) {
+    .read-video__title {
+        font-size: 19px;
+        line-height: 1.21;
+        margin-top: 0px;
+    }
+}

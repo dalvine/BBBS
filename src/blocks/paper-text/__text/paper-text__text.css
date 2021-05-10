@@ -1,0 +1,16 @@
+.paper-text__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.44;
+ }
+
+
+
+
+ @media (max-width: 1300px) {
+      .paper-text__text {
+    font-size: 15px;
+    line-height: 1.4;
+ }
+ }

@@ -71,7 +71,7 @@
     </div>
   </header>
   <main class="answers-page">
-    <h1 class="section-title">Ответы на вопросы</h1>
+    <h1 class="title">Ответы на вопросы</h1>
     <!-- <section class="questions-sets">
       <div class="questions-set">
         <button type="button" aria-label="Все" class="filter__button filter__button_active">Все</button>
@@ -105,7 +105,7 @@
             <p class="answers__answer-title">Я боюсь, что ребёнок ко мне слишком сильно привяжется. Что делать?</p>
             <p class="answers__rubric">Рубрика</p>
             <button type="button" aria-label="Открыть ответ" class="answers__toggle-modal-state-button"></button>
-            <p class="answers__question-full-answer answers__question-full-answer_hidden">
+            <p class="answers__question-full-answer">
               Настоящие дружеские отношения строятся на взаимном интересе, доверии и привязанности.
               Когда наставник для ребенка становится именно другом, а не просто знакомым или волонтером, то подопечный
               начинает быть
@@ -147,26 +147,16 @@
           </div>
         </article>
       </div>
-      <form class="answers-form form">
+      <form class="answers-form">
         <h2 class="answers-form__title">Если вы не нашли ответ на свой вопрос — напишите нам, и мы включим его в список
         </h2>
-        <div class="answers-form__question-container">
-          <div class="answers-form__input-container">
-            <input type="text" value="" placeholder="Введите вопрос" minlength="1" maxlength="30" required
-              class="answers-form__input form__input" id="form__input-question">
-            <span class="form__input-error" id="form__input-question-error"></span>
-          </div>
-          <button type="button" aria-label="Отправить вопрос"
-            class="answers-form__sent-button form__submit-button">Отправить</button>
-        </div>
+        <input type="text" value="" placeholder="Введите вопрос" minlength="1" maxlength="30" required
+          class="answers-form__input" id="form__input-question">
+        <button type="button" aria-label="Отправить вопрос"
+          class="answers-form__submit answers-form__submit_disabled">Отправить</button>
       </form>
     </section>
   </main>
-  <footer>
-    <!--****************************************
-    Footer от Влада
-    ****************************************-->
-  </footer>
   <footer class="footer">
     <img class="footer__logo" src="../images/logo-BBBS-white.svg" alt="логотип BBBS">
     <ul class="footer__list footer__list_content_navigation">

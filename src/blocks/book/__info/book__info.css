@@ -1,0 +1,6 @@
+@media (max-width: 600px) {
+    .book__info {
+       font-size: 12px;
+       line-height: 1.42;
+    }
+}

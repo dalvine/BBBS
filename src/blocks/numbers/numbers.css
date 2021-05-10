@@ -1,0 +1,21 @@
+.numbers {
+    list-style: none;
+    margin: 90px auto 130px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+ }
+
+ @media (max-width: 1250px) {
+    .numbers {
+        margin: 70px auto 110px;
+    }
+}
+
+
+@media (max-width:639px) {
+    .numbers {
+        margin: 40px auto 60px;
+    }
+}

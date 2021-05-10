@@ -1,0 +1,14 @@
+.info-recommendations {
+    width: min(770px, calc(100% - 30px));
+    background-color: #fff;
+    border-radius: 30px;
+    align-self: center;
+    margin-top: 25px;
+ }
+
+ @media (max-width: 800px) {
+    .info-recommendations {
+       margin-top: 20px;
+    }
+
+ }

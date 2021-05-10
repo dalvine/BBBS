@@ -1,0 +1,19 @@
+.answers__item {
+    margin: 0 0 30px 0;
+    display: flex;
+    justify-content: stretch;
+    width: 870px;
+  }
+  
+  @media screen and (max-width: 1439px) {
+    .answers__item {
+      max-width: 770px;
+    }
+  }
+  
+  @media screen and (max-width: 840px) {
+    .answers__item {
+      max-width: 100%;
+    }
+  }
+  

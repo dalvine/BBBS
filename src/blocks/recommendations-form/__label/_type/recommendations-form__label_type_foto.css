@@ -1,0 +1,7 @@
+.recommendations-form__label_type_foto {
+    grid-area: foto;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+ }

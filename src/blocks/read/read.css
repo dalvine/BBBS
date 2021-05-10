@@ -1,0 +1,10 @@
+.read {
+    font-family: 'ProtoGrotesk', Georgia, Serif;
+    width: min(1170px, calc(100% - 30px));
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: hidden;
+ }

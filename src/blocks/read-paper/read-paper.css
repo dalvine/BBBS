@@ -1,0 +1,10 @@
+.read-paper {
+    padding: 37px 30px 15px;
+ }
+
+
+ @media (max-width: 600px) {
+    .read-paper {
+        padding: 37px 15px 15px;
+     }
+ }

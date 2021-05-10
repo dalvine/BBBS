@@ -1,0 +1,13 @@
+.book__line {
+    margin: 0 auto 20px;
+    display: block;
+    width: 67px;
+    border-bottom: 1px solid #000;
+ }
+
+ @media (max-width: 600px) {
+    .book__line {
+       margin-bottom: 20px;
+       width: 60px;
+    }
+ }

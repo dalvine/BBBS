@@ -1,0 +1,18 @@
+
+.event__button_type_signup {
+    transition: all .2s ease;
+    cursor: pointer;
+  }
+  
+  .event__button_type_signup:hover {
+    background-color: #C8D1FF;
+    border: 1px solid #C8D1FF;
+    color: #224CFF;
+  }
+  
+  .event__button_type_signup:active {
+    background-color: #224CFF;
+    border: 1px solid #224CFF;
+    color: #fff;
+  }
+  

@@ -1,0 +1,13 @@
+.paper-text {
+    flex-grow: 1;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 34px 15px 69px 30px;
+    box-sizing: border-box;
+ }
+
+ @media (max-width: 1300px) {
+    .paper-text {
+       padding: 30px 15px;
+    }
+}

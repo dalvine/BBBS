@@ -1,0 +1,9 @@
+.answers-form__submit_disabled {
+    cursor: default;
+    color: #A7A6A6;
+    border-color: #A7A6A6;
+}
+
+.answers-form__submit_disabled:hover {
+    background-color: transparent;
+}

@@ -1,0 +1,18 @@
+.event__group {
+    margin: 0 0 10px;
+    min-width: 40%;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.36;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #464646;
+  }
+
+  
+@media screen and (max-width: 420px) {
+    .event__group {
+      font-size: 12px;
+      line-height: 17px;
+    }
+  }

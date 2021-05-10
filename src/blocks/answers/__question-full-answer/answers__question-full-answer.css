@@ -1,0 +1,10 @@
+.answers__question-full-answer {
+    margin: 0;
+    display: inline-block;
+    max-height: 0;
+    transition: max-height .7s linear;
+    font-size: 18px;
+    line-height: 1.44;
+    overflow: hidden;
+    color: transparent;
+  }

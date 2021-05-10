@@ -1,0 +1,13 @@
+.answers__answer-title {
+    margin: 0 0 15px;
+    padding: 0;
+    max-width: calc(100% - 50px*2);
+    width: 100%;
+  }
+  
+  @media screen and (max-width: 1439px) {
+    .answers__answer-title {
+      max-width: calc(100% - 50px - 10px);
+    }
+  }
+  

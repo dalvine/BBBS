@@ -1,0 +1,9 @@
+.recommendations-form__submit_type_disabled {
+    border: 1px solid #A7A6A6;
+    color:#A7A6A6;
+ }
+
+ .recommendations-form:valid .recommendations-form__submit_type_disabled {
+    border: 1px solid #224CFF;
+    color:#224CFF;
+ }

@@ -1,0 +1,18 @@
+.event-modal__button_type_return-to-calendar {
+    transition: all .2s ease;
+    cursor: pointer;
+    margin-top: 30px;
+  }
+
+
+  .event-modal__button_type_return-to-calendar:hover {
+    background-color: #E0E0E0;;
+    border: 1px solid #E0E0E0;;
+    color: #000;
+  }
+
+  .event-modal__button_type_return-to-calendar:active {
+    background-color: #000;
+    border: 1px solid #000;
+    color: #fff;
+  }

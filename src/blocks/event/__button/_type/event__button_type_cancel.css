@@ -1,0 +1,12 @@
+.event__button_type_cancel {
+    background: #224CFF;
+    border: 1px solid #224CFF;
+    color: #fff;
+    transition: all .2s ease;
+    cursor: pointer;
+  }
+  
+  .event__button_type_cancel:hover {
+    background-color: #2E2468;
+    border: 1px solid #2E2468;
+  }

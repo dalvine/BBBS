@@ -1,0 +1,26 @@
+.guide-section {
+    font-family: 'ProtoGrotesk', Georgia, Serif;
+    width: min(1770px, calc(100vw - 60px));
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    column-gap: 30px;
+    row-gap: 160px;
+    flex-wrap: wrap;
+ }
+
+ 
+ @media (max-width: 1250px) {
+    .guide-section {
+        column-gap: 30px;
+        row-gap: 60px;
+     }
+ }
+
+ @media (max-width: 800px) {
+    .guide-section {
+       width: calc(100% - 30px);
+    }
+ }
+ 

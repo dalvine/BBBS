@@ -1,0 +1,16 @@
+.paper-text__wrapper_size_max {
+    overflow-y: auto;
+    height: 513px;
+    width: 585px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ }
+
+
+@media (max-width: 1300px) {
+    .paper-text__wrapper_size_max {
+       width: max(100%, 260px);
+       height: 188px;
+    }
+}

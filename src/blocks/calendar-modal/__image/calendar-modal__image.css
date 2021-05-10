@@ -1,0 +1,14 @@
+.calendar-modal__image {
+    margin: 0 auto 30px;
+    max-width: 100%;
+    min-height: 169px;
+    background: url('../../../images//calendar-modal-decoration.svg') no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .calendar-modal__image {
+      margin-bottom: 15px;
+    }
+  }

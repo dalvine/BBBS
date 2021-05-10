@@ -1,0 +1,15 @@
+.calendar-modal__content_place_confirmation {
+    padding: 251px 100px;
+  }
+  
+  @media screen and (max-width: 1023px) {
+    .calendar-modal__content_place_confirmation {
+      padding: 150px 45px;
+    }
+  }
+  
+  @media screen and (max-width: 420px) {
+    .calendar-modal__content_place_confirmation {
+      padding: 60px 15px;
+    }
+  }

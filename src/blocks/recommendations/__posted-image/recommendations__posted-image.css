@@ -1,0 +1,7 @@
+.recommendations__posted-image {
+    background: transparent url('../images/recommendations-form.svg') no-repeat center;
+    width: 278px;
+    height: 174px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+ }

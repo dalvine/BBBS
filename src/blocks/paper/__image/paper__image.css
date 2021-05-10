@@ -1,0 +1,4 @@
+.paper__image {
+    width: calc(100% - 60px);
+    border-radius: 2%;
+ }

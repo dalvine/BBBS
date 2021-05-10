@@ -4,9 +4,27 @@
 @import url('./footer.css');
 
 
+
+@import url('../blocks/answers-page/answers-page.css');
+@import url('../blocks/answers-set/answers-set.css');
+@import url('../blocks/answers/answers.css');
+@import url('../blocks/answers/__answer-title/answers__answer-title.css');
+@import url('../blocks/answers/__item/answers__item.css');
+@import url('../blocks/answers/__question-full-answer/answers__question-full-answer.css');
+@import url('../blocks/answers/__question-full-answer/_visible/answers__question-full-answer_visible.css');
+@import url('../blocks/answers/__question/answers__question.css');
+@import url('../blocks/answers/__rubric/answers__rubric.css');
+@import url('../blocks/answers/__toggle-modal-state-button/answers__toggle-modal-state-button.css');
+@import url('../blocks/answers/__toggle-modal-state-button/_opened/answers__toggle-modal-state-button_opened.css');
+@import url('../blocks/answers-form/answers-form.css');
+@import url('../blocks/answers-form/__input/answers-form__input.css');
+@import url('../blocks/answers-form/__submit/answers-form__submit.css');
+@import url('../blocks/answers-form/__title/answers-form__title.css');
+@import url('../blocks/answers-form/__submit/_disabled/answers-form__submit_disabled.css');
+@import url('../blocks/title/title.css');
+@import url('../blocks/filter/filter.css');
+@import url('../blocks/filter/__button/filter__button.css');
+@import url('../blocks/filter/__button/_active/filter__button_active.css');
+
+
 @import url('../blocks/page/page.css');
-@import url('../blocks/answers-page.css');
-@import url('../blocks/section-title.css');
-@import url('../blocks/filter.css');
-@import url('../blocks/questions-set.css');
-@import url('../blocks/answers.css');

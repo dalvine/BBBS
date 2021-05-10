@@ -1,0 +1,13 @@
+.event {
+    padding: 30px;
+    background: #fff;
+    border-radius: 30px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  @media screen and (max-width: 420px) {
+    .event {
+      padding: 15px;
+    }
+  }

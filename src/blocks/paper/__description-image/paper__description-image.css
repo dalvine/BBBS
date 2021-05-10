@@ -1,0 +1,22 @@
+.paper__description-image {
+    height: 394px;
+    width: calc(100% - 60px);
+    margin: 0 30px;
+    border-radius: 2%;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.2s ease;
+ }
+
+ .paper__description-image:hover {
+    transform: scale(1.02);
+ }
+
+
+ @media (max-width: 800px) {
+   .paper__description-image {
+      width: calc(100% - 30px);
+      height: auto;
+      min-height: 142px;
+   }
+ }

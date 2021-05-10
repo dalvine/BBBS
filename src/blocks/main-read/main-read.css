@@ -1,0 +1,25 @@
+.main-read {
+    padding: 80px 75px 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ 
+ @media screen and (max-width: 1441px) {
+    .main-read {
+        padding: 80px 135px 120px;
+        }
+  }
+  
+  @media screen and (max-width: 1025px) {
+    .main-read {
+  
+        padding: 40px 127px 100px;
+        }
+  }
+  
+  @media screen and (max-width: 940px) {
+    .main-read {
+        padding: 40px 15px 50px;
+    }
+  }

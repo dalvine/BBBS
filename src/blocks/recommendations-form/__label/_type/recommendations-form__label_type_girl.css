@@ -1,0 +1,12 @@
+.recommendations-form__label_type_girl {
+    grid-area: girl;
+    position: relative;
+    cursor: pointer;
+    background-color:#F3F2F2;
+    border-radius: 30px;
+    padding: 13px 0 16px 60px;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    color: #A7A6A6;
+ }

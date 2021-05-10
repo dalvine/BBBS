@@ -1,0 +1,7 @@
+.popup__form {
+    background-color: #fff;
+    width: min(770px, calc(100% - 30px));
+    height: min(618px, 100vh);
+    border-radius: 30px;
+    overflow-y: auto;
+ }

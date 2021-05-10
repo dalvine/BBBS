@@ -1,0 +1,11 @@
+.read-video {
+    width: 100%;
+    height: 208px;
+    bottom: 0;
+ }
+
+ @media (max-width: 600px)  {
+    .read-video {
+        height: 163px;
+     }
+ }

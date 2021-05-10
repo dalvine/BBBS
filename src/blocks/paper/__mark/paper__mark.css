@@ -1,0 +1,14 @@
+.paper__mark {
+    margin: 15px auto;
+    padding: 2px 7px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 30px;
+    display: inline-block;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 10px;
+    line-height: 1.3;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color:#464646;
+ }

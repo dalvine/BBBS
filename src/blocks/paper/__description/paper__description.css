@@ -1,0 +1,9 @@
+.paper__description {
+    background-color:#F8D162;
+    width: 1185px;
+    border-radius: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }

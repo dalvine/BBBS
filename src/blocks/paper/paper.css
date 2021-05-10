@@ -1,0 +1,11 @@
+.paper {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+ }
+
+ @media (max-width: 800px) {
+    .paper {
+       width: 100%;
+    }
+}

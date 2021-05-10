@@ -1,0 +1,7 @@
+.paper-text__paragraph {
+    margin: 0 0 30px;
+    overflow-y: auto;
+ }
+ .paper-text__paragraph:last-child {
+    margin: 0;
+ }

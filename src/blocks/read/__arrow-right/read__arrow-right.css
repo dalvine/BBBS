@@ -1,0 +1,17 @@
+.read__arrow-right {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 5px;
+    width: 30px;
+    height: 30px;
+    background: transparent url('../images/arrow_right.svg') no-repeat center;
+    background-size: contain;
+}
+
+@media (max-width: 600px) {
+    .read__arrow-right {
+        width: 20px;
+        height: 20px;
+    }
+}

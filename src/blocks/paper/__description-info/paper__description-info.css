@@ -1,0 +1,7 @@
+.paper__description-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: calc(100% - 10px);
+ }

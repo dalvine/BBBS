@@ -1,0 +1,32 @@
+
+.recommendations-form__add-foto {
+    padding-left: 68px;
+    color:#A7A6A6;
+    cursor: pointer;
+    position: relative;
+    align-self: center;
+ }
+ 
+ .recommendations-form__add-foto::after {
+    content: "";
+    position: absolute;
+    background: url('../images/plus.svg') no-repeat center;
+    width: 48px;
+    height: 48px;
+    transform: translateY(-50%);
+    top: 50%;
+    left: 0;
+    border: 1px solid #a7a6a6;
+    border-radius: 50%;
+ }
+ 
+
+ @media (max-width: 600px) {
+   .recommendations-form__add-foto {
+      padding-left: 55px;
+   }
+   .recommendations-form__add-foto::after {
+      width: 40px;
+      height: 40px;
+   }
+ }

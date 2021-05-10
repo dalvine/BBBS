@@ -1,0 +1,22 @@
+.answers {
+    padding-top: 80px;
+    font-weight: 300;
+    font-size: 23px;
+    line-height: 1.30;
+    text-align: left;
+  }
+  
+  @media screen and (max-width: 1439px) {
+    .answers {
+      padding-top: 50px;
+      font-size: 19px;
+      line-height: 1.21;
+    }
+  }
+  
+  @media screen and (max-width: 1023px) {
+    .answers {
+      padding-top: 30px;
+    }
+  }
+  

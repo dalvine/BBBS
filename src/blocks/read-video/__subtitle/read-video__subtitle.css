@@ -1,0 +1,6 @@
+@media (max-width: 600px) {
+    .read-video__subtitle {
+        font-size: 12px;
+        line-height: 1.42;
+     }
+}

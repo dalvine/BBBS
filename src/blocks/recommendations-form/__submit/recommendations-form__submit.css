@@ -1,0 +1,20 @@
+.recommendations-form__submit {
+    width: 120px;
+    height: 48px;
+    background-color: #fff;
+    padding: 13px 20px 16px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    grid-area: submit;
+    justify-self: right;
+ }
+
+ @media (max-width: 600px) {
+    .recommendations-form__submit {
+        width: 95px;
+        height: 40px;
+        padding: 11px 15px 12px;
+        font-size: 12px;
+        line-height: 1.42;
+     }
+ }

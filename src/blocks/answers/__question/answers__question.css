@@ -1,0 +1,15 @@
+.answers__question {
+    position: relative;
+    padding: 50px 50px 47px;
+    /* max-width: calc((100% - 50px*2) - 100px); */
+    width: 100%;
+    background: #fff;
+    border-radius: 30px;
+  }
+  
+  @media screen and (max-width: 1439px) {
+    .answers__question {
+      padding: 30px 15px 43px;
+      max-width: 100%;
+    }
+  }

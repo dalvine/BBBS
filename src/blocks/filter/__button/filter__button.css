@@ -1,0 +1,25 @@
+.filter__button {
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 1.27;
+    outline: none;
+    border: 1px solid #000;
+    border-radius: 30px;
+    padding: 13px 20px 16px;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: all 0.2s ease;
+ }
+ 
+ .filter__button:hover {
+    background-color: #E0E0E0;
+ }
+
+ @media screen and (max-width: 1300px) {
+    .filter__button {
+       font-size: 12px;
+       line-height: 1.42;
+       padding: 11px 15px 12px;
+    }
+ }

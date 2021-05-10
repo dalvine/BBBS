@@ -1,0 +1,11 @@
+.book__item {
+    min-height: 380px;
+    background-color: #fff;
+    border-radius: 30px;
+ }
+
+ @media (max-width: 600px) {
+    .book__item {
+       min-height: 332px;
+    }
+}

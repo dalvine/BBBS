@@ -1,213 +1,33 @@
-@import url('./index.css');
-@import url('./read.css');
+/*@import url('./index.css');
+ @import url('./read.css');
 @import url('./where_to_go.css');
-@import url('./where_to_go_authorized.css');
+@import url('./where_to_go_authorized.css'); */  
+/*Что нужно было из этих блоков непонятно??*/ 
+
+
+@import url('../vendor/normalize.css');
+@import url('../vendor/fonts/fonts.css');
+@import url('../blocks/page/page.css');
+
+
+
+@import url('../blocks/title/title.css');
+@import url('../blocks/guide-section/guide-section.css');
+@import url('../blocks/guide/guide.css');
+@import url('../blocks/guide/__title-link/guide__title-link.css');
+@import url('../blocks/guide/__title-image/guide__title-image.css');
+@import url('../blocks/guide/__subtitle/guide__subtitle.css');
+@import url('../blocks/guide/__items/guide__items.css');
+@import url('../blocks/guide/__image/guide__image.css');
+@import url('../blocks/guide/__image/_type/guide__image_type_arc.css');
+@import url('../blocks/guide/__image/_type/guide__image_type_circle.css');
+@import url('../blocks/numbers/numbers.css');
+@import url('../blocks/numbers/__pages-link/numbers__pages-link.css');
+@import url('../blocks/numbers/__pages-link/_active/numbers__pages-link_active.css');
+@import url('../blocks/numbers/__pages/numbers__pages.css');
+/* Какие еще блоки?? */
+
 @import url('./header.css');
 @import url('./footer.css');
 
-.guide__subtitle {
-   margin: 0 auto 80px;
-   font-weight: 300;
-   font-style: normal;
-   font-size: 23px;
-   line-height: 1.3;
-   width: 1170px;
-   text-align: center;
-}
 
-.guide-section {
-   font-family: 'ProtoGrotesk', Georgia, Serif;
-   width: min(1770px, calc(100vw - 60px));
-   margin: 0 auto;
-   display: flex;
-   justify-content: center;
-   align-items: flex-start;
-   column-gap: 30px;
-   row-gap: 160px;
-   flex-wrap: wrap;
-   
-}
-
-.guide-section__items {
-   width: 420px;
-   position: relative;
-}
-
-.guide-section__items:nth-child(4n + 1):after {
-   content: "";
-   bottom: -80px;
-   left: 0;
-   width: min(1770px, calc(100vw - 60px));
-   border-bottom: 1px solid #000;
-   position: absolute;
-}
-
-.guide__title-link {
-   font-family: 'ProtoGrotesk', Georgia, Serif;
-   font-size: 23px;
-   line-height: 1.3;
-   color: inherit;
-   font-weight: 300;
-   text-decoration: none;
-   display: block;
-   margin-top: 20px;
-}
-
-.numbers {
-   list-style: none;
-   margin: 90px auto 130px;
-   padding: 0;
-   display: flex;
-   justify-content: center;
-   align-items: baseline;
-}
-.numbers__pages-link {
-   font-family: 'ProtoGrotesk', Georgia, Serif;
-   padding: 10px 20px;
-   font-size: 23px;
-   line-height: 1.3;
-   color: inherit;
-   font-weight: 300;
-   text-decoration: none;
-   display: block;
-}
-
-.numbers__pages-link_active{
-   border: 1px solid #000;
-   border-radius: 50%;
-}
-.numbers__pages {
-   margin-left: 10px;
-   position: relative;
-}
-
-.numbers__pages:last-of-type {
-   margin-left: 0;
-}
-
-.numbers__pages:last-of-type::after {
-   content: "";
-   width: 30px;
-   height: 30px;
-   position: absolute;
-   right: -55px;
-   top: 50%;
-   transform: translateY(-50%);
-   background: transparent url('../images/arrow_right.svg') no-repeat center;
-   filter: grayscale(100%); 
-   background-size: contain;
-}
-
-@media (max-width: 1829px) {
-   
-   .guide-section__items:nth-child(4n + 1)::after {
-      border: none;
-   }
-   .guide-section__items:nth-child(3n + 1)::after {
-      content: "";
-      bottom: -80px;
-      left: 0;
-      width: 1320px;
-      border-bottom: 1px solid #000;
-      position: absolute;
-   }
-}
-
-@media (max-width: 1450px) {
-      .guide-section__items {
-      width: 370px;
-      position: relative;
-   }
-   .guide-section__items:nth-child(3n + 1)::after {
-      width: 1170px;
-   }
-}
-
-@media (max-width: 1250px) {
-   
-   .guide-section__items:nth-child(3n + 1)::after {
-      width: 930px;
-      bottom: -30px;
-   }
-   .guide-section__items {
-      width: 290px;
-      position: relative;
-   }
-   .guide-section {
-      column-gap: 30px;
-      row-gap: 60px;
-   }
-   .numbers__pages-link {
-      padding: 5px 10px;
-      font-size: 14px;
-      line-height: 1.21;
-   }
-   .numbers__pages {
-      margin-left: 0px;
-   }
-   .numbers {
-      margin: 70px auto 110px;
-   }
-   .numbers__pages:last-of-type::after {
-   width: 20px;
-   height: 20px;
-   right: -30px;
-}
-}
-
-@media (max-width: 989px) {
-   
-   .guide-section__items:nth-child(3n + 1)::after {
-      border: none;
-   }
-
-   .guide-section__items:nth-child(2n + 1)::after {
-      content: "";
-      bottom: -30px;
-      left: 0;
-      width: 610px;
-      border-bottom: 1px solid #000;
-      position: absolute;
-   }
-}
-
-@media (max-width:639px) {
-   
-   .guide-section__items:nth-child(2n + 1):after {
-      border: none;
-   }
-
-   .guide-section__items:nth-child(n+1):after {
-      content: "";
-      bottom: -30px;
-      left: 0;
-      width: 290px;
-      border-bottom: 1px solid #000;
-      position: absolute;
-   }
-   .numbers {
-      margin: 40px auto 60px;
-   }
-}
-
-@media (max-width: 1500px) {
-   .guide__subtitle {
-      width: 970px;
-   }
-}
-
-@media (max-width: 1100px) {
-   .guide__subtitle {
-      width: 767px;
-      margin-bottom: 50px;
-   }
-}
-
-@media (max-width: 800px) {
-   .guide__subtitle {
-      width: calc(100% - 30px);
-   }
-   .guide-section {
-      width: calc(100% - 30px);
-   }
-}

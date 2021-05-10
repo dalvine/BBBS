@@ -1,0 +1,16 @@
+.read-video__info {
+    margin: 0;
+    padding: 15px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 169px;
+    box-sizing: border-box;
+ }
+
+ @media (max-width: 600px) {
+    .read-video__info {
+        min-height: 147px;
+        box-sizing: border-box;
+    }
+}

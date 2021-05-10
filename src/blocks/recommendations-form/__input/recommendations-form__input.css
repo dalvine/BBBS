@@ -1,0 +1,33 @@
+.recommendations-form__input {
+    background-color:#F3F2F2;
+    border-radius: 30px;
+    padding: 13px 0 16px 20px;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+ }
+
+ .recommendations__label .recommendations-form__input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+ }
+
+ .recommendations-form__input:checked ~ .recommendations__gender-type {
+    color: #000;
+ }
+ .recommendations-form__input:checked ~ .recommendations__radio::after {
+    display: block;
+ }
+ 
+ 
+ .recommendations-form__input:focus {
+    outline: none;
+ }
+
+ @media (max-width: 600px) {
+    .recommendations-form__input {
+        padding: 10px 0 13px 20px;
+     }
+ }

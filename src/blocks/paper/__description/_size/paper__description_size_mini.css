@@ -1,0 +1,10 @@
+.paper__description_size_mini {
+    min-height: 224px;
+    padding: 17px 0 15px;
+    box-sizing: border-box;
+    transition: transform 0.2s ease;
+ }
+ 
+ .paper__description_size_mini:hover {
+    transform: scale(1.02);
+ }
