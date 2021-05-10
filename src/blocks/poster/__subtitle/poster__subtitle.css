@@ -8,3 +8,10 @@
     letter-spacing: 0.2px;
     color: #464646;
 }
+
+@media screen and (max-width: 1025px) {
+    .poster__subtitle {
+        font-size: 12px;
+        line-height: 1.42;
+    }
+}

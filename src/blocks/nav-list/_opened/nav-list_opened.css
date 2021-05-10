@@ -1,0 +1,5 @@
+@media screen and (max-width: 1370px) {
+    .nav-list_opened {
+        display: flex;
+    }
+}

@@ -5,37 +5,79 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pages/index.css">
     <link rel="stylesheet" href="./pages/index-authorized.css">
     <title>Старшие Братья Старшие Сестры</title>
 </head>
 
 <body class="page">
-    <header class="header">
-        <div class="logo">наставники.про</div>
-        <nav class="nav-list">
-            <ul class="nav-list__items">
-                <li class="nav-list__item">календарь</li>
-                <li class="nav-list__item">куда пойти</li>
-                <li class="nav-list__item">вопросы</li>
-                <li class="nav-list__item">читать и смотреть
-                    <ul class="nav-list__submenu-list">
-                        <li class="nav-list__submenu-item">cправочник</li>
-                        <li class="nav-list__submenu-item">Видео</li>
-                        <li class="nav-list__submenu-item">Статьи</li>
-                        <li class="nav-list__submenu-item">Фильмы</li>
-                        <li class="nav-list__submenu-item">Книги</li>
-                    </ul>
-                </li>
-                <li class="nav-list__item">права детей</li>
-                <li class="nav-list__item">истории</li>
+    <div class="popup popup_content_cities">
+        <div class="popup__container">
+           <div class="cities">
+               <h2 class="cities__title">Выберите город</h2>
+               <ul class="cities__list">
+                   <li class="cities__item"><a href="" class="cities__link">Москва</a></li>
+                   <li class="cities__item"><a href="" class="cities__link">Санкт-Петербург</a></li>
+               </ul>
+               <ul class="cities__list">
+                <li class="cities__item"><a href="" class="cities__link">Алексин</a></li>
+                <li class="cities__item"><a href="" class="cities__link">Барнаул</a></li>
+                <li class="cities__item"><a href="" class="cities__link">Екатеринбург</a></li>
+                <li class="cities__item"><a href="" class="cities__link">Зубцов</a></li>
+                <li class="cities__item"><a href="" class="cities__link">Калининград</a></li>
+                <li class="cities__item"><a href="" class="cities__link">Киреевск</a></li>
+                <li class="cities__item"><a href="" class="cities__link">Коломна</a></li>
+                <li class="cities__item"><a href="" class="cities__link">Новомосковск</a></li>
+                <li class="cities__item"><a href="" class="cities__link">Орехово-Зуево</a></li>
+                <li class="cities__item"><a href="" class="cities__link">Тверь</a></li>
+                <li class="cities__item"><a href="" class="cities__link">Тула</a></li>
             </ul>
+           </div>
+        <button class="popup__close"></button>
+        </div>
+    </div>
+    <header class="header">
+        <div class="header__btn-menu"></div>
+        <a class="logo" href="./index.html">наставники.про</a>
+        <!-- В index ссылка ведет на страницу авторизованного пользователя-->
+        <!-- Сделано для удобства просмотра двух страниц-->
+        <nav class="nav-list">
+            <div class="nav-list__container">
+                <ul class="nav-list__items nav-list__items_content_navigation">
+                    <li class="nav-list__item"><a href="" class="nav-list__link">календарь</a></li>
+                    <li class="nav-list__item"><a href="" class="nav-list__link">куда пойти</a></li>
+                    <li class="nav-list__item"><a href="" class="nav-list__link">вопросы</a></li>
+                    <li class="nav-list__item nav-list__item_submenu"><a href="" class="nav-list__link">читать и
+                            смотреть</a>
+                        <ul class="nav-list__submenu-list">
+                            <li class="nav-list__submenu-item"><a href="" class="nav-list__link">cправочник</a></li>
+                            <li class="nav-list__submenu-item"><a href="" class="nav-list__link">Видео</a></li>
+                            <li class="nav-list__submenu-item"><a href="" class="nav-list__link">Статьи</a></li>
+                            <li class="nav-list__submenu-item"><a href="" class="nav-list__link">Фильмы</a></li>
+                            <li class="nav-list__submenu-item"><a href="" class="nav-list__link">Книги</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-list__item"><a href="" class="nav-list__link">права детей</a></li>
+                    <li class="nav-list__item"><a href="" class="nav-list__link">истории</a></li>
+                </ul>
+                <ul class="nav-list__items nav-list__items_content_social">
+                    <li class="nav-list__item"><a href="" class="nav-list__link">facebook</a></li>
+                    <li class="nav-list__item"><a href="" class="nav-list__link">vkontakte</a></li>
+                    <li class="nav-list__item"><a href="" class="nav-list__link">instagram</a></li>
+                    <li class="nav-list__item"><a href="" class="nav-list__link">youtube</a></li>
+                </ul>
+            </div>
+            <div class="profile">
+                <p class="profile__city profile__city_selected">Москва. <a href="#" class="profile__city-edit">Изменить город</a></p>
+                <a href="#" class="profile__exit">Выйти</a>
+            </div>
         </nav>
         <div class="header__right-block">
             <form class="search" name="search">
-                <input type="text" name="searchInput" class="search__input search__input_hidden">
+                <input type="text" name="searchInput" class="search__input">
                 <button type="button" name="searchSubmit" class="search__btn"></button>
             </form>
-            <img src="./images/ico-profile-authorized.svg" class="profile">
+                <img src="./images/ico-profile-authorized.svg" class="profile-ico">
         </div>
         </div>
     </header>
@@ -44,23 +86,26 @@
             <div class="event__info">
                 <p class="event__group">Волонтёры + дети</p>
                 <p class="event__month-and-weekday">декабрь / понедельник</p>
-              </div>
-              <div class="event__info">
+            </div>
+            <div class="event__info">
                 <h4 class="event__title">Субботний meet up: учимся проходить интевью</h4>
                 <p class="event__date">23</p>
-              </div>  
-              <ul class="event__additional-info">
+            </div>
+            <ul class="event__additional-info">
                 <li class="event__additional-info-item event__time">12:00–14:00</li>
-                <li class="event__additional-info-item event__place">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</li>
+                <li class="event__additional-info-item event__place">Садовническая наб., д. 77 стр. 1 (офис компании
+                    Ernst&Young)</li>
                 <li class="event__additional-info-item event__contact-person">Александра, +7 926 356-78-90</li>
-              </ul>
-              <div class="event__controls">
+            </ul>
+            <div class="event__controls">
                 <div class="event__signup-container">
-                  <button type="button" aria-label="Записаться" class="event__signup-button opacity-transition">Записаться</button>
-                  <p class="event__participants-counter">Осталось 5 мест</p>
+                    <button type="button" aria-label="Записаться"
+                        class="event__signup-button opacity-transition">Записаться</button>
+                    <p class="event__participants-counter">Осталось 5 мест</p>
                 </div>
-                <button type="button" aria-label="Посмотреть детали" class="event__details-button opacity-transition"></button>
-              </div>
+                <button type="button" aria-label="Посмотреть детали"
+                    class="event__details-button opacity-transition"></button>
+            </div>
         </section>
         <section class="cover-history">
             <img src="./images/history-friend.png" alt="" class="cover-history__image">
@@ -69,35 +114,38 @@
             </div>
         </section>
         <section class="paper paper_size_max paper_place_index">
-            <div class="paper__description paper__description_size_max">
-                <p class="paper__mark">выбор наставника</p>
-                <h3 class="paper__title">Сплав на байдарках в две строки</h3>
-                <p class="paper__subtitle">усадьба Архангельское в две строки</p>
-                <img src="./images/where_to_go_paper.jpg" alt="Сплав на байдарках в две строки" class="paper__image">
-                <a href="#" class="paper__link">перейти на сайт</a>
+            <div class="paper__description paper__description_size_max paper__description_color_yellow">
+                <p class="paper__description-mark">выбор наставника</p>
+                <h3 class="paper__description-title">Сплав на байдарках в две строки</h3>
+                <p class="paper__description-subtitle">усадьба Архангельское в две строки</p>
+                <img src="./images/where_to_go_paper.jpg" alt="Сплав на байдарках в две строки"
+                    class="paper__description-image">
+                <a href="#" class="paper__description-link">перейти на сайт</a>
             </div>
-            <div class="paper__annotation paper__annotation_size_max">
-                <p class="paper__caption">Девока, 10 лет. Активный отдых</p>
-                <div class="paper__paragraphs">
-                    <p class="paper__paragraph">
-                        Аннотация статьи в несколько абзацев. В тот момент, как ребёнок научился говорить, и не одно
-                        слово, а задавать
-                        бесконечное количество вопросов, жизнь меняется. Вы будете не понимать друг друга, потом
-                        понимать чуть лучше и,
-                        Аннотация статьи в несколько абзацев. В тот момент, как ребёнок научился говорить, и не одно
-                        слово, а задавать
-                        бесконечное количество вопросов, жизнь меняется. Вы будете не понимать друг друга, потом
-                        понимать чуть лучше и,
-                    </p>
-                    <p class="paper__paragraph">
-                        Аннотация статьи в несколько абзацев. В тот момент, как ребёнок научился говорить, и не одно
-                        слово, а задавать
-                        бесконечное количество вопросов, жизнь меняется. Вы будете не по Аннотация статьи в несколько
-                        абзацев. В тот момент,
-                        как
-                        ребёнок научился говорить, и не одно слово, а задавать бесконечное количество вопросов, жизнь
-                        меняется.
-                    </p>
+            <div class="paper-text paper-text_size_max">
+                <div class="paper-text__wrapper_size_max">
+                    <p class="paper-text__title">Девока, 10 лет. Активный отдых</p>
+                    <div class="paper-text__text">
+                        <p class="paper-text__paragraph">
+                            Аннотация статьи в несколько абзацев. В тот момент, как ребёнок научился говорить, и не одно
+                            слово, а задавать
+                            бесконечное количество вопросов, жизнь меняется. Вы будете не понимать друг друга, потом
+                            понимать чуть лучше и,
+                            Аннотация статьи в несколько абзацев. В тот момент, как ребёнок научился говорить, и не одно
+                            слово, а задавать
+                            бесконечное количество вопросов, жизнь меняется. Вы будете не понимать друг друга, потом
+                            понимать чуть лучше и,
+                        </p>
+                        <p class="paper-text__paragraph">
+                            Аннотация статьи в несколько абзацев. В тот момент, как ребёнок научился говорить, и не одно
+                            слово, а задавать
+                            бесконечное количество вопросов, жизнь меняется. Вы будете не по Аннотация статьи в
+                            несколько абзацев. В тот момент,
+                            как
+                            ребёнок научился говорить, и не одно слово, а задавать бесконечное количество вопросов,
+                            жизнь меняется.
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -108,7 +156,7 @@
         </section>
         <section class="poster">
             <ul class="poster__list">
-                <li class="poster__item">
+                <li class="poster__item poster__item_screen_tablet">
                     <div class="poster__layer">
                         <img class="poster__image" src="./images/poster-image.png" alt="постер">
                         <div class="poster__categories">
@@ -122,7 +170,7 @@
                         <a href="#" class="poster__link">смотреть трейлер</a>
                     </div>
                 </li>
-                <li class="poster__item">
+                <li class="poster__item poster__item_screen_laptop">
                     <div class="poster__layer">
                         <img class="poster__image" src="./images/poster-image.png" alt="постер">
                         <div class="poster__categories">
@@ -136,7 +184,7 @@
                         <a href="#" class="poster__link">смотреть трейлер</a>
                     </div>
                 </li>
-                <li class="poster__item">
+                <li class="poster__item poster__item_screen_mobile">
                     <div class="poster__layer">
                         <img class="poster__image" src="./images/poster-image.png" alt="постер">
                         <div class="poster__categories">
@@ -174,14 +222,17 @@
                 </h3>
                 <a class="video__link" href="#">смотреть видео</a>
             </div>
-            <iframe class="video__frame"></iframe>
+            <iframe class="video__frame" src="https://www.youtube.com/embed/KA1wI3X5WSU" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
         </section>
         <section class='iframe-social'>
             <div id="fb-root"></div>
             <script async defer crossorigin="anonymous"
                 src="https://connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v10.0" nonce="6lNn222L"></script>
             <div class="fb-page" data-href="https://www.facebook.com/BigBrothers.BigSisters.Russia" data-tabs="timeline"
-                data-width="427px" data-height="627px" data-small-header="false" data-adapt-container-width="true"
+                data-width="500px" data-height="627px" data-small-header="false" data-adapt-container-width="true"
                 data-hide-cover="false" data-show-facepile="true">
                 <blockquote cite="https://www.facebook.com/BigBrothers.BigSisters.Russia" class="fb-xfbml-parse-ignore">
                     <a href="https://www.facebook.com/BigBrothers.BigSisters.Russia">Старшие Братья Старшие Сестры / Big
@@ -212,34 +263,35 @@
         </section>
     </main>
     <footer class="footer">
-        <div class="footer__columns">
-            <div class="footer__column footer__column_content_info">
-                <img class="footer__logo" src="./images/logo-BBBS-white.svg" alt="Логотип Big Brothers Big Sisters">
-                <button class="donate-btn">Помочь деньгами</button>
-                <p class="footer__copyright"> &copy; Старшие Братья Старшие Сестры</p>
-                <div class="footer__authors">
-                    <p class="footer__author">Разработка – студенты <a href="#"
-                            class="footer__author-site">Яндекс.Практикум</a></p>
-                    <p class="footer__author">Концепия и дизайн – <a href="#"
-                            class="footer__author-site">krkr.design</a></p>
-                </div>
+        <img class="footer__logo" src="./images/logo-BBBS-white.svg" alt="логотип BBBS">
+        <ul class="footer__list footer__list_content_navigation">
+            <li class="footer__list-item"><a class="footer__link" href="#">о проекте</a></li>
+            <li class="footer__list-item"><a class="footer__link" href="#">календарь</a></li>
+            <li class="footer__list-item"><a class="footer__link" href="#">куда пойти</a></li>
+            <li class="footer__list-item"><a class="footer__link" href="#">вопросы</a></li>
+            <li class="footer__list-item"><a class="footer__link" href="#">читать и смотреть</a></li>
+            <li class="footer__list-item"><a class="footer__link" href="#">права детей</a></li>
+            <li class="footer__list-item"><a class="footer__link" href="#">истории</a></li>
+        </ul>
+        <ul class="footer__list footer__list_content_social">
+            <li class="footer__list-item"><a class="footer__link" href="#">facebook</a></li>
+            <li class="footer__list-item"><a class="footer__link" href="#">vkontakte</a></li>
+            <li class="footer__list-item"><a class="footer__link" href="#">instagram</a></li>
+            <li class="footer__list-item"><a class="footer__link" href="#">youtube</a></li>
+        </ul>
+        <button class="donate-btn">Помочь деньгами</button>
+        <div class="footer__owners">
+            <p class="footer__copyright"> &copy; Старшие Братья Старшие Сестры</p>
+            <div class="footer__authors">
+                <p class="footer__author">Разработка – студенты <a href="#"
+                        class="footer__author-site">Яндекс.Практикум</a></p>
+                <p class="footer__author">Концепия и дизайн – <a href="#" class="footer__author-site">krkr.design</a>
+                </p>
             </div>
-            <div class="footer__column footer__column_content_navigation">
-                <a class="footer__link" href="#">о проекте</a>
-                <a class="footer__link" href="#">календарь</a>
-                <a class="footer__link" href="#">куда пойти</a>
-                <a class="footer__link" href="#">вопросы</a>
-                <a class="footer__link" href="#">читать и смотреть</a>
-                <a class="footer__link" href="#">права детей</a>
-                <a class="footer__link" href="#">истории</a>
-            </div>
-            <div class="footer__column footer__column_content_social">
-                <a class="footer__link" href="#">facebook</a>
-                <a class="footer__link" href="#">vkontakte</a>
-                <a class="footer__link" href="#">instagram</a>
-                <a class="footer__link" href="#">youtube</a>
-            </div>
+        </div>
     </footer>
+    <script src="./pages/index.js"></script>
+    <script src="./pages/index-authorized.js"></script>
 </body>
 
 </html>

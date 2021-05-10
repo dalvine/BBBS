@@ -145,7 +145,6 @@
 
 .paper-text_size_mini {
    padding: 30px;
-   border-radius: 30px;
 }
 
 .paper__description {
@@ -195,10 +194,6 @@
    line-height: 1.36;
    color: #464646;
    margin: 0;   padding: 0 25px;
-}
-
-.paper__description-subtitle_size_mini {
-   
 }
 
 .paper__description-info {
@@ -278,13 +273,6 @@
    background-color: #FF8585;
 }
 
-.paper_place_index {
-   grid-column-start: whereToGo;
-   grid-column-end: whereToGo;
-   grid-row-start: whereToGo;
-   grid-row-end: whereToGo;
-}
-
 @media (max-width: 1746px) {
    .paper-text_size_mini {
       width: 100%;
@@ -353,4 +341,8 @@
    .paper__description-subtitle {
       margin-bottom: 39px;
    }
+}
+
+.paper_place_index {
+   grid-area: whereToGo;
 }

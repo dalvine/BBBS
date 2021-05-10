@@ -1,10 +1,8 @@
 .nav-list__submenu-item {
-    margin: 0;
-    margin-bottom: 10px;
+    margin: 10px 35px 10px 0;
     letter-spacing: 0.2px;
     font-size: 15px;
     font-weight: 1.27;
-    margin-top: 10px;
     cursor: pointer;
     color: #000;
     text-decoration: none;
@@ -17,4 +15,3 @@
 .nav-list__submenu-item:hover {
     color: #224CFF;
 }
-

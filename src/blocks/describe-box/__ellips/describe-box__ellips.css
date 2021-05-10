@@ -8,4 +8,13 @@
     background-color: #FF8585;
     border-radius: 400px;
     text-align: center;
+    padding: 35px 15px;
+    box-sizing: border-box;
+}
+
+
+@media screen and (max-width: 1180px) {
+    .describe-box__ellips {
+        border-radius: 70px 70px 30px 30px ;
+    }
 }

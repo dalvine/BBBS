@@ -8,3 +8,42 @@
     'frame questions questions questions'
     'article-green article-green article-green article-green'; 
 }
+
+@media screen and (max-width: 1441px) {
+    .main-grid_authorized {
+        grid-template-areas: 
+            'event event event cover-history cover-history cover-history'
+            'whereToGo whereToGo whereToGo whereToGo whereToGo whereToGo'
+            'article-light-blue article-light-blue article-light-blue article-light-blue article-light-blue article-light-blue'
+            'films films films films films films'
+            'video video video video video video'
+            'frame frame questions questions questions questions'
+            'article-green article-green article-green article-green article-green article-green'; 
+        }
+}
+
+@media screen and (max-width: 1196px) {
+    .main-grid_authorized {
+        grid-template-areas: 
+            'event cover-history'
+            'whereToGo whereToGo'
+            'article-light-blue article-light-blue'
+            'films films'
+            'video video'
+            'frame questions'
+            'article-green article-green'; 
+        }
+}
+
+@media screen and (max-width: 1025px) {
+    .main-grid_authorized {
+        grid-template-areas: 
+            'event cover-history'
+            'whereToGo whereToGo '
+            'article-light-blue article-light-blue'
+            'films films'
+            'video video'
+            'frame questions'
+            'article-green article-green '; 
+        }
+}

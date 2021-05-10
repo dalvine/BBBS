@@ -1,0 +1,11 @@
+.switch-bar__next {
+    width: 30px;
+    height: 30px;
+    outline: none;
+    border: none;
+    background-image: url('../../../images/arrow.svg');
+    background-position: center;
+    background-size: cover;
+    background-color: transparent;
+    margin-left: 50px;
+}

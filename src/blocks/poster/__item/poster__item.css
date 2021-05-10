@@ -10,3 +10,9 @@
 .poster__item:last-child {
     margin-right: 0;
 }
+
+@media screen and (max-width: 630px) {
+    .poster__item {
+        width: 100%;
+    }
+}
