@@ -1,0 +1,267 @@
+.answers-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+@media screen and (max-width: 1439px) {
+  .questions-set {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.answers {
+  margin: 80px 475px 120px;
+  font-weight: 300;
+  font-size: 23px;
+  line-height: 1.30;
+  text-align: left;
+}
+
+@media screen and (max-width: 1919px) {
+  .answers {
+    margin: 80px 235px;
+  }
+}
+
+@media screen and (max-width: 1439px) {
+  .answers {
+    margin: 50px 127px;
+    font-size: 19px;
+    line-height: 1.21;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .answers {
+    margin: 40px 90px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .answers {
+    margin: 30px 45px;
+  }
+}
+
+@media screen and (max-width: 423px) {
+  .answers {
+    margin: 30px 15px;
+ }
+}
+
+.answers__item {
+  margin: 0 0 30px 0;
+  display: flex;
+  justify-content: stretch;
+}
+
+@media screen and (max-width: 1439px) {
+  .answers__item {
+    max-width: 100%;
+  }
+}
+
+.answers-set {
+  margin: 0 0 80px 0;
+}
+
+@media screen and (max-width: 423px) {
+  .answers-set {
+    margin: 0 0 50px 0;
+  }      
+}
+
+.answers__question {
+  position: relative;
+  padding: 50px 50px 47px;
+  max-width: calc((100% - 50px*2) - 100px);
+  width: 100%;
+  background: #fff;
+  border-radius: 30px;
+}
+
+@media screen and (max-width: 1439px) {
+  .answers__question {
+    padding: 30px 15px 43px;
+    max-width: 100%;
+  }
+}
+
+.answers__answer-title {
+  margin: 0 0 15px;
+  padding: 0;
+  max-width: calc(100% - 50px*2);
+  width: 100%;
+}
+
+@media screen and (max-width: 1439px) {
+  .answers__answer-title {
+    max-width: calc(100% - 50px - 10px);
+  }
+}
+
+.answers__rubric {
+  margin: 0 5px;
+  padding: 2px 7px;
+  width: max-content;
+  background: #F3F2F2;
+  border-radius: 15px;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+.answers__toggle-modal-state-button {
+  position: absolute;
+  right: -100px;
+  top: 25px;
+  padding: 0;
+  background: url('../images/answers__toggle-modal-state-button.svg') no-repeat;
+  background-size: cover;
+  border: none;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  transition: all .4s ease;
+}
+
+.answers__toggle-modal-state-button:hover {
+  transform: rotate(45deg);
+}
+
+@media screen and (max-width: 1439px) {
+  .answers__toggle-modal-state-button {
+    right: 15px;
+    bottom: 15px;
+    width: 50px;
+    height: 50px;
+  }
+}
+
+.answers__question-full-answer_visible {
+  margin: 30px 0 0 0;
+  visibility: visible;
+  min-height: 312px;
+}
+
+.answers__question-full-answer_hidden {
+  margin: 0;
+  visibility: hidden;
+  height: 0;
+  transition: height .7s;
+}
+
+.answers-form {
+  width: 100%;
+}
+
+.answers-form__title {
+  font-size: 23px;
+  line-height: 30px;
+  font-weight: 300;
+  max-width: 650px;
+}
+
+@media screen and (max-width: 423px) {
+  .answers-form__title {
+    font-size: 19px;
+    line-height: 1.21;
+  }
+}
+
+.answers-form__question-container {
+  display: flex;
+  justify-content: stretch;
+}
+
+@media screen and (max-width: 423px) {
+  .answers-form__question-container {
+    flex-direction: column;
+  }
+}
+
+.answers-form__input-container {
+  width: calc(100% - 30px*2);
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.answers-form__input {
+  padding: 11px 30px;
+  width: calc(100% - 30px*2);
+  background: #fff;
+  border-radius: 30px;
+  border: #fff;
+}
+
+@media screen and (max-width: 423px) {
+  .answers-form__input {
+    padding: 10px 30px 9px;
+  }
+}
+
+@media screen and (max-width: 423px) {
+  .answers-form__input {
+    width: 100%;
+  }
+}
+
+.answers-form__sent-button {
+  max-height: 48px;
+  padding: 13px 20px 16px;
+  border-radius: 100px;
+  font-size: 15px;
+  line-height: 1.27;
+  letter-spacing: 0.2px;
+}
+  
+@media screen and (max-width: 1024px) {
+  .answers-form__sent-button {
+    max-height: 40x;
+    font-size: 12px;
+    line-height: 1.42;
+  }
+}
+  
+@media screen and (max-width: 423px) {
+  .answers-form__sent-button {
+    margin-top: 20px;
+    padding: 11px 15px 12px;
+  }
+}
+
+.form__submit-button {
+  background: #fff;
+  border: 1px solid #224CFF;
+  color: #224CFF;
+  cursor: pointer;
+}
+
+.form__submit-button:active:hover {
+  background-color: #C8D1FF;
+  border: 1px solid #C8D1FF;
+  color: #224CFF;
+}
+
+.form__submit-button_disabled {
+  border: 1px solid #A7A6A6;
+  color: #A7A6A6;
+  cursor: default;
+}
+
+.form__input-error {
+  color: #FF0000;
+  position: relative;
+  top: 5px;
+  left: 0;
+  transition: opacity .3s;
+}
+
+@media screen and (max-width: 423px) {
+  .form__input-error {
+    font-size: 15px;
+  }
+}

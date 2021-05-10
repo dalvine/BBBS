@@ -1,0 +1,25 @@
+.section-title_place_about-project {
+  margin: 0 300px;
+  font-weight: 300;
+  font-size: 44px;
+  line-height: 1.14;
+}
+  
+@media screen and (max-width: 1919px) {
+  .section-title_place_about-project {
+    margin: 0 70px;
+  }
+}
+  
+@media screen and (max-width: 1439px) {
+  .section-title_place_about-project {
+    font-size: 19px;
+    line-height: 1.21;
+  }
+}
+  
+@media screen and (max-width: 424px) {
+  .section-title_place_about-project {
+    margin: 0;
+  }
+}

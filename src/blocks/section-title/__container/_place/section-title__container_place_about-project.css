@@ -1,0 +1,24 @@
+.section-title__container_place_about-project {
+  padding: auto;
+  background: #F8D162;
+  border-radius: 50%;
+  width: 570px;
+  height: 570px;
+  display: flex;
+  align-items: center;
+}
+  
+@media screen and (max-width: 1439px) {
+  .section-title__container_place_about-project {
+    width: 370px;
+    height: 358px;
+    margin: 0 auto;
+  }
+}
+  
+@media screen and (max-width: 1023px) {
+  .section-title__container_place_about-project {
+    width: 290px;
+    height: 280px;
+  }
+}

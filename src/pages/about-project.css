@@ -1,0 +1,30 @@
+@import url('../vendor/normalize.css');
+@import url('../vendor/fonts/fonts.css');
+
+@import url('../blocks/page/page.css');
+@import url('../blocks/section-title/section-title.css');
+@import url('../blocks/section-title/_place/section-title_place_about-project.css');
+@import url('../blocks/section-title/__container/_place/section-title__container_place_about-project.css');
+
+@import url('../blocks/filter.css');
+
+@import url('../blocks/about-project-content/about-project-content.css');
+
+@import url('../blocks/logo/_place/logo_place_about-project.css');
+
+@import url('../blocks/about-organization/about-organization.css');
+@import url('../blocks/about-organization/__title/about-organization__title.css');
+@import url('../blocks/about-organization/__description-container/about-organization__description-container.css');
+@import url('../blocks/about-organization/__description/about-organization__description.css');
+@import url('../blocks/about-organization/__capture-container/about-organization__capture-container.css');
+@import url('../blocks/about-organization/__capture/about-organization__capture.css');
+
+@import url('../blocks/additional-info/additional-info.css');
+@import url('../blocks/additional-info/__item/additional-info__item.css');
+@import url('../blocks/additional-info/__title/additional-info__title.css');
+@import url('../blocks/additional-info/__title/_type/additional-info__title_type_donations.css');
+@import url('../blocks/additional-info/__title/_type/additional-info__title_type_mentoring.css');
+@import url('../blocks/additional-info/__title/_type/additional-info__title_type_partnership.css');
+@import url('../blocks/additional-info/__content/additional-info__content.css');
+@import url('../blocks/additional-info/__text/additional-info__text.css');
+@import url('../blocks/additional-info/__link/additional-info__link.css');
