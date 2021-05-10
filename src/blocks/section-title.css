@@ -8,7 +8,7 @@
   text-align: center;
 }
 
-@media screen and (max-width: 1439px) {
+@media screen and (max-width: 424px) {
   .section-title {
     font-size: 37px;
     line-height: 1.05;

@@ -26,7 +26,7 @@
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 420px) {
   .calendar__events-grid {
     margin: 50px 15px 100px;
     max-width: calc(100% - 15px*2);
