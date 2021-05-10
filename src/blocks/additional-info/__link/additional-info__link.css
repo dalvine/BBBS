@@ -1,0 +1,10 @@
+.additional-info__link {
+  text-decoration: none;
+  text-align: center;
+  color: #224CFF;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.27;
+  letter-spacing: 0.2px;
+  cursor: pointer;
+}
