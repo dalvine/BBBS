@@ -1,4 +1,6 @@
 .video {
     grid-area: video;
     margin: 0;
+    display: grid;
+    overflow: hidden;
 }

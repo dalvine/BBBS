@@ -6,3 +6,10 @@
     line-height: 1.3;
     font-weight: 300;
 }
+
+@media screen and (max-width: 1025px) {
+    .video__title {
+        font-size: 19px;
+        line-height: 1.21;  
+    }
+}

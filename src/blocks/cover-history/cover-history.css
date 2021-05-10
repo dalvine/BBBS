@@ -1,7 +1,7 @@
 .cover-history {
     grid-area: cover-history;
     position: relative;
-    height: 520px;
+    height: 100%;
     border-radius: 30px;
     background-color: #464646;
     overflow: hidden;
@@ -9,7 +9,7 @@
     margin: 0;
     cursor: pointer;
 }
-
+/* 
 @media screen and (max-width: 1025px) {
     .cover-history {
         height: 382px;
@@ -21,8 +21,8 @@
         height: 414px;
     }
 }
-
-@media screen and (max-width: 1160px) {
+*/
+@media screen and (max-width: 1024px) {
     .cover-history {
         height: 382px;
     }
