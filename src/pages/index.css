@@ -42,6 +42,7 @@
 
 
 @import url('../blocks/form/form.css');
+@import url('../blocks/form/_content/form_content_authorization.css');
 @import url('../blocks/form/__input/form__input.css');
 @import url('../blocks/form/__restore-password/form__restore-password.css');
 @import url('../blocks/form/__submit/form__submit.css');
