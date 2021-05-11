@@ -1,0 +1,29 @@
+.about-project-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 85px 75px 120px;
+  font-weight: 300;
+  font-size: 23px;
+  line-height: 1.30;
+  text-align: left;
+}
+  
+@media screen and (max-width: 1919px) {
+  .about-project-content {
+    margin: 50px 136px 120px 135px;
+  }
+}
+  
+@media screen and (max-width: 1023px) {
+  .about-project-content {
+    margin: 30px 127px 100px;
+  }
+}
+
+@media screen and (max-width: 423px) {
+  .about-project-content {
+    margin: 10px 15px 50px;
+  }
+}

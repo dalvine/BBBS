@@ -1,0 +1,7 @@
+@import url('../blocks/info-recommendations/info-recommendations.css');
+@import url('../blocks/info-recommendations/__link/info-recommendations__link.css');
+@import url('../blocks/info-recommendations/__text/info-recommendations__text.css');
+@import url('../blocks/popup-recommendations/popup-recommendations.css');
+@import url('../blocks/popup-recommendations/_open/popup-recommendations_open.css');
+@import url('../blocks/popup/__form/popup__form.css');
+@import url('../blocks/popup/__form/_type/popup__form_type_posted.css');

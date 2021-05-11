@@ -1,0 +1,16 @@
+.about-organization {
+  margin: 0 auto 80px;
+  display: flex;
+}
+  
+@media screen and (max-width: 1439px) {
+  .about-organization {
+    flex-direction: column;
+  }
+}
+  
+@media screen and (max-width: 423px) {
+  .about-organization {
+    margin: 0 auto 50px;
+  }
+}

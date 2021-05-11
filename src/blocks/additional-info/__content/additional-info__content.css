@@ -1,0 +1,9 @@
+.additional-info__content {
+  padding: 30px;
+  background: #fff;
+  border-radius: 30px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

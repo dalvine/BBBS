@@ -1,0 +1,12 @@
+.about-organization__description-container {
+  padding: 52px 30px;
+  border-radius: 30px;
+  max-width: 540px;
+  background: #fff;
+}
+  
+@media screen and (max-width: 1439px) {
+  .about-organization__description-container {
+    padding: 30px 15px;
+  }
+}

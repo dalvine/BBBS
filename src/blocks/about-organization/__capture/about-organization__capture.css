@@ -1,0 +1,30 @@
+.about-organization__capture {
+  margin: 0 300px;
+  padding: 60px 0;
+  font-weight: 300;
+  color: #1A1A1A;
+  font-size: 44px;
+  line-height: 1.14;
+  text-align: center;
+}
+  
+@media screen and (max-width: 1919px) {
+  .about-organization__capture {
+    margin: 0 103px;
+  }
+}
+  
+@media screen and (max-width: 1439px) {
+  .about-organization__capture {
+    padding: 30px 0;
+    font-weight: 300;
+    font-size: 23px;
+    line-height: 30px;
+  }
+}
+  
+@media screen and (max-width: 768px) {
+  .about-organization__capture {
+    margin: 0;
+  }
+}
