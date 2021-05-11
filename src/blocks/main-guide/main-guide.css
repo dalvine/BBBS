@@ -1,4 +1,4 @@
-.where-to-go-page {
+.main-guide {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -6,13 +6,13 @@
 }
 
 @media (max-width: 1200px) {
-    .where-to-go-page {
+    .main-guide {
         margin: 49px 0 100px;
     }
 }
 
 @media (max-width: 800px) {
-    .where-to-go-page {
+    .main-guide {
         margin: 30px 0 50px;
     }
 }

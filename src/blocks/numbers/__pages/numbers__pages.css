@@ -15,7 +15,7 @@
     right: -55px;
     top: 50%;
     transform: translateY(-50%);
-    background: transparent url('../images/arrow_right.svg') no-repeat center;
+    background: transparent url('../../../images/arrow_right.svg') no-repeat center;
     filter: grayscale(100%); 
     background-size: contain;
  }

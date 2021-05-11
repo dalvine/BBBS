@@ -5,6 +5,11 @@
 @import url('./footer.css');
 
 
+@import url('./index.css');
+@import url('./where_to_go.css');
+@import url('./guide.css');
+@import url('./video.css');
+
 @import url('../blocks/main-read/main-read.css');
 @import url('../blocks/read-paper/read-paper.css');
 @import url('../blocks/read-video/read-video.css');
@@ -65,7 +70,5 @@
 
 
 
-@import url('./guide.css');
-@import url('./index.css');
-@import url('./video.css');
-@import url('./where_to_go.css');
+
+

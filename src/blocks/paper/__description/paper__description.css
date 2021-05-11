@@ -1,9 +1,7 @@
 .paper__description {
-    background-color:#F8D162;
-    width: 1185px;
-    border-radius: 2em;
+    border-radius: 30px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
  }

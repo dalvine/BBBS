@@ -10,10 +10,12 @@
 
 
 @import url('../blocks/page/page.css');
-@import url('../blocks/where-to-go-page.css');
-@import url('../blocks/filter.css');
-@import url('../blocks/paper.css');
-@import url('../blocks/info-recommendations.css');
-
-@import url('../blocks/popup-recommendations.css');
-
+@import url('../pages/where_to_go.css');
+@import url('../blocks/filter/filter.css');
+@import url('../blocks/filter/__button/filter__button.css');
+@import url('../blocks/filter/__button/_active/filter__button_active.css');
+@import url('../pages/index.css');
+@import url('../blocks/info-recommendations/info-recommendations.css');
+@import url('../blocks/info-recommendations/__text/info-recommendations__text.css');
+@import url('../blocks/info-recommendations/__link/info-recommendations__link.css');
+@import url('../blocks/popup-recommendations/popup-recommendations.css');
