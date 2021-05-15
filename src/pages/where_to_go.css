@@ -40,6 +40,7 @@
 @import url('../blocks/paper/__description/_color/paper__description_color_green.css');
 @import url('../blocks/paper/__description/_color/paper__description_color_orange.css');
 @import url('../blocks/paper/__description/_color/paper__description_color_yellow.css');
+@import url('../blocks/paper/__description/_color/paper__description_color_light-blue.css');
 @import url('../blocks/paper/__description/_size/paper__description_size_max.css');
 @import url('../blocks/paper/__description/_size/paper__description_size_mini.css');
 @import url('../blocks/paper/__image/paper__image.css');
@@ -58,9 +59,9 @@
 
 
 @import url('../blocks/page/page.css');
-@import url('../blocks/where-to-go-page.css');
+/*@import url('../blocks/where-to-go-page.css');
 @import url('../blocks/filter.css');
-@import url('../blocks/paper.css');
+@import url('../blocks/paper.css');*/
 
 
 

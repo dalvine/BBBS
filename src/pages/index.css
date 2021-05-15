@@ -32,7 +32,7 @@
 @import url('../blocks/describe-article/_color/describe-article_color_light-blue.css');
 @import url('../blocks/describe-article/__link/describe-article__link.css');
 @import url('../blocks/describe-article/__title/describe-article__title.css');
-@import url('../blocks/paper.css');
+@import url('../blocks//paper/paper.css');
 @import url('../blocks/poster/poster.css');
 @import url('../blocks/poster/__item/poster__item.css');
 @import url('../blocks/poster/__item/_screen/poster__item_screen_mobile.css');

@@ -1,0 +1,12 @@
+.read-paper__list {
+   justify-content: center;
+   row-gap: 80px;
+   column-gap: 30px;
+   flex-wrap: wrap;
+}
+
+@media (max-width: 600px) {
+   .read-paper__list {
+      row-gap: 30px;
+   }
+}

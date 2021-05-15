@@ -48,8 +48,8 @@
 @import url('../blocks/recommendations-form/__submit/recommendations-form__submit.css');
 @import url('../blocks/recommendations-form/__submit/_type/recommendations-form__submit_type_disabled.css');
 @import url('../blocks/book/book.css');
-@import url('../blocks/book/_color/book_color_light_blue.css');
-@import url('../blocks/book/_color/book_color_orange.css');
+@import url('../blocks/book/_type/book_type_scient-book.css');
+@import url('../blocks/book/_type/book_type_art-book.css');
 @import url('../blocks/book/__author/book__author.css');
 @import url('../blocks/book/__info/book__info.css');
 @import url('../blocks/book/__item/book__item.css');

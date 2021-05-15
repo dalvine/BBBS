@@ -1,0 +1,17 @@
+@import url('../vendor/normalize.css');
+@import url('../vendor/fonts/fonts.css');
+@import url('../blocks/page/page.css');
+@import url('./header.css');
+@import url('./footer.css');
+@import url('./where_to_go.css');
+@import url('./read.css');
+
+@import url('../blocks/main-video/main-video.css');
+@import url('../blocks/video-list/video-list.css');
+
+
+@import url('../blocks/read-paper/__list/read-paper__list.css');
+@import url('../blocks/read-paper/__items/read-paper__items.css');
+@import url('../blocks/read-paper/__container/read-paper__container.css');
+@import url('../blocks/read-paper/__image/read-paper__image.css');
+

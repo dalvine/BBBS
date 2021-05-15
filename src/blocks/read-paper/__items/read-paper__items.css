@@ -1,0 +1,20 @@
+.read-paper__items {
+   width: 570px;
+   min-height: 224px;
+   background-color: transparent;
+   margin: 0;
+   border-radius: 30px;
+   overflow: hidden;
+}
+
+@media (max-width: 1600px) {
+   .read-paper__items {
+      width: 370px;
+   }
+}
+
+@media (max-width: 600px) {
+   .read-paper__items {
+      width: 290px;
+   }
+}
