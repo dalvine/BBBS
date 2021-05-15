@@ -13,8 +13,9 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 940px) {
+@media screen and (max-width: 1370px) {
     .search__btn {
         margin-right: 0;
     }
 }
+
