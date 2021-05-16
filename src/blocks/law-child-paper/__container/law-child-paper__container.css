@@ -1,0 +1,32 @@
+.law-child-paper__container {
+   margin: 0 0 80px 0;
+   background-color: #F8D162;
+   border-radius: 0 400px 400px 0;
+   min-height: 772px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   padding: 30px 15px 50px;
+   box-sizing: border-box;
+}
+
+@media (max-width: 1500px) {
+   .law-child-paper__container {
+      min-height: 38.6vw;
+   }
+}
+
+@media (max-width: 1100px) {
+   .law-child-paper__container {
+      min-height: 37.45vw;
+      margin-bottom: 50px;
+   }
+}
+
+@media (max-width: 600px) {
+   .law-child-paper__container {
+      border-radius: 0;
+      min-height: 20vw;
+   }
+}

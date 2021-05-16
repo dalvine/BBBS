@@ -1,0 +1,15 @@
+.law-child-paper__title-wrapper {
+   width: 870px;
+}
+
+@media (max-width: 1500px) {
+   .law-child-paper__title-wrapper {
+      width: 761px;
+   }
+}
+
+@media (max-width: 1100px) {
+   .law-child-paper__title-wrapper {
+      width: min(570px, 100% - 30px);
+   }
+}

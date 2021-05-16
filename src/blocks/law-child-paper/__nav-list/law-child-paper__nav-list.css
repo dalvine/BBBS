@@ -1,0 +1,9 @@
+.law-child-paper__nav-list {
+   align-self: flex-start;
+}
+
+@media (max-width: 600px) {
+   .law-child-paper__nav-list {
+      align-self: center;
+   }
+}
