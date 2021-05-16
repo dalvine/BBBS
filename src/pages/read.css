@@ -4,73 +4,63 @@
 @import url('./header.css');
 @import url('./footer.css');
 
-@import url('./other.css');
-
-
-@import url('./index.css');
-@import url('./where_to_go.css');
-@import url('./guide.css');
-@import url('./video.css');
-
 @import url('../blocks/main-read/main-read.css');
-@import url('../blocks/read-paper/read-paper.css');
-@import url('../blocks/read-video/read-video.css');
-@import url('../blocks/read-video/__info/read-video__info.css');
-@import url('../blocks/read-video/__link/read-video__link.css');
-@import url('../blocks/read-video/__subtitle/read-video__subtitle.css');
-@import url('../blocks/read-video/__title/read-video__title.css');
-@import url('../blocks/read-video/read-video.css');
 @import url('../blocks/read/read.css');
 @import url('../blocks/read/__title/read__title.css');
+@import url('../blocks/read/__title-text/read__title-text.css');
 @import url('../blocks/read/__arrow-left/read__arrow-left.css');
 @import url('../blocks/read/__arrow-right/read__arrow-right.css');
-@import url('../blocks/read/__title-text/read__title-text.css');
-@import url('../blocks/recommendations/__radio/recommendations__radio.css');
-@import url('../blocks/recommendations/__posted-text/recommendations__posted-text.css');
-@import url('../blocks/recommendations/__posted-image/recommendations__posted-image.css');
-@import url('../blocks/recommendations-form/recommendations-form.css');
-@import url('../blocks/recommendations-form/_invalid/recommendations-form_invalid.css');
-@import url('../blocks/recommendations-form/__holiday/_disabled/recommendations-form__holiday_disabled.css');
-@import url('../blocks/recommendations-form/__add-foto/recommendations-form__add-foto.css');
-@import url('../blocks/recommendations-form/__input-add-foto/recommendations-form__input-add-foto.css');
-@import url('../blocks/recommendations-form/__input/recommendations-form__input.css');
-@import url('../blocks/recommendations-form/__input/_type/recommendations-form__input_type_comments.css');
-@import url('../blocks/recommendations-form/__input/_type/recommendations-form__input_type_holiday.css');
-@import url('../blocks/recommendations-form/__label/_type/recommendations-form__label_type_address.css');
-@import url('../blocks/recommendations-form/__label/_type/recommendations-form__label_type_age.css');
-@import url('../blocks/recommendations-form/__label/_type/recommendations-form__label_type_boy.css');
-@import url('../blocks/recommendations-form/__label/_type/recommendations-form__label_type_comments.css');
-@import url('../blocks/recommendations-form/__label/_type/recommendations-form__label_type_foto.css');
-@import url('../blocks/recommendations-form/__label/_type/recommendations-form__label_type_girl.css');
-@import url('../blocks/recommendations-form/__label/_type/recommendations-form__label_type_holiday.css');
-@import url('../blocks/recommendations-form/__label/_type/recommendations-form__label_type_title.css');
-@import url('../blocks/recommendations-form/__label/_type/recommendations-form__label_type_url.css');
-@import url('../blocks/recommendations-form/__submit/recommendations-form__submit.css');
-@import url('../blocks/recommendations-form/__submit/_type/recommendations-form__submit_type_disabled.css');
+@import url('../blocks/read/__title-link/read__title-link.css');
+
+@import url('../blocks/guide/guide.css');
+@import url('../blocks/guide/__image/guide__image.css');
+@import url('../blocks/guide/__title-image/guide__title-image.css');
+@import url('../blocks/guide/__image/_type/guide__image_type_circle.css');
+@import url('../blocks/guide/__image/_type/guide__image_type_arc.css');
+
+@import url('../blocks/poster/__list/poster__list.css');
+@import url('../blocks/poster/__item/poster__item.css');
+@import url('../blocks/poster/__layer/poster__layer.css');
+@import url('../blocks/poster/__title/poster__title.css');
+@import url('../blocks/poster/__subtitle/poster__subtitle.css');
+@import url('../blocks/poster/__link/poster__link.css');
+
+@import url('../blocks/guide/__items/guide__items.css');
+
+@import url('../blocks/read-video/read-video.css');
+@import url('../blocks/read-video/__info/read-video__info.css');
+@import url('../blocks/read-video/__title/read-video__title.css');
+@import url('../blocks/read-video/__subtitle/read-video__subtitle.css');
+@import url('../blocks/read-video/__link/read-video__link.css');
+
+@import url('../blocks/paper/_size/paper_size_mini.css');
+@import url('../blocks/paper/__items/paper__items.css');
+@import url('../blocks/paper/__description/paper__description.css');
+@import url('../blocks/paper/__description/_size/paper__description_size_mini.css');
+@import url('../blocks/paper/__description/_color/paper__description_color_green.css');
+@import url('../blocks/read-paper/read-paper.css');
+@import url('../blocks/paper/__description-title/paper__description-title.css');
+@import url('../blocks/paper/__description-subtitle/paper__description-subtitle.css');
+@import url('../blocks/paper/__description-link/paper__description-link.css');
+@import url('../blocks/paper/__description-link/_size/paper__description-link_size_mini.css');
+@import url('../blocks/paper-text/paper-text.css');
+@import url('../blocks/paper-text/_size/paper-text_size_mini.css');
+@import url('../blocks/paper-text/__wrapper/_size/paper-text__wrapper_size_mini.css');
+@import url('../blocks/paper-text/__text/paper-text__text.css');
+@import url('../blocks/paper-text/__paragraph/paper-text__paragraph.css');
+@import url('../blocks/paper/__description/_color/paper__description_color_yellow.css');
+@import url('../blocks/paper/__description/_color/paper__description_color_orange.css');
+
+@import url('../blocks/poster/__categories/poster__categories.css');
+@import url('../blocks/poster/__category/poster__category.css');
+
+@import url('../blocks/book/__items/book__items.css');
+@import url('../blocks/book/__item/book__item.css');
 @import url('../blocks/book/book.css');
 @import url('../blocks/book/_type/book_type_scient-book.css');
 @import url('../blocks/book/_type/book_type_art-book.css');
-@import url('../blocks/book/__author/book__author.css');
-@import url('../blocks/book/__info/book__info.css');
-@import url('../blocks/book/__item/book__item.css');
-@import url('../blocks/book/__items/book__items.css');
-@import url('../blocks/book/__line/book__line.css');
 @import url('../blocks/book/__title/book__title.css');
+@import url('../blocks/book/__info/book__info.css');
+@import url('../blocks/book/__line/book__line.css');
+@import url('../blocks/book/__author/book__author.css');
 @import url('../blocks/book/__year/book__year.css');
-
-
-
-
-
-
-
-
-
-@import url('./header.css');
-@import url('./footer.css');
-
-
-
-
-
-

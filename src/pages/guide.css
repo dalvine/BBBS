@@ -1,6 +1,8 @@
 @import url('../vendor/normalize.css');
 @import url('../vendor/fonts/fonts.css');
 @import url('../blocks/page/page.css');
+@import url('./header.css');
+@import url('./footer.css');
 
 
 @import url('../blocks/main-guide/main-guide.css');
@@ -19,7 +21,4 @@
 @import url('../blocks/numbers/__pages-link/numbers__pages-link.css');
 @import url('../blocks/numbers/__pages-link/_active/numbers__pages-link_active.css');
 @import url('../blocks/numbers/__pages/numbers__pages.css');
-
-@import url('./header.css');
-@import url('./footer.css');
-
+@import url('../blocks/numbers/__pages-link-next/numbers__pages-link-next.css');

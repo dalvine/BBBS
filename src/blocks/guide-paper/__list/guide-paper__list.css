@@ -1,0 +1,20 @@
+.guide-paper__list {
+   background-color: #fff;
+   border-radius: 30px;
+   list-style: none;
+   padding: 50px;
+   margin: 30px 0 0;
+}
+
+@media (max-width: 1200px) {
+   .guide-paper__list {
+      padding: 30px;
+      margin-top: 20px;
+   }
+}
+
+@media (max-width: 800px) {
+   .guide-paper__list {
+      padding: 30px 15px;
+   }
+}

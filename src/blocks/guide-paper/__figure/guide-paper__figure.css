@@ -1,0 +1,15 @@
+.guide-paper__figure {
+   margin: 50px 0;
+}
+
+@media (max-width: 1200px) {
+   .guide-paper__figure {
+      margin: 40px 0 30px;
+   }
+}
+
+@media (max-width: 800px) {
+   .guide-paper__figure {
+      margin-top: 20px;
+   }
+}

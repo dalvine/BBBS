@@ -2,11 +2,19 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    right: 5px;
+    right: 10px;
     width: 30px;
     height: 30px;
     background: transparent url('../../../images/arrow_right.svg') no-repeat center;
     background-size: contain;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.read__arrow-right:hover {
+    right: 0;
 }
 
 @media (max-width: 600px) {

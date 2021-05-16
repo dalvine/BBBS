@@ -1,0 +1,21 @@
+.guide-paper__point {
+   font-family: 'PTRootUIWebRegular', Georgia, Serif;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 18px;
+   line-height: 1.44;
+   padding: 15px 0;
+   border-bottom: 1px solid #A7A6A6;
+}
+
+.guide-paper__point:last-child {
+   border-bottom: none;
+}
+
+@media (max-width: 1200px) {
+   .guide-paper__point {
+      font-size: 15px;
+      line-height: 1.4;
+      padding: 10px 0 15px;
+   }
+}

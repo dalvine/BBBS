@@ -1,0 +1,9 @@
+.read__title-link {
+   text-decoration: none;
+   color: #224CFF;
+   transition: opacity 0.5s ease;
+}
+
+.read__title-link:hover {
+   opacity: 0.6;
+}

@@ -1,0 +1,28 @@
+.main-guide-paper {
+   font-family: 'ProtoGrotesk', Georgia, Serif;
+   display: flex;
+   flex-direction: column;
+   justify-content: start;
+   align-items: center;
+   width: 1170px;
+   margin: 0 auto;
+   color: #1A1A1A;
+}
+
+@media (max-width: 1500px) {
+   .main-guide-paper {
+      width: 970px;
+   }
+}
+
+@media (max-width: 1200px) {
+   .main-guide-paper {
+      width: 770px;
+   }
+}
+
+@media (max-width: 800px) {
+   .main-guide-paper {
+      width: calc(100vw - 30px);
+   }
+}

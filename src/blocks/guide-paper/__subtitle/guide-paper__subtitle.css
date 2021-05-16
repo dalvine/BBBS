@@ -1,0 +1,15 @@
+.guide-paper__subtitle {
+   font-style: normal;
+   font-weight: 300;
+   font-size: 23px;
+   line-height: 1.3;
+   text-align: center;
+   margin: 0;
+}
+
+@media (max-width: 1200px) {
+   .guide-paper__subtitle {
+      font-size: 19px;
+      line-height: 1.21;
+   }
+}

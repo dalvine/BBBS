@@ -1,0 +1,17 @@
+.guide-paper__image-title {
+   font-family: 'PTRootUIWebRegular', Georgia, Serif;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 14px;
+   line-height: 1.36;
+   letter-spacing: 0.2px;
+   color: #464646;
+   margin: 10px 0 0;
+}
+
+@media (max-width: 1200px) {
+   .guide-paper__image-title {
+      font-size: 12px;
+      line-height: 1.42;
+   }
+}

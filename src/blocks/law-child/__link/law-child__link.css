@@ -9,6 +9,11 @@
    flex-direction: column;
    padding: 10px;
    box-sizing: border-box;
+   transition: all 0.5s ease;
+}
+
+.law-child__link:hover {
+   filter: sepia(0.8);
 }
 
 @media (max-width: 1450px) {

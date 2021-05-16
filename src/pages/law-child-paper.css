@@ -1,4 +1,19 @@
-@import url('./guide-paper.css');
+@import url('../vendor/normalize.css');
+@import url('../vendor/fonts/fonts.css');
+@import url('../blocks/page/page.css');
+@import url('./header.css');
+@import url('./footer.css');
+
+@import url('../blocks/guide-paper/__title/guide-paper__title.css');
+@import url('../blocks/guide-paper/__subtitle/guide-paper__subtitle.css');
+@import url('../blocks/main-guide-paper/main-guide-paper.css');
+@import url('../blocks/guide-paper/__item/guide-paper__item.css');
+@import url('../blocks/guide-paper/__item/_size/guide-paper__item_size_medium.css');
+@import url('../blocks/guide-paper/__paragraph/guide-paper__paragraph.css');
+@import url('../blocks/guide-paper/__list/guide-paper__list.css');
+@import url('../blocks/guide-paper/__point/guide-paper__point.css');
+@import url('../blocks/guide-paper/__paragraph/guide-paper__paragraph_highlight.css');
+@import url('../blocks/guide-paper/__link/guide-paper__link.css');
 
 @import url('../blocks/law-child-paper/__link/law-child-paper__link.css');
 @import url('../blocks/law-child-paper/__link_color_green/law-child-paper__link_color_green.css');
@@ -7,7 +22,3 @@
 @import url('../blocks/law-child-paper/__title/law-child-paper__title.css');
 @import url('../blocks/law-child-paper/__header/law-child-paper__header.css');
 @import url('../blocks/law-child-paper/__nav-list/law-child-paper__nav-list.css');
-
-
-
-

@@ -1,0 +1,28 @@
+.guide-paper__image {
+   width: 1170px;
+   height: 769px;
+   object-fit: cover;
+   object-position: center;
+   border-radius: 30px;
+}
+
+@media (max-width: 1500px) {
+   .guide-paper__image {
+      width: 970px;
+      height: 637px;
+   }
+}
+
+@media (max-width: 1200px) {
+   .guide-paper__image {
+      width: 770px;
+      height: 507px;
+   }
+}
+
+@media (max-width: 800px) {
+   .guide-paper__image {
+      width: calc(100vw - 30px);
+      height: calc(50vw - 30px);
+   }
+}

@@ -1,3 +1,9 @@
 .guide__items {
     width: 370px;
- }
+}
+
+@media (max-width: 600px) {
+    .guide__items {
+        width: 290px;
+    }
+}
