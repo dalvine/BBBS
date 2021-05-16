@@ -2,7 +2,7 @@
     font-family: 'ProtoGrotesk', Georgia, Serif;
     display: flex;
     justify-content: center;
-    align-items: baseline;
+    align-items: center;
     flex-wrap: nowrap;
     margin-bottom: 15px;
     overflow: hidden;

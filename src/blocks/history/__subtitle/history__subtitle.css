@@ -1,0 +1,17 @@
+.history__subtitle {
+   margin-bottom: 40px;
+   max-width: 970px;
+}
+
+@media (max-width: 1200px) {
+   .history__subtitle {
+      margin-bottom: 30px;
+      max-width: 770px;
+   }
+}
+
+@media (max-width: 800px) {
+   .history__subtitle {
+      max-width: calc(100% - 30px);
+   }
+}

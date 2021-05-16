@@ -1,0 +1,16 @@
+.history__message {
+   max-width: 770px;
+   width: 100%;
+}
+
+@media (max-width: 1200px) {
+   .history__message {
+      max-width: 570px;
+   }
+}
+
+@media (max-width: 800px) {
+   .history__message {
+      max-width: calc(100% - 30px);
+   }
+}

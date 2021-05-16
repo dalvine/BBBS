@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./history.css">
+   <title>Истории дружбы</title>
+</head>
+
+<body class="page">
+   <header class="header">
+      <div class="header__btn-menu"></div>
+      <a class="logo" href="../index.html">наставники.про</a>
+      <!-- В index-authorized ссылка ведет на страницу неавторизованного пользователя-->
+      <!-- Сделано для удобства просмотра двух страниц-->
+      <nav class="nav-list">
+         <div class="nav-list__container">
+            <ul class="nav-list__items nav-list__items_content_navigation">
+               <li class="nav-list__item"><a href="./calendar.html" class="nav-list__link">календарь</a></li>
+               <li class="nav-list__item"><a href="./where_to_go.html" class="nav-list__link">куда пойти</a></li>
+               <li class="nav-list__item"><a href="./answers.html" class="nav-list__link">вопросы</a></li>
+               <li class="nav-list__item nav-list__item_submenu"><a href="./read.html" class="nav-list__link">читать и
+                     смотреть</a>
+                  <ul class="nav-list__submenu-list">
+                     <li class="nav-list__submenu-item"><a href="./guide.html" class="nav-list__link">cправочник</a>
+                     </li>
+                     <li class="nav-list__submenu-item"><a href="./video.html" class="nav-list__link">Видео</a></li>
+                     <li class="nav-list__submenu-item"><a href="#" class="nav-list__link">Статьи</a></li>
+                     <li class="nav-list__submenu-item"><a href="#" class="nav-list__link">Фильмы</a></li>
+                     <li class="nav-list__submenu-item"><a href="#" class="nav-list__link">Книги</a></li>
+                  </ul>
+               </li>
+               <li class="nav-list__item"><a href="#" class="nav-list__link">права детей</a></li>
+               <li class="nav-list__item"><a href="#" class="nav-list__link">истории</a></li>
+            </ul>
+            <ul class="nav-list__items nav-list__items_content_social">
+               <li class="nav-list__item"><a href="" class="nav-list__link">facebook</a></li>
+               <li class="nav-list__item"><a href="" class="nav-list__link">vkontakte</a></li>
+               <li class="nav-list__item"><a href="" class="nav-list__link">instagram</a></li>
+               <li class="nav-list__item"><a href="" class="nav-list__link">youtube</a></li>
+            </ul>
+         </div>
+      </nav>
+      <div class="header__right-block">
+         <form class="search" name="search">
+            <div class="search__container">
+               <input type="text" name="searchInput" class="search__input">
+               <ul class="search__results">
+                  <li class="search__result">
+                     <p class="search__result-text">Причины подростковой агрессии</p>
+                     <a href="" class="search__result-link">статьи</a>
+                  </li>
+                  <li class="search__result">
+                     <p class="search__result-text">Агрессивное поведение детей-сирот</p>
+                     <a href="" class="search__result-link">видео</a>
+                  </li>
+                  <li class="search__result">
+                     <p class="search__result-text">Что делать если ваш младший агрессивно себя ведет, решил закрыть
+                        пару?
+                     </p>
+                     <a href="" class="search__result-link">вопросы</a>
+                  </li>
+                  <li class="search__result">
+                     <p class="search__result-text">Как реагировать на агрессивное поведения ребенка</p>
+                     <a href="" class="search__result-link">книги</a>
+                  </li>
+               </ul>
+            </div>
+            <button type="button" name="searchSubmit" class="search__btn"></button>
+         </form>
+         <img src="../images/ico-profile.svg" class="profile-ico profile-ico_state_non-authorize">
+      </div>
+   </header>
+   <main class="history__main">
+      <h1 class="title">
+         Истории дружбы
+      </h1>
+      <p class="guide-paper__subtitle history__subtitle">
+         Результат нашей работы сложно показать цифрами. Как измерить и взвесить дружбу? Как оценить успехи абсолютно разных
+         детей? У каждой пары — свой результат и свои достижения. Именно об этом мы рассказываем в историях.
+      </p>
+      <div class="filter">
+         <button type="button" aria-label="Алина и Марина" class="filter__button filter__button_active">Алина и Марина</button>
+         <button type="button" aria-label="Кирилл и Никита" class="filter__button">Кирилл и Никита</button>
+         <button type="button" aria-label="Алик и Артём" class="filter__button">Алик и Артём</button>
+         <button type="button" aria-label="Нина и Виталик" class="filter__button">Нина и Виталик</button>
+         <button type="button" aria-label="Юля и Вова" class="filter__button">Юля и Вова</button>
+         <button type="button" aria-label="Катя и Петя" class="filter__button">Катя и Петя</button>
+         <button type="button" aria-label="Вероника и Виталик" class="filter__button">Вероника и Виталик</button>
+         <button type="button" aria-label="Далее" class="filter__button-next"></button>
+      </div>
+      <figure class="history__figure-start">
+         <img src="../images/history_images.jpg" alt="Алина и Марина" class="guide-paper__image">
+      </figure>
+      <aside class="guide-paper__item">
+         <h2 class="history__paper-title">Алина и Марина</h2>
+         <p class="history__paper-subtitle">Вместе с февраля 2013 года</p>
+         <p class="guide-paper__subtitle history__paragraph">
+            Волонтёром в программе «Старшие Братья Старшие Сёстры» я стал в 2012 году, а в первые месяцы 2013-го после всех тестов и
+            тренингов у меня появился младший – Никита. Надо сказать, что шёл я к этому довольно долго два или три года. Нет, не
+            потому что собирался с мыслями. Я совершенно чётко осознавал, что накопил достаточный эмоциональный бэкграунд и готов
+            делиться им с детьми, а точнее – с каким-то одним ребёнком.
+         </p>
+         <p class="history__subparagraph">
+            Волонтёром в программе «Старшие Братья Старшие Сёстры» я стал в 2012 году, а в первые месяцы 2013-го после всех тестов и
+            тренингов у меня появился младший — Никита. Надо сказать, что шёл я к этому довольно долго два или три года. Нет, не
+            потому что собирался с мыслями. Я совершенно чётко осознавал, что накопил достаточный эмоциональный бэкграунд и готов
+            делиться им с детьми, а точнее — с каким-то одним ребёнком. Но большинство некоммерческих организаций, которые работают
+            с сиротами, практикуют массовые выезды волонтёров к группам детей, а мне хотелось найти программу, где организуют
+            индивидуальное общение взрослого и ребёнка, поскольку я понимал, что дети в интернатах гораздо больше нуждаются во
+            внимании и индивидуальном общении, чем в подарках. На поиски подходящей программы ушло некоторое время, и вдруг в конце
+            2012 года общество сильно всколыхнулось после принятия «закона Димы Яковлева», все волонтёрские программы стали очень
+            активны в Интернете, в том числе и «Старшие братья Старшие сёстры». Прочитав первую страницу на сайте «Старших
+            братьев…», я понял: вот оно! И сразу заполнил заявку на участие в программе.
+         </p>
+      </aside>
+      <blockquote class="history__quote">
+         Первые месяцы дружбы с Никитой были непростыми – мы привыкали друг к другу. Никита не верил, что я надолго в его жизни
+      </blockquote>
+      <section class="history__slider-wrapper">
+         <div class="history__slider">
+            <img src="../images/history_images.jpg" alt="Алина и Марина" class="history__slider-image">
+            <button type="button" aria-label="Предыдущее" class="history__button-prev"></button>
+            <img src="../images/history_images.jpg" alt="Алина и Марина" class="history__slider-image">
+            <button type="button" aria-label="Далее" class="history__button-next"></button>
+            <img src="../images/history_images.jpg" alt="Алина и Марина" class="history__slider-image">
+         </div>
+      </section>
+      <section class="guide-paper__item history__paper">
+         <p class="history__subparagraph">
+            Переломить эту ситуацию помогли каникулы. Когда я впервые провожал его в зимний лагерь, он сказал, что не хочет уезжать,
+            потому что, когда он вернётся, меня уже не будет рядом. Убеждения и заверения в том, что я никуда не денусь, не помогли,
+            и даже то, что после каникул я пришёл, не добавило Никите уверенности в долгосрочности нашей дружбы. Ситуация
+            повторилась летом: уезжая в лагерь, он снова боялся, что наша дружба кончится, но я снова встретил его осенью. И тогда
+            Никита понял, что я в его жизни надолго и всерьёз, и стал доверять мне. Например, я могу позвонить и сказать, что на
+            этих выходных у меня не получится приехать, и он совершенно спокойно спрашивает, приду ли я на следующих.
+         </p>
+         <p class="history__subparagraph">
+            Сейчас всё хорошо, и я очень рад нашим встречам и общению. Вдохновляет то, что Никита начал больше рассказывать о своей
+            жизни и друзьях, стал более открытым и чутким. Он даже запомнил дату нашей первой встречи, понимая, что это важная дата
+            для нас обоих. Мы назвали эту дату днём рождения нашей пары, и, когда нам исполнилось три года, он всем в группе
+            рассказывал о нашем дне рождения и приглашал на торт.
+         </p>
+         <p class="history__subparagraph">
+            Ещё одна радость — он учится рассуждать, понимать свои потребности и выбирать то, что ему больше нравится. Для
+            стороннего наблюдателя это кажется неочевидным достижением, но, если знать, как неохотно воспитанники сиротских
+            учреждений включают голову, особенно в ситуации выбора, то всё станет ясно. Тем не менее мне порой приходится прилагать
+            некоторые усилия к тому, чтобы он аргументировал свой выбор. Например, когда я спрашиваю: «Куда мы пойдем: в парк
+            Горького или в кино?» — он какое-то время пытается угадать «правильный ответ», но, когда видит, что со мной этот номер
+            не проходит, начинает объяснять, почему сделал тот или иной выбор.
+         </p>
+         <p class="history__subparagraph">
+            Переломить эту ситуацию помогли каникулы. Когда я впервые провожал его в зимний лагерь, он сказал, что не хочет уезжать,
+            потому что, когда он вернётся, меня уже не будет рядом. Убеждения и заверения в том, что я никуда не денусь, не помогли,
+            и даже то, что после каникул я пришёл, не добавило Никите уверенности в долгосрочности нашей дружбы. Ситуация
+            повторилась летом: уезжая в лагерь, он снова боялся, что наша дружба кончится, но я снова встретил его осенью. И тогда
+            Никита понял, что я в его жизни надолго и всерьёз, и стал доверять мне. Например, я могу позвонить и сказать, что на
+            этих выходных у меня не получится приехать, и он совершенно спокойно спрашивает, приду ли я на следующих.
+         </p>
+      </section>
+      <div class="history__message">
+         <a href="#" class="history__message-link">написать Алине</a>
+      </div>
+      <section class="history__paper-end">
+         <figure class="history__figure">
+            <img src="../images/history_images.jpg" alt="Алина и Марина" class="guide-paper__image">
+         </figure>
+         <aside class="guide-paper__item">
+            <h2 class="history__paper-title">Кирилл и Никита</h2>
+            <p class="history__paper-subtitle">Вместе с февраля 2013 года</p>
+            <p class="guide-paper__subtitle history__paragraph">
+               Волонтёром в программе «Старшие Братья Старшие Сёстры» я стал в 2012 году, а в первые месяцы 2013-го после всех тестов и
+               тренингов у меня появился младший – Никита. Надо сказать, что шёл я к этому довольно долго два или три года. Нет, не
+               потому что собирался с мыслями. Я совершенно чётко осознавал, что накопил достаточный эмоциональный бэкграунд и готов
+               делиться им с детьми, а точнее – с каким-то одним ребёнком.
+            </p>
+         </aside>
+      </section>
+
+
+
+
+      
+
+
+   </main>
+   <footer class="footer">
+      <img class="footer__logo" src="../images/logo-BBBS-white.svg" alt="логотип BBBS">
+      <ul class="footer__list footer__list_content_navigation">
+         <li class="footer__list-item"><a class="footer__link" href="#">о проекте</a></li>
+         <li class="footer__list-item"><a class="footer__link" href="./calendar.html">календарь</a></li>
+         <li class="footer__list-item"><a class="footer__link" href="./where_to_go.html">куда пойти</a></li>
+         <li class="footer__list-item"><a class="footer__link" href="./answers.html">вопросы</a></li>
+         <li class="footer__list-item"><a class="footer__link" href="./read.html">читать и смотреть</a></li>
+         <li class="footer__list-item"><a class="footer__link" href="#">права детей</a></li>
+         <li class="footer__list-item"><a class="footer__link" href="#">истории</a></li>
+      </ul>
+      <ul class="footer__list footer__list_content_social">
+         <li class="footer__list-item"><a class="footer__link" href="#">facebook</a></li>
+         <li class="footer__list-item"><a class="footer__link" href="#">vkontakte</a></li>
+         <li class="footer__list-item"><a class="footer__link" href="#">instagram</a></li>
+         <li class="footer__list-item"><a class="footer__link" href="#">youtube</a></li>
+      </ul>
+      <button class="donate-btn">Помочь деньгами</button>
+      <div class="footer__owners">
+         <p class="footer__copyright"> &copy; Старшие Братья Старшие Сестры</p>
+         <div class="footer__authors">
+            <p class="footer__author">Разработка – студенты <a href="#" class="footer__author-site">Яндекс.Практикум</a>
+            </p>
+            <p class="footer__author">Концепия и дизайн – <a href="#" class="footer__author-site">krkr.design</a>
+            </p>
+         </div>
+      </div>
+   </footer>
+   <script src="./index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+.history__slider-image {
+   width: 770px;
+   height: 505px;
+   border-radius: 30px;
+   object-fit: contain;
+   object-position: center;
+   flex: 1 0 770px;
+}
+
+@media (max-width: 1200px) {
+   .history__slider-image {
+      width: 570px;
+      height: 380px;
+      flex: 1 0 570px;
+   }
+}
+
+@media (max-width: 800px) {
+   .history__slider-image {
+      width: 260px;
+      height: 172px;
+      flex: 1 0 260px;
+   }
+}

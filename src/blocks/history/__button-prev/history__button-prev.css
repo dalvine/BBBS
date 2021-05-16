@@ -1,0 +1,17 @@
+.history__button-prev {
+   background: transparent url('../../../images/arrow_left.svg') no-repeat;
+   background-size: contain;
+   background-position: 50% 50%;
+   width: 30px;
+   height: 30px;
+   margin: 0;
+   outline: none;
+   border: none;
+   flex: 1 0 30px;
+}
+
+@media (max-width: 1200px) {
+   .history__button-prev {
+      display: none;
+   }
+}

@@ -1,0 +1,17 @@
+.history__paragraph {
+   margin: 30px auto 50px;
+   max-width: 970px;
+}
+
+@media (max-width: 1200px) {
+   .history__paragraph {
+      margin: 20px auto 30px;
+      max-width: 770px;
+   }
+}
+
+@media (max-width: 800px) {
+   .history__paragraph {
+      max-width: calc(100% - 30px);
+   }
+}
