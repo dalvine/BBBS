@@ -1,0 +1,26 @@
+.law-child__link {
+   width: 420px;
+   height: 420px;
+   text-decoration: none;
+   color: #1A1A1A;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   padding: 10px;
+   box-sizing: border-box;
+}
+
+@media (max-width: 1450px) {
+   .law-child__link {
+   width: 370px;
+   height: 370px;
+   }
+}
+
+@media (max-width: 1250px) {
+   .law-child__link {
+   width: 290px;
+   height: 290px;
+   }
+}
