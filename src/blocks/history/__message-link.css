@@ -1,0 +1,16 @@
+.history__message-link {
+   color: #224CFF;
+   text-decoration: none;
+   font-weight: 300;
+   font-style: normal;
+   font-size: 15px;
+   line-height: 1.27;
+   text-align: left;
+}
+
+@media (max-width: 1200px) {
+   .history__message-link {
+      font-size: 12px;
+      line-height: 1.42;
+   }
+}

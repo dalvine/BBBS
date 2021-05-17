@@ -1,0 +1,15 @@
+.guide-paper__item_size_medium {
+   width: 768px;
+}
+
+@media (max-width: 1200px) {
+   .guide-paper__item_size_medium {
+      width: 570px;
+   }
+}
+
+@media (max-width: 800px) {
+   .guide-paper__item_size_medium {
+      width: calc(100vw - 30px);
+   }
+}

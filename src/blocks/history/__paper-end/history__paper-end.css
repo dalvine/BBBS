@@ -1,0 +1,18 @@
+.history__paper-end {
+   margin-top: 80px;
+   padding-top: 80px;
+   border-top: 1px solid #464646;
+}
+
+@media (max-width: 1200px) {
+   .history__paper-end{
+      margin-top: 50px;
+      padding-top: 50px;
+   }
+}
+
+@media (max-width: 800px) {
+   .history__paper-end{
+      max-width: calc(100% - 30px);
+   }
+}

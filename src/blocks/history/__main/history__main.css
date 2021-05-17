@@ -1,0 +1,20 @@
+.history__main {
+   margin-top: 80px;
+   margin-bottom: 80px;
+   font-family: 'ProtoGrotesk', Georgia, Serif;
+   display: flex;
+   flex-direction: column;
+   justify-content: start;
+   align-items: center;
+   margin: 80px auto;
+   color: #1A1A1A;
+   width: 100%;
+   overflow: hidden;
+}
+
+@media (max-width: 1200px) {
+   .history__main {
+      margin-top: 30px;
+      margin-bottom: 30px;
+      }
+}

@@ -1,0 +1,16 @@
+.history__paper-subtitle {
+   font-family: 'PTRootUIWebRegular', Georgia, Serif;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 14px;
+   line-height: 1.36;
+   text-align: center;
+   margin: 10px 0 0;
+}
+
+@media (max-width: 1200px) {
+   .history__paper-subtitle {
+      font-size: 12px;
+      line-height: 1.42;
+   }
+}

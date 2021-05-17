@@ -1,10 +1,18 @@
-@import url('./guide.css');
+@import url('../vendor/normalize.css');
+@import url('../vendor/fonts/fonts.css');
+@import url('../blocks/page/page.css');
+@import url('./header.css');
+@import url('./footer.css');
+
+@import url('../blocks/main-guide/main-guide.css');
+@import url('../blocks/title/title.css');
 @import url('../blocks/filter/filter.css');
 @import url('../blocks/filter/__button/filter__button.css');
 @import url('../blocks/filter/__button/_active/filter__button_active.css');
-
-@import url('../blocks/paper/__mark/paper__mark.css');
+@import url('../blocks/guide/guide.css');
+@import url('../blocks/guide-section/guide-section.css');
 @import url('../blocks/guide-section/__items/guide-section__items.css');
+@import url('../blocks/paper/__mark/paper__mark.css');
 
 @import url('../blocks/law-child/__link/law-child__link.css');
 @import url('../blocks/law-child/__link/_type/law-child__link_type_circle.css');
@@ -17,5 +25,8 @@
 @import url('../blocks/law-child/__markers/law-child__markers.css');
 @import url('../blocks/law-child/__title-link/law-child__title-link.css');
 
-
-
+@import url('../blocks/numbers/numbers.css');
+@import url('../blocks/numbers/__pages/numbers__pages.css');
+@import url('../blocks/numbers/__pages-link/numbers__pages-link.css');
+@import url('../blocks/numbers/__pages-link/_active/numbers__pages-link_active.css');
+@import url('../blocks/numbers/__pages-link-next/numbers__pages-link-next.css');

@@ -1,0 +1,18 @@
+.history__button-next {
+   background: transparent url('../../../images/arrow_right.svg') no-repeat;
+   background-size: contain;
+   background-position: 50% 50%;
+   filter: grayscale(1);
+   width: 30px;
+   height: 30px;
+   margin: 0;
+   outline: none;
+   border: none;
+   flex: 1 0 30px;
+}
+
+@media (max-width: 1200px) {
+   .history__button-next {
+      display: none;
+   }
+}

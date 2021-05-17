@@ -1,0 +1,22 @@
+.history__slider {
+   position: relative;
+   top: 0;
+   left: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   column-gap: 50px;
+   width: 100%;
+}
+
+@media (max-width: 1200px) {
+   .history__slider {
+      column-gap: 30px;
+   }
+}
+
+@media (max-width: 800px) {
+   .history__slider {
+      column-gap: 15px;
+   }
+}

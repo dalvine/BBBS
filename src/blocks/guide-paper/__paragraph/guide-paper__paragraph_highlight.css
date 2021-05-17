@@ -1,0 +1,17 @@
+.guide-paper__paragraph_highlight {
+   padding: 50px;
+   background-color: #F8D162;
+   border-radius: 30px;
+}
+
+@media (max-width: 1200px) {
+   .guide-paper__paragraph_highlight {
+      padding: 30px;
+   }
+}
+
+@media (max-width: 800px) {
+   .guide-paper__paragraph_highlight {
+      padding: 30px 15px;
+   }
+}

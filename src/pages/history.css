@@ -1,0 +1,35 @@
+@import url('../vendor/normalize.css');
+@import url('../vendor/fonts/fonts.css');
+@import url('../blocks/page/page.css');
+@import url('./header.css');
+@import url('./footer.css');
+
+@import url('../blocks/history/__main/history__main.css');
+@import url('../blocks/title/title.css');
+@import url('../blocks/filter/filter.css');
+@import url('../blocks/filter/__button/filter__button.css');
+@import url('../blocks/filter/__button/_active/filter__button_active.css');
+@import url('../blocks/filter/__button__next/filter__button-next.css');
+@import url('../blocks/guide-paper/__subtitle/guide-paper__subtitle.css');
+@import url('../blocks/guide-paper/__image/guide-paper__image.css');
+@import url('../blocks/guide-paper/__item/guide-paper__item.css');
+
+@import url('../blocks/history/__subtitle/history__subtitle.css');
+@import url('../blocks/history/__figure/history__figure.css');
+@import url('../blocks/history/__figure-start/history__figure-start.css');
+@import url('../blocks/history/__paper-title/history__paper-title.css');
+@import url('../blocks/history/__paper-subtitle/history__paper-subtitle.css');
+@import url('../blocks/history/__paragraph/history__paragraph.css');
+@import url('../blocks/history/__subparagraph/history__subparagraph.css');
+@import url('../blocks/history/__quote/history__quote.css');
+
+@import url('../blocks/history/__slider-wrapper/history__slider-wrapper.css');
+@import url('../blocks/history/__slider/history__slider.css');
+@import url('../blocks/history/__slider-image/history__slider-image.css');
+@import url('../blocks/history/__button-prev/history__button-prev.css');
+@import url('../blocks/history/__button-next/history__button-next.css');
+
+@import url('../blocks/history/__message/history__message.css');
+@import url('../blocks/history/__message-link.css');
+@import url('../blocks/history/__paper/history__paper.css');
+@import url('../blocks/history/__paper-end/history__paper-end.css');

@@ -1,0 +1,28 @@
+.numbers__pages-link-next {
+   background: transparent url('../../../images/arrow_right.svg') no-repeat center;
+   filter: grayscale(100%); 
+   background-size: cover;
+   margin-left: 55px;
+   width: 30px;
+   height: 30px;
+   box-sizing: border-box;
+   transition: opacity 0.5s ease;
+}
+
+.numbers__pages-link-next:hover {
+   opacity: 0.6;
+}
+
+@media (max-width: 1200px) {
+   .numbers__pages-link-next {
+      width: 20px;
+      height: 20px;
+      margin-left: 35px;
+   }
+}
+
+@media (max-width: 600px) {
+   .numbers__pages-link-next {
+      margin-left: 20px;
+   }
+}

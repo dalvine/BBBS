@@ -1,0 +1,29 @@
+.history__subparagraph {
+   font-family: 'PTRootUIWebRegular', Georgia, Serif;
+   font-weight: 300;
+   font-style: normal;
+   font-size: 18px;
+   line-height: 1.44;
+   max-width: 770px;
+   margin: 0 auto 25px;
+}
+
+.history__subparagraph:last-child {
+   margin-bottom: 0;
+}
+
+
+@media (max-width: 1200px) {
+   .history__subparagraph {
+      font-size: 15px;
+      line-height: 1.44;
+      max-width: 570px;
+      margin-bottom: 15px;
+   }
+}
+
+@media (max-width: 800px) {
+   .history__subparagraph {
+      max-width: calc(100% - 30px);
+   }
+}

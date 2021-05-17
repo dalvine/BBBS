@@ -1,0 +1,15 @@
+.history__figure-start {
+   margin: 40px auto 50px;
+}
+
+@media (max-width: 1200px) {
+   .history__figure-start {
+      margin: 30px auto 20px;
+      }
+}
+
+@media (max-width: 800px) {
+   .history__figure-start {
+      margin-bottom: 15px;
+      }
+}

@@ -1,0 +1,16 @@
+.guide-paper__paragraph {
+   margin: 30px 0 0;
+   font-family: 'PTRootUIWebRegular', Georgia, Serif;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 18px;
+   line-height: 1.44;
+}
+
+@media (max-width: 1200px) {
+   .guide-paper__paragraph {
+      margin-top: 20px;
+      font-size: 15px;
+      line-height: 1.4;
+   }
+}

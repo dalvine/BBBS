@@ -1,0 +1,11 @@
+.guide-paper__next-image {
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   left: 0;
+   background: transparent url('../../../images/read_guide_2.jpg') no-repeat;
+   background-size: contain;
+   border-radius: 50%;
+   width: 69px;
+   height: 69px;
+}

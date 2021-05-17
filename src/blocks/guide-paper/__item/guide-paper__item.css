@@ -1,0 +1,9 @@
+.guide-paper__item {
+   margin: 0 0 80px;
+}
+
+@media (max-width: 1200px) {
+   .guide-paper__item {
+      margin-bottom: 30px;
+   }
+}

@@ -1,3 +1,38 @@
-@import url('../pages/read-films.css');
+@import url('../vendor/normalize.css');
+@import url('../vendor/fonts/fonts.css');
+@import url('../blocks/page/page.css');
+@import url('./header.css');
+@import url('./footer.css');
 
+@import url('../blocks/main-video/main-video.css');
+@import url('../blocks/title/title.css');
+@import url('../blocks/filter/filter.css');
+@import url('../blocks/filter/__button/filter__button.css');
+@import url('../blocks/filter/__button/_active/filter__button_active.css');
+
+@import url('../blocks/video-list/video-list.css');
+@import url('../blocks/poster/__list/poster__list.css');
+@import url('../blocks/read-paper/__list/read-paper__list.css');
 @import url('../blocks/read-books/__items/read-books__items.css');
+@import url('../blocks/poster/__layer/poster__layer.css');
+@import url('../blocks/book/__item/book__item.css');
+@import url('../blocks/book/book.css');
+
+@import url('../blocks/book/_type/book_type_scient-book.css');
+@import url('../blocks/book/_type/book_type_art-book.css');
+@import url('../blocks/book/__title/book__title.css');
+@import url('../blocks/book/__info/book__info.css');
+@import url('../blocks/book/__line/book__line.css');
+@import url('../blocks/book/__author/book__author.css');
+@import url('../blocks/book/__year/book__year.css');
+@import url('../blocks/paper-text/paper-text.css');
+@import url('../blocks/paper-text/_size/paper-text_size_mini.css');
+@import url('../blocks/paper-text/__wrapper/_size/paper-text__wrapper_size_mini.css');
+@import url('../blocks/paper-text/__text/paper-text__text.css');
+@import url('../blocks/paper-text/__paragraph/paper-text__paragraph.css');
+
+@import url('../blocks/numbers/numbers.css');
+@import url('../blocks/numbers/__pages/numbers__pages.css');
+@import url('../blocks/numbers/__pages-link/numbers__pages-link.css');
+@import url('../blocks/numbers/__pages-link/_active/numbers__pages-link_active.css');
+@import url('../blocks/numbers/__pages-link-next/numbers__pages-link-next.css');

@@ -1,7 +1,7 @@
 .paper__description-mark {
     margin: 15px auto;
     padding: 2px 7px;
-    background-color: #fadf91;
+    background-color: rgba(255, 255, 255, .3);
     border-radius: 2em / 2em;
     display: inline-block;
     font-weight: normal;
@@ -11,4 +11,4 @@
     text-transform: uppercase;
     letter-spacing: 1px;
     color:#464646;
- }
+}

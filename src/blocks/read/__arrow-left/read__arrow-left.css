@@ -7,12 +7,23 @@
     height: 30px;
     background: transparent url('../../../images/arrow_left.svg') no-repeat center;
     background-size: contain;
- }
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
 
- @media (max-width: 600px) {
+.read__arrow-left:hover {
+    right: 70px;
+}
+
+@media (max-width: 600px) {
     .read__arrow-left {
         width: 20px;
         height: 20px;
         right: 40px;
-     }
- }
+    }
+    .read__arrow-left:hover {
+        right: 50px;
+    }
+}

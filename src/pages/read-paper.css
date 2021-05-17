@@ -3,15 +3,44 @@
 @import url('../blocks/page/page.css');
 @import url('./header.css');
 @import url('./footer.css');
-@import url('./where_to_go.css');
-@import url('./read.css');
 
 @import url('../blocks/main-video/main-video.css');
-@import url('../blocks/video-list/video-list.css');
-
-
-@import url('../blocks/read-paper/__list/read-paper__list.css');
-@import url('../blocks/read-paper/__items/read-paper__items.css');
+@import url('../blocks/title/title.css');
+@import url('../blocks/paper/paper.css');
+@import url('../blocks/paper/_size/paper_size_max.css');
+@import url('../blocks/paper/__description/paper__description.css');
+@import url('../blocks/paper/__description/_size/paper__description_size_max.css');
+@import url('../blocks/paper/__description/_color/paper__description_color_yellow.css');
 @import url('../blocks/read-paper/__container/read-paper__container.css');
+@import url('../blocks/paper/__description-info/paper__description-info.css');
+@import url('../blocks/paper/__description-title/paper__description-title.css');
+@import url('../blocks/paper/__description-subtitle/paper__description-subtitle.css');
+@import url('../blocks/paper/__description-image/paper__description-image.css');
 @import url('../blocks/read-paper/__image/read-paper__image.css');
+@import url('../blocks/paper/__description-link/paper__description-link.css');
+@import url('../blocks/paper-text/paper-text.css');
+@import url('../blocks/paper-text/__wrapper/_size/paper-text__wrapper_size_max.css');
+@import url('../blocks/paper-text/__title/paper-text__title.css');
+@import url('../blocks/paper-text/__text/paper-text__text.css');
+@import url('../blocks/paper-text/__paragraph/paper-text__paragraph.css');
+@import url('../blocks/video-list/video-list.css');
+@import url('../blocks/poster/__list/poster__list.css');
+@import url('../blocks/read-paper/__list/read-paper__list.css');
+@import url('../blocks/paper/_size/paper_size_mini.css');
+@import url('../blocks/read-paper/__items/read-paper__items.css');
+@import url('../blocks/paper/__description/_size/paper__description_size_mini.css');
+@import url('../blocks/paper/__description/_color/paper__description_color_green.css');
+@import url('../blocks/read-paper/read-paper.css');
+@import url('../blocks/paper/__description-link/_size/paper__description-link_size_mini.css');
+@import url('../blocks/paper-text/_size/paper-text_size_mini.css');
+@import url('../blocks/paper-text/__wrapper/_size/paper-text__wrapper_size_mini.css');
+@import url('../blocks/paper/__description/_color/paper__description_color_orange.css');
+@import url('../blocks/paper/__description/_color/paper__description_color_light-blue.css');
+
+@import url('../blocks/numbers/numbers.css');
+@import url('../blocks/numbers/__pages/numbers__pages.css');
+@import url('../blocks/numbers/__pages-link/numbers__pages-link.css');
+@import url('../blocks/numbers/__pages-link/_active/numbers__pages-link_active.css');
+@import url('../blocks/numbers/__pages-link-next/numbers__pages-link-next.css');
+
 
