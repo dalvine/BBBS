@@ -20,3 +20,9 @@
         grid-area: donate;
     }   
 }
+
+
+.donate-btn:hover {
+    opacity: .5;
+    transition: opacity .20s ease;
+}

@@ -45,13 +45,17 @@
             <div class="nav-list__container">
                 <ul class="nav-list__items nav-list__items_content_navigation">
                     <li class="nav-list__item"><a href="./pages/calendar.html" class="nav-list__link">календарь</a></li>
-                    <li class="nav-list__item"><a href="./pages/where_to_go.html" class="nav-list__link">куда пойти</a></li>
+                    <li class="nav-list__item"><a href="./pages/where_to_go.html" class="nav-list__link">куда пойти</a>
+                    </li>
                     <li class="nav-list__item"><a href="./pages/answers.html" class="nav-list__link">вопросы</a></li>
-                    <li class="nav-list__item nav-list__item_submenu"><a href="./pages/read.html" class="nav-list__link">читать и
+                    <li class="nav-list__item nav-list__item_submenu"><a href="./pages/read.html"
+                            class="nav-list__link">читать и
                             смотреть</a>
                         <ul class="nav-list__submenu-list">
-                            <li class="nav-list__submenu-item"><a href="./pages/guide.html" class="nav-list__link">cправочник</a></li>
-                            <li class="nav-list__submenu-item"><a href="./pages/video.html" class="nav-list__link">Видео</a></li>
+                            <li class="nav-list__submenu-item"><a href="./pages/guide.html"
+                                    class="nav-list__link">cправочник</a></li>
+                            <li class="nav-list__submenu-item"><a href="./pages/video.html"
+                                    class="nav-list__link">Видео</a></li>
                             <li class="nav-list__submenu-item"><a href="#" class="nav-list__link">Статьи</a></li>
                             <li class="nav-list__submenu-item"><a href="#" class="nav-list__link">Фильмы</a></li>
                             <li class="nav-list__submenu-item"><a href="#" class="nav-list__link">Книги</a></li>
@@ -99,7 +103,7 @@
                 </div>
                 <button type="button" name="searchSubmit" class="search__btn"></button>
             </form>
-            <img src="./images/ico-profile-authorized.svg" class="profile-ico">
+            <img src="./images/ico-profile-authorized.svg" class="profile-ico" alt="Иконка юзера">
         </div>
         </div>
     </header>
@@ -110,29 +114,30 @@
                 <p class="event__month-and-weekday">декабрь / понедельник</p>
             </div>
             <div class="event__info">
-                <h4 class="event__title">Субботний meet up: учимся проходить интевью</h4>
+                <h2 class="event__title event__title_place_card">Субботний meet up: учимся проходить интевью</h2>
                 <p class="event__date">23</p>
             </div>
             <ul class="event__additional-info">
-                <li class="event__additional-info-item event__time">12:00–14:00</li>
-                <li class="event__additional-info-item event__place">Садовническая наб., д. 77 стр. 1 (офис компании
-                    Ernst&Young)</li>
-                <li class="event__additional-info-item event__contact-person">Александра, +7 926 356-78-90</li>
+                <li class="event__additional-info-item event__additional-info-item_type_time">12:00–14:00</li>
+                <li class="event__additional-info-item event__additional-info-item_type_place">Садовническая наб., д. 77
+                    стр. 1 (офис компании Ernst&Young)</li>
+                <li class="event__additional-info-item event__additional-info-item_type_contact-person">Александра, +7
+                    926 356-78-90</li>
             </ul>
             <div class="event__controls">
                 <div class="event__signup-container">
-                    <button type="button" aria-label="Записаться"
-                        class="event__signup-button opacity-transition">Записаться</button>
+                    <button type="button" aria-label="Записаться" class="event__button event__button_active 
+                    event__button_type_signup">Записаться</button>
                     <p class="event__participants-counter">Осталось 5 мест</p>
                 </div>
-                <button type="button" aria-label="Посмотреть детали"
-                    class="event__details-button opacity-transition"></button>
+                <button type="button" aria-label="Посмотреть детали" class="event__button event__button_active 
+                  event__button_type_details"></button>
             </div>
         </section>
         <section class="cover-history">
             <img src="./images/history-friend.png" alt="" class="cover-history__image">
             <div class="cover-history__layer">
-                <h2 class="cover-history__title">История Марины и Алины</h2>
+                <a href="#" class="cover-history__title">История Марины и Алины</a>
             </div>
         </section>
         <section class="paper paper_size_max paper_place_index">
@@ -244,15 +249,11 @@
                 </h3>
                 <a class="video__link" href="#">смотреть видео</a>
             </div>
-            <iframe class="video__frame" src="https://www.youtube.com/embed/KA1wI3X5WSU" title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
+            <iframe class="video__frame video__frame_place_list" src="https://www.youtube.com/embed/KA1wI3X5WSU"
+                title="YouTube video player" frameborder="0"></iframe>
         </section>
         <section class='iframe-social'>
             <div id="fb-root"></div>
-            <script async defer crossorigin="anonymous"
-                src="https://connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v10.0" nonce="6lNn222L"></script>
             <div class="fb-page" data-href="https://www.facebook.com/BigBrothers.BigSisters.Russia" data-tabs="timeline"
                 data-width="500px" data-height="627px" data-small-header="false" data-adapt-container-width="true"
                 data-hide-cover="false" data-show-facepile="true">
@@ -312,6 +313,8 @@
             </div>
         </div>
     </footer>
+    <script async defer crossorigin="anonymous"
+                src="https://connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v10.0" nonce="6lNn222L"></script>
     <script src="./pages/index.js"></script>
     <script src="./pages/index-authorized.js"></script>
 </body>

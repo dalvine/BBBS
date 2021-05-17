@@ -8,10 +8,11 @@
     <link rel="stylesheet" href="./pages/index.css">
     <title>Старшие Братья Старшие Сестры</title>
 </head>
+
 <body class="page">
     <div class="popup popup_content_authorization-form">
         <div class="popup__container">
-            <form class="form form_content_authorization">
+            <form name="formAuthorization" class="form form_content_authorization">
                 <h2 class="form__title">Вход</h2>
                 <p class="form__text">Вход в личный кабинет доступен наставникам программы «Старшие Братья Старшие
                     Сёстры».</p>
@@ -21,7 +22,8 @@
                 <input type="text" class="form__input" name="login" placeholder="Логин">
                 <input type="password" class="form__input" name="password" placeholder="Пароль">
                 <a class="form__restore-password">Забыли пароль?</a>
-                <button class="form__submit form__submit_disabled" type="submit" name="submitAuthorization" disabled>Войти</button>
+                <button class="form__submit form__submit_disabled" type="submit" name="submitAuthorization"
+                    disabled>Войти</button>
             </form>
             <button class="popup__close"></button>
         </div>
@@ -36,13 +38,17 @@
             <div class="nav-list__container">
                 <ul class="nav-list__items nav-list__items_content_navigation">
                     <li class="nav-list__item"><a href="./pages/calendar.html" class="nav-list__link">календарь</a></li>
-                    <li class="nav-list__item"><a href="./pages/where_to_go.html" class="nav-list__link">куда пойти</a></li>
+                    <li class="nav-list__item"><a href="./pages/where_to_go.html" class="nav-list__link">куда пойти</a>
+                    </li>
                     <li class="nav-list__item"><a href="./pages/answers.html" class="nav-list__link">вопросы</a></li>
-                    <li class="nav-list__item nav-list__item_submenu"><a href="./pages/read.html" class="nav-list__link">читать и
+                    <li class="nav-list__item nav-list__item_submenu"><a href="./pages/read.html"
+                            class="nav-list__link">читать и
                             смотреть</a>
                         <ul class="nav-list__submenu-list">
-                            <li class="nav-list__submenu-item"><a href="./pages/guide.html" class="nav-list__link">cправочник</a></li>
-                            <li class="nav-list__submenu-item"><a href="./pages/video.html" class="nav-list__link">Видео</a></li>
+                            <li class="nav-list__submenu-item"><a href="./pages/guide.html"
+                                    class="nav-list__link">cправочник</a></li>
+                            <li class="nav-list__submenu-item"><a href="./pages/video.html"
+                                    class="nav-list__link">Видео</a></li>
                             <li class="nav-list__submenu-item"><a href="#" class="nav-list__link">Статьи</a></li>
                             <li class="nav-list__submenu-item"><a href="#" class="nav-list__link">Фильмы</a></li>
                             <li class="nav-list__submenu-item"><a href="#" class="nav-list__link">Книги</a></li>
@@ -62,29 +68,30 @@
         <div class="header__right-block">
             <form class="search" name="search">
                 <div class="search__container">
-                <input type="text" name="searchInput" class="search__input">
-                <ul class="search__results">
-                    <li class="search__result">
-                        <p class="search__result-text">Причины подростковой агрессии</p>
-                        <a href="" class="search__result-link">статьи</a>
-                    </li>
-                    <li class="search__result">
-                        <p class="search__result-text">Агрессивное поведение детей-сирот</p>
-                        <a href="" class="search__result-link">видео</a>
-                    </li>
-                    <li class="search__result">
-                        <p class="search__result-text">Что делать если ваш младший агрессивно себя ведет, решил закрыть пару?</p>
-                        <a href="" class="search__result-link">вопросы</a>
-                    </li>
-                    <li class="search__result">
-                        <p class="search__result-text">Как реагировать на агрессивное поведения ребенка</p>
-                        <a href="" class="search__result-link">книги</a>
-                    </li>
-                </ul>
+                    <input type="text" name="searchInput" class="search__input">
+                    <ul class="search__results">
+                        <li class="search__result">
+                            <p class="search__result-text">Причины подростковой агрессии</p>
+                            <a href="" class="search__result-link">статьи</a>
+                        </li>
+                        <li class="search__result">
+                            <p class="search__result-text">Агрессивное поведение детей-сирот</p>
+                            <a href="" class="search__result-link">видео</a>
+                        </li>
+                        <li class="search__result">
+                            <p class="search__result-text">Что делать если ваш младший агрессивно себя ведет, решил
+                                закрыть пару?</p>
+                            <a href="" class="search__result-link">вопросы</a>
+                        </li>
+                        <li class="search__result">
+                            <p class="search__result-text">Как реагировать на агрессивное поведения ребенка</p>
+                            <a href="" class="search__result-link">книги</a>
+                        </li>
+                    </ul>
                 </div>
                 <button type="button" name="searchSubmit" class="search__btn"></button>
             </form>
-            <img src="./images/ico-profile.svg" class="profile-ico profile-ico_state_non-authorize">
+            <img src="./images/ico-profile.svg" class="profile-ico profile-ico_state_non-authorize" alt="Иконка юзера">
         </div>
     </header>
     <main class="main-grid">
@@ -99,7 +106,7 @@
         <section class="cover-history">
             <img src="./images/history-friend.png" alt="" class="cover-history__image">
             <div class="cover-history__layer">
-                <h2 class="cover-history__title">История Марины и Алины</h2>
+                <a href="#" class="cover-history__title">История Марины и Алины</a>
             </div>
         </section>
         <section class="paper paper_size_max paper_place_index">
@@ -213,15 +220,12 @@
                 </h3>
                 <a class="video__link" href="#">смотреть видео</a>
             </div>
-            <iframe class="video__frame" src="https://www.youtube.com/embed/KA1wI3X5WSU" title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
+            <iframe class="video__frame" src="https://www.youtube.com/embed/KA1wI3X5WSU"
+                title="YouTube video player"></iframe>
         </section>
+        <!-- Модуль с FaceBook загружается, и если где-то ломается, то при ребуте страницы все корректно отображается -->
         <section class='iframe-social'>
             <div id="fb-root"></div>
-            <script async defer crossorigin="anonymous"
-                src="https://connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v10.0" nonce="6lNn222L"></script>
             <div class="fb-page" data-href="https://www.facebook.com/BigBrothers.BigSisters.Russia" data-tabs="timeline"
                 data-width="500px" data-height="627px" data-small-header="false" data-adapt-container-width="true"
                 data-hide-cover="false" data-show-facepile="true">
@@ -281,7 +285,9 @@
             </div>
         </div>
     </footer>
-    <script src="./index.js"></script>
+    <script async defer crossorigin="anonymous"
+                src="https://connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v10.0" nonce="6lNn222L"></script>
+    <script src="./pages/index.js"></script>
 </body>
 
 </html>

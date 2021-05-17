@@ -12,3 +12,11 @@
         margin-left: 77px;
     }
   }
+  @media screen and (max-width: 1370px) {
+    .header__right-block {
+        width: 25px;
+    }
+  }
+
+
+
