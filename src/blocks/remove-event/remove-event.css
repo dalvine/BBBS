@@ -10,4 +10,9 @@
     align-items: center;
 }
 
-
+@media screen and (max-width: 740px) {
+    .remove-event {
+        width: 320px;
+        height: 216px;
+    }
+}
