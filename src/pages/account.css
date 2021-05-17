@@ -1,0 +1,91 @@
+@import url('../vendor/normalize.css');
+@import url('../vendor/fonts/fonts.css');
+@import url('../blocks/page/page.css');
+
+@import url('./header.css');
+@import url('./footer.css');
+
+/* Стили попапа */
+@import url('../blocks/popup/popup.css');
+@import url('../blocks/popup/__container/popup__container.css');
+
+/* Стили для попапа удаления встречи */
+
+@import url('../blocks/remove-event/remove-event.css');
+@import url('../blocks/remove-event/__title/remove-event__title.css');
+@import url('../blocks/remove-event/__cancel/remove-event__cancel.css');
+@import url('../blocks/remove-event/__remove/remove-event__remove.css');
+
+
+@import url('../blocks/profile/profile.css');
+@import url('../blocks/profile/_place/profile_place_account.css');
+@import url('../blocks/profile/__exit/profile__exit.css');
+@import url('../blocks/profile/__city-edit/profile__city-edit.css');
+@import url('../blocks/account/account.css');
+@import url('../blocks/account/__title/account__title.css');
+@import url('../blocks/coming-events/coming-events.css');
+@import url('../blocks/coming-events/__date/coming-events__date.css');
+@import url('../blocks/coming-events/__description/coming-events__description.css');
+@import url('../blocks/coming-events/__event/coming-events__event.css');
+@import url('../blocks/coming-events/__number/coming-events__number.css');
+@import url('../blocks/coming-events/__title/coming-events__title.css');
+@import url('../blocks/coming-events/__list/coming-events__list.css');
+@import url('../blocks/meeting/meeting.css');
+@import url('../blocks/meeting/__add/meeting__add.css');
+@import url('../blocks/meeting/__control/meeting__control.css');
+@import url('../blocks/meeting/__control-text/meeting__control-text.css');
+@import url('../blocks/meeting/__control-text/_active/meeting__control-text_active.css');
+@import url('../blocks/meeting/__date/meeting__date.css');
+@import url('../blocks/meeting/__description/meeting__description.css');
+@import url('../blocks/meeting/__event/meeting__event.css');
+@import url('../blocks/meeting/__feel-text/meeting__feel-text.css');
+@import url('../blocks/meeting/__feeling/meeting__feeling.css');
+@import url('../blocks/meeting/__footer/meeting__footer.css');
+@import url('../blocks/meeting/__header/meeting__header.css');
+@import url('../blocks/meeting/__list/meeting__list.css');
+@import url('../blocks/meeting/__mounth-year/meeting__mounth-year.css');
+@import url('../blocks/meeting/__number/meeting__number.css');
+@import url('../blocks/meeting/__photo/meeting__photo.css');
+@import url('../blocks/meeting/__review/meeting__review.css');
+@import url('../blocks/meeting/__smile/meeting__smile.css');
+@import url('../blocks/meeting/__title/meeting__title.css');
+@import url('../blocks/opacity-transition/opacity-transition.css');
+
+/* Оценочная панель */
+@import url('../blocks/evaluation/evaluation.css');
+@import url('../blocks/evaluation/__negative/evaluation__negative.css');
+@import url('../blocks/evaluation/__negative/_active/evaluation__negative_active.css');
+@import url('../blocks/evaluation/__neutral/evaluation__neutral.css');
+@import url('../blocks/evaluation/__neutral/_active/evaluation__neutral_active.css');
+@import url('../blocks/evaluation/__positive/evaluation__positive.css');
+@import url('../blocks/evaluation/__positive/_active/evaluation__positive_active.css');
+@import url('../blocks/evaluation/__text/evaluation__text.css');
+@import url('../blocks/evaluation/__text/_state/evaluation__text_state_negative.css');
+@import url('../blocks/evaluation/__text/_state/evaluation__text_state_neutral.css');
+@import url('../blocks/evaluation/__text/_state/evaluation__text_state_positive.css');
+
+
+/* форма добавления места*/
+@import url('../blocks/form-history/form-history.css');
+@import url('../blocks/form-history/__control/form-history__control.css');
+@import url('../blocks/form-history/__date/form-history__date.css');
+@import url('../blocks/form-history/__description/form-history__description.css');
+@import url('../blocks/form-history/__evaluation-label/form-history__evaluation-label.css');
+@import url('../blocks/form-history/__evaluation-label/_type/form-history__evaluation-label_type_negative.css');
+@import url('../blocks/form-history/__evaluation-label/_type/form-history__evaluation-label_type_neutral.css');
+@import url('../blocks/form-history/__evaluation-label/_type/form-history__evaluation-label_type_positive.css');
+@import url('../blocks/form-history/__evaluation-radio/form-history__evaluation-radio.css');
+@import url('../blocks/form-history/__evaluation-text/form-history__evaluation-text.css');
+@import url('../blocks/form-history/__evaluation/form-history__evaluation.css');
+@import url('../blocks/form-history/__footer/form-history__footer.css');
+@import url('../blocks/form-history/__header/form-history__header.css');
+@import url('../blocks/form-history/__photo-label/form-history__photo-label.css');
+@import url('../blocks/form-history/__photo/form-history__photo.css');
+@import url('../blocks/form-history/__place/form-history__place.css');
+@import url('../blocks/form-history/__reset/form-history__reset.css');
+@import url('../blocks/form-history/__review/form-history__review.css');
+@import url('../blocks/form-history/__photo-input/form-history__photo-input.css');
+@import url('../blocks/form-history/__photo-label/form-history__photo-label.css');
+@import url('../blocks/form-history/__photo-span/form-history__photo-span.css');
+@import url('../blocks/form-history/__add/form-history__add.css');
+@import url('../blocks/form-history/__add/_disabled/form-history__add_disabled.css');
