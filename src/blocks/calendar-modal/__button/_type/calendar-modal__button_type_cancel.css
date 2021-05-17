@@ -1,0 +1,19 @@
+.calendar-modal__button_type_cancel {
+  background: #fff;
+  transition: all .2s ease;
+  cursor: pointer;
+}
+
+
+.calendar-modal__button_type_cancel:hover {
+  background-color: #E0E0E0;;
+  border: 1px solid #E0E0E0;;
+  color: #000;
+}
+
+
+.calendar-modal__button_type_cancel:active {
+  background-color: #000;
+  border: 1px solid #000;
+  color: #fff;
+}

@@ -1,13 +1,21 @@
 .answers-set {
-    margin: 0;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding-bottom: 80px;
-  }
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  padding-bottom: 80px;
+  width: calc(100% - 100px);
+}
 
-  @media screen and (max-width: 423px) {
-    .answers-set {
-      padding-bottom: 50px;
-    }      
-  }
+@media screen and (max-width: 1440px) {
+  .answers-set {
+    padding-bottom: 50px;
+    width: 100%;
+  }      
+}
+
+@media screen and (max-width: 767px) {
+  .answers-set {
+    padding-bottom: 50px;
+  }      
+}

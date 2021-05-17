@@ -1,0 +1,9 @@
+.calendar-modal__button_type_confirm {
+  margin: 0 15px 0 0;
+}
+
+@media screen and (max-width: 767px) {
+  .calendar-modal__button_type_confirm  {
+    margin: 0 10px 0 0;
+  }
+}
