@@ -1,0 +1,12 @@
+.meeting__event {
+    margin: 0;
+    height: auto;
+    display: flex;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 832px) {
+    .meeting__event {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,24 @@
+.form-history__review {
+    border: none;
+    outline: none;
+    padding: 13px 20px;
+    border-radius: 30px;
+    background-color:  #F3F2F2;
+    font-family: 'ProtoGrotesk';
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.27;
+    letter-spacing: 0.2px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    resize: none;
+}
+
+@media screen and (max-width: 740px) {
+    .form-history__review {
+        min-height: 120px;
+        font-size: 12px;
+        line-height: 1.42;
+    }
+}

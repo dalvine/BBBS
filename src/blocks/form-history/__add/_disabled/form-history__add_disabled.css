@@ -1,0 +1,5 @@
+.form-history__add_disabled {
+    border-color: #A7A6A6;
+    color: #A7A6A6;
+    cursor: default;
+}

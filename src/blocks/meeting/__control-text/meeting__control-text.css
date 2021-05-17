@@ -1,0 +1,18 @@
+.meeting__control-text {
+    margin-left: 30px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.27;
+    letter-spacing: 0.2px;
+    color: #A7A6A6;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 832px) {
+    .meeting__control-text {
+        margin-left: 0;
+        margin-top: 10px;
+        font-size: 15px;
+        line-height: 1.4;
+    }
+}

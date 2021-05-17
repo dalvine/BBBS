@@ -1,0 +1,7 @@
+.evaluation__text_state_positive {
+    color: #8CDD94;
+}
+
+.evaluation__text_state_positive::after {
+    content: 'Было классно!';
+}

@@ -1,0 +1,7 @@
+.evaluation__text_state_negative {
+    color: #FF8585;
+}
+
+.evaluation__text_state_negative::after {
+    content: 'Что-пошло не так';
+}

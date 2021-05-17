@@ -1,0 +1,14 @@
+.coming-events__description {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.36;
+    letter-spacing: 0.2px;
+}
+
+@media screen and (max-width: 832px) {
+    .coming-events__description {
+        font-size: 12px;
+        line-height: 1.42;
+        width: 100%;
+    }
+}

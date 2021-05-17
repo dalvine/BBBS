@@ -1,0 +1,22 @@
+.form-history__add {
+    padding: 13px 20px;
+    outline: none;
+    border: 1px solid #224CFF;
+    color: #224CFF;
+    box-sizing: border-box;
+    border-radius: 100px;
+    font-family: 'ProtoGrotesk';
+    font-size: 15px;
+    line-height: 1.27;
+    letter-spacing: 0.2px;
+    background-color: transparent;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 740px) {
+    .form-history__add {
+        font-size: 12px;
+        line-height: 1.42;
+    }
+}

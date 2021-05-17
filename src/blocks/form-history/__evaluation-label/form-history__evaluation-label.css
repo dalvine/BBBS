@@ -1,0 +1,19 @@
+.form-history__evaluation-label {
+    display: inline-block;
+    position: relative;
+    margin-right: 15px;
+    width: 26px;
+    height: 26px;
+}
+
+.form-history__evaluation-label::before {
+    display: inline-block;
+    position: absolute;
+	left: 0;
+    content: '';
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+
+    background-size: 100%;
+}

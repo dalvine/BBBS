@@ -1,0 +1,11 @@
+.meeting__header {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 832px) {
+    .meeting__header {
+        height: 82px;
+    }
+}

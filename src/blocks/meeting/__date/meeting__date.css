@@ -1,0 +1,14 @@
+.meeting__date {
+    height: 65px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+@media screen and (max-width: 832px) {
+    .meeting__date {
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+}

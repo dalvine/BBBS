@@ -1,0 +1,15 @@
+.coming-events__date {
+    vertical-align: top;
+    height: 50px;
+    margin: 0;
+}
+
+@media screen and (max-width: 832px) {
+    .coming-events__date {
+        height: 39px;
+        display: flex;
+        font-size: 12px;
+        line-height: 1.42;
+        flex-direction: row;
+    }
+}

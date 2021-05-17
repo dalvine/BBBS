@@ -5,11 +5,13 @@
     width: 80px;
     transition: width 1s;
     height: 20px;
+    margin-left: 77px;
 }
 
-@media screen and (min-width: 1369px) {
+@media screen and (max-width: 1370px) {
     .header__right-block {
-        margin-left: 77px;
+        margin-left: 0;
+        width: 20px;
     }
   }
   @media screen and (max-width: 1370px) {

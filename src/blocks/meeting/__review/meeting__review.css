@@ -1,0 +1,14 @@
+.meeting__review {
+    margin: 0;
+    width: 76%;
+    font-size: 18px;
+    line-height: 1.44;
+}
+
+@media screen and (max-width: 832px) {
+    .meeting__review {
+        width: 100%;
+        font-size: 15px;
+        line-height: 1.4;
+    }
+}

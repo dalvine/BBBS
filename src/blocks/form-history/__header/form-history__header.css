@@ -1,0 +1,14 @@
+.form-history__header {
+    margin: 0;
+    width: 100%;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 740px) {
+    .form-history__header {
+        flex-direction: column;
+        padding-bottom: 10px;
+    }
+}

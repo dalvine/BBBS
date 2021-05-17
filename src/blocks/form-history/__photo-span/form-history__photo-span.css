@@ -1,0 +1,15 @@
+.form-history__photo-span {
+    font-family: 'ProtoGrotesk';
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.27;
+    letter-spacing: 0.2px;
+    color: #A7A6A6;
+}
+
+@media screen and (max-width: 740px) {
+    .form-history__photo-span {
+        font-size: 12px;
+        line-height: 1.42;
+    }
+}

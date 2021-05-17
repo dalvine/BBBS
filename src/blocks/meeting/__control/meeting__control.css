@@ -1,0 +1,16 @@
+@media screen and (max-width: 832px) {
+    .meeting__control {
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
+
+
+@media screen and (max-width: 832px) {
+    .meeting__control {
+        width: 100%;
+    }
+}
+

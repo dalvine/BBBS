@@ -1,0 +1,36 @@
+.form-history__evaluation-text {
+    width: 100%;
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.36;
+    letter-spacing: 0.2px;
+    color: #A7A6A6;
+    vertical-align: middle;
+    margin-left: 15px;
+}
+
+@media screen and (max-width: 740px) {
+    .form-history__evaluation-text {
+        font-size: 12px;
+        line-height: 1.42;
+    }
+}
+
+.form-history__evaluation-text::after {
+    content: 'Оцените проведенное время';
+}
+
+.form-history__evaluation-radio_type_negative:checked ~ .form-history__evaluation-text::after {
+    color: rgba(255, 133, 133, 1);
+    content: 'Что-то пошло не так';
+}
+
+.form-history__evaluation-radio_type_neutral:checked ~ .form-history__evaluation-text::after {
+    color: rgba(70, 70, 70, 1);
+    content: 'Нормально';
+}
+
+.form-history__evaluation-radio_type_positive:checked ~ .form-history__evaluation-text::after {
+    color: rgba(140, 221, 148, 1);
+    content: 'Было классно!';
+}

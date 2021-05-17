@@ -1,0 +1,18 @@
+.account__title {
+    padding: 50px 0;
+    max-width: 770px;
+    margin: 0 auto;
+    font-weight: 300;
+    font-size: 23px;
+    line-height: 1.3;
+    text-align: center;
+    color: #1A1A1A;
+}
+
+@media screen and (max-width: 740px) {
+    .account__title {
+        padding: 25px 0;
+        font-size: 19px;
+        line-height: 1.21;
+    }
+}
