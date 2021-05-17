@@ -1,0 +1,14 @@
+.evaluation__positive {
+    margin: 0;
+    margin-right: 15px;
+    width: 26px;
+    height: 26px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../../../images/smile-positive-gray.svg');
+}
+
+.evaluation__positive:hover {
+    background-image: url('../../../images/smile-positive-active.svg');
+}

@@ -1,0 +1,15 @@
+.meeting__mounth-year {
+    margin: 0;
+    margin-bottom: 5px;
+    font-size: 14px;
+    line-height: 1.36;
+    text-align: right;
+    letter-spacing: 0.2px;
+}
+
+@media screen and (max-width: 832px) {
+    .meeting__mounth-year {
+        font-size: 12px;
+        line-height: 1.42;
+    }
+}

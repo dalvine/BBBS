@@ -1,0 +1,12 @@
+.form-history {
+    margin: 0;
+    width: 100%;
+    min-height: 472px;
+    display: flex;
+}
+
+@media screen and (max-width: 740px) {
+    .form-history {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,11 @@
+.evaluation__text {
+    margin: 0;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.2px;
+    color: #A7A6A6;
+}
+
+.evaluation__text::after {
+    content: 'Оцените проведенное время';
+}

@@ -1,0 +1,21 @@
+.form-history__reset {
+    border: none;
+    outline: none;
+    font-family: 'ProtoGrotesk';
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.27;
+    letter-spacing: 0.2px;
+    color: #A7A6A6;
+    background-color: transparent;
+    margin-right: 20px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 740px) {
+    .form-history__reset {
+        font-size: 12px;
+        line-height: 1.42;
+    }
+}

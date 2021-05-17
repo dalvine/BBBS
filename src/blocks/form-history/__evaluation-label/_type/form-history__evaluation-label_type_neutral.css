@@ -1,0 +1,11 @@
+.form-history__evaluation-label_type_neutral:before {
+    background-image: url('../../../../images/smile-neutral.svg');
+}
+
+.form-history__evaluation-label_type_neutral:hover:before {
+    background-image: url('../../../../images/smile-neutral-active.svg');
+}
+
+.form-history__evaluation-radio:checked + .form-history__evaluation-label_type_neutral:before {
+    background-image: url('../../../../images/smile-neutral-active.svg');
+}

@@ -1,0 +1,30 @@
+.account {
+    margin: 0 auto;
+    width: 100%;
+    padding: 0px 75px 120px;
+    box-sizing: border-box;
+}
+
+/* @media screen and (max-width: 832px) {
+    .account {
+        padding: 0 15px 50px;
+    }
+} */
+
+@media screen and (max-width: 1441px) {
+    .account {
+        padding: 0 135px 120px;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .account {
+        padding: 0 127px 100px;
+    }
+}
+
+@media screen and (max-width: 940px) {
+    .account {
+        padding: 0 15px 50px;
+    }
+}

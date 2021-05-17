@@ -1,0 +1,19 @@
+.coming-events__list {
+    display: grid;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 30px;
+    grid-template-columns:  repeat(auto-fill, 270px);
+    grid-template-rows: 158px;
+}
+
+
+@media screen and (max-width: 832px) {
+    .coming-events__list {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow: scroll;
+        gap: 0;
+    }
+}

@@ -1,0 +1,13 @@
+.remove-event__cancel {
+    padding: 13px 20px;
+    border: 1px solid #000000;
+    outline: none;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.27;
+    letter-spacing: 0.2px;
+    color: #000000;
+    background-color: transparent;
+    border-radius: 100px;
+    cursor: pointer;
+}

@@ -1,0 +1,17 @@
+.coming-events__number {
+    vertical-align: bottom;
+    font-family: 'ProtoGrotesk';
+    font-weight: 300;
+    font-size: 44px;
+    line-height: 1.14px;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 832px) {
+    .coming-events__number {
+        vertical-align: none;
+        align-self: center;
+        font-size: 37px;
+        line-height: 1.05;
+    }
+}

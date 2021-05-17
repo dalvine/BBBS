@@ -1,0 +1,9 @@
+.meeting__number {
+    margin: 0;
+    font-family: 'ProtoGrotesk';
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 1;
+    text-align: right;
+    letter-spacing: -2px;
+}

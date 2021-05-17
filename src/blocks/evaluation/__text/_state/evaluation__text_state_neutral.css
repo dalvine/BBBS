@@ -1,0 +1,7 @@
+.evaluation__text_state_neutral {
+    color: #464646;
+}
+
+.evaluation__text_state_neutral::after {
+    content: 'Нормально';
+}

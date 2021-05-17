@@ -1,0 +1,13 @@
+.meeting__photo {
+    object-fit: cover;
+    width: 40%;
+    height: auto;
+    border-radius: 30px;
+}
+
+@media screen and (max-width: 832px) {
+    .meeting__photo {
+        width: 100%;
+        max-height: 290px;
+    }
+}

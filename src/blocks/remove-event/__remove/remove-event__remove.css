@@ -1,0 +1,14 @@
+.remove-event__remove {
+    padding: 13px 20px;
+    border: 1px solid #A7A6A6;
+    outline: none;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.27;
+    letter-spacing: 0.2px;
+    color: #A7A6A6;
+    background-color: transparent;
+    border-radius: 100px;
+    margin-right: 30px;
+    cursor: pointer;
+}

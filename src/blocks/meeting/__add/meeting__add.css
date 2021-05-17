@@ -1,0 +1,19 @@
+.meeting__add {
+    font-family: 'ProtoGrotesk';
+    width: 197px;
+    height: 48px;
+    outline: none;
+    border: none;
+    background-image: url('../../../images/add-btn.svg');
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    padding-left: 50px;
+    cursor: pointer;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.27;
+    letter-spacing: 0.2px;
+    color: #224CFF;
+}

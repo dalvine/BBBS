@@ -1,0 +1,14 @@
+.evaluation__negative {
+    margin: 0;
+    margin-right: 15px;
+    width: 26px;
+    height: 26px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../../../images/smile-negative.svg');
+}
+
+.evaluation__negative:hover {
+    background-image: url('../../../images/smile-negative-active.svg');
+}

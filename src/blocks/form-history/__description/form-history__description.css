@@ -1,0 +1,17 @@
+.form-history__description {
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 30px;
+    padding: 30px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 740px) {
+    .form-history__description {
+        padding: 30px 15px;
+    }
+}

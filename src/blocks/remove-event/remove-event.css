@@ -1,0 +1,13 @@
+.remove-event {
+    font-family: 'ProtoGrotesk';
+    width: 470px;
+    height: 238px;
+    padding: 50px 30px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
