@@ -1,6 +1,5 @@
 @import url('../vendor/normalize.css');
 @import url('../vendor/fonts/fonts.css');
-
 @import url('../blocks/page/page.css');
 @import url('../blocks/section-title/section-title.css');
 @import url('../blocks/section-title/_place/section-title_place_about-project.css');

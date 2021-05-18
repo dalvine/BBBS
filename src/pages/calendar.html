@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
   <link rel="stylesheet" href="../pages/calendar.css">
   <title>Календарь</title>
 </head>
+
 <body class="page">
   <header class="header">
     <div class="header__btn-menu"></div>
@@ -20,18 +22,18 @@
           <li class="nav-list__item"><a href="./where_to_go.html" class="nav-list__link">куда пойти</a></li>
           <li class="nav-list__item"><a href="./answers.html" class="nav-list__link">вопросы</a></li>
           <li class="nav-list__item nav-list__item_submenu"><a href="./read.html" class="nav-list__link">читать и
-              смотреть</a>
-            <ul class="nav-list__submenu-list">
-              <li class="nav-list__submenu-item"><a href="./guide.html" class="nav-list__link">cправочник</a></li>
-              <li class="nav-list__submenu-item"><a href="./video.html" class="nav-list__link">Видео</a></li>
-              <li class="nav-list__submenu-item"><a href="#" class="nav-list__link">Статьи</a></li>
-              <li class="nav-list__submenu-item"><a href="#" class="nav-list__link">Фильмы</a></li>
-              <li class="nav-list__submenu-item"><a href="#" class="nav-list__link">Книги</a></li>
-            </ul>
+                смотреть</a>
+             <ul class="nav-list__submenu-list">
+                <li class="nav-list__submenu-item"><a href="./guide.html" class="nav-list__link">cправочник</a></li>
+                <li class="nav-list__submenu-item"><a href="./video.html" class="nav-list__link">Видео</a></li>
+                <li class="nav-list__submenu-item"><a href="./read-paper.html" class="nav-list__link">Статьи</a></li>
+                <li class="nav-list__submenu-item"><a href="./read-films.html" class="nav-list__link">Фильмы</a></li>
+                <li class="nav-list__submenu-item"><a href="./read-books.html" class="nav-list__link">Книги</a></li>
+             </ul>
           </li>
-          <li class="nav-list__item"><a href="#" class="nav-list__link">права детей</a></li>
-          <li class="nav-list__item"><a href="#" class="nav-list__link">истории</a></li>
-        </ul>
+          <li class="nav-list__item"><a href="./law-child.html" class="nav-list__link">права детей</a></li>
+          <li class="nav-list__item"><a href="./history.html" class="nav-list__link">истории</a></li>
+       </ul>
         <ul class="nav-list__items nav-list__items_content_social">
           <li class="nav-list__item"><a href="" class="nav-list__link">facebook</a></li>
           <li class="nav-list__item"><a href="" class="nav-list__link">vkontakte</a></li>
@@ -65,217 +67,235 @@
         </div>
         <button type="button" name="searchSubmit" class="search__btn"></button>
       </form>
-      <img src="../images/ico-profile.svg" class="profile-ico profile-ico_state_non-authorize"  alt="Иконка юзера">
+      <img src="../images/ico-profile.svg" class="profile-ico profile-ico_state_non-authorize" alt="Иконка юзера">
     </div>
   </header>
-<main class="calendar-page"> 
-      <h3 class="title">Календарь</h3>
-      <div class="filter">
-        <button type="button" aria-label="Все" class="filter__button filter__button_active">Декабрь</button>
-        <button type="button" aria-label="Выбор наставников" class="filter__button">Январь</button>
-      </div>
-      <section class="calendar__events-grid">
-        <article class="event event__signed">
-          <div class="event__info">
-            <p class="event__group">Волонтёры + дети</p>
-            <p class="event__month-and-weekday">декабрь / понедельник</p>
-          </div>
-          <div class="event__info">
-            <h2 class="event__title event__title_place_card">Субботний meet up: учимся проходить интевью</h2>
-            <p class="event__date">05</p>
-          </div>
-          <ul class="event__additional-info">
-            <li class="event__additional-info-item event__additional-info-item_type_time">12:00–14:00</li>
-            <li class="event__additional-info-item event__additional-info-item_type_place">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</li>
-            <li class="event__additional-info-item event__additional-info-item_type_contact-person">Александра, +7 926 356-78-90</li>
-          </ul>
-          <div class="event__controls">
-            <div class="event__signup-container">
-              <button type="button" aria-label="Отменить запись" class="event__button event__button_active 
-                event__button_type_cancel">Отменить запись</button>
-            </div>
-            <button type="button" aria-label="Посмотреть детали" class="event__button event__button_active 
-              event__button_type_details"></button>
-          </div>
-        </article>
-        <article class="event">
-          <div class="event__info">
-            <p class="event__group">Волонтёры</p>
-            <p class="event__month-and-weekday">декабрь / понедельник</p>
-          </div>
-          <div class="event__info">
-            <h2 class="event__title event__title_place_card">Ресурсная группа «Вовлечение в волонтёрство</h2>
-            <p class="event__date">16</p>
-          </div>
-          <ul class="event__additional-info">
-            <li class="event__additional-info-item event__additional-info-item_type_time">12:00–14:00</li>
-            <li class="event__additional-info-item event__additional-info-item_type_place">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</li>
-            <li class="event__additional-info-item event__additional-info-item_type_contact-person">Александра, +7 926 356-78-90</li>
-          </ul>
-          <div class="event__controls">
-            <div class="event__signup-container">
-              <button type="button" aria-label="Записаться" class="event__button event__button_disabled">Записаться</button>
-              <p class="event__participants-counter">Запись закрыта</p>
-            </div>
-            <button type="button" aria-label="Посмотреть детали" class="event__button event__button_active 
-              event__button_type_details" ></button>
-          </div>
-        </article>
-        <article class="event">
-          <div class="event__info">
-            <p class="event__group">Волонтёры + дети</p>
-            <p class="event__month-and-weekday">декабрь / понедельник</p>
-          </div>
-          <div class="event__info">
-            <h2 class="event__title event__title_place_card">Занятие с выпускниками: как составить резюме</h2>
-            <p class="event__date">20</p>
-          </div>
-          <ul class="event__additional-info">
-            <li class="event__additional-info-item event__additional-info-item_type_time">12:00–14:00</li>
-            <li class="event__additional-info-item event__additional-info-item_type_place">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</li>
-            <li class="event__additional-info-item event__additional-info-item_type_contact-person">Александра, +7 926 356-78-90</li>
-          </ul>
-          <div class="event__controls">
-            <div class="event__signup-container">
-              <button type="button" aria-label="Записаться" class="event__button event__button_active
-                event__button_type_signup">Записаться</button>
-              <p class="event__participants-counter">Осталось 5 мест</p>
-            </div>
-            <button type="button" aria-label="Посмотреть детали" class="event__button event__button_active 
-              event__button_type_details"></button>
-          </div>
-        </article>
-        <article class="event">
-          <div class="event__info">
-            <p class="event__group">Волонтёры + дети</p>
-            <p class="event__month-and-weekday">декабрь / понедельник</p>
-          </div>
-          <div class="event__info">
-            <h2 class="event__title event__title_place_card">Субботний meet up: учимся проходить интевью</h2>
-            <p class="event__date">23</p>
-          </div>  
-          <ul class="event__additional-info">
-            <li class="event__additional-info-item event__additional-info-item_type_time">12:00–14:00</li>
-            <li class="event__additional-info-item event__additional-info-item_type_place">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</li>
-            <li class="event__additional-info-item event__additional-info-item_type_contact-person">Александра, +7 926 356-78-90</li>
-          </ul>
-          <div class="event__controls">
-            <div class="event__signup-container">
-              <button type="button" aria-label="Записаться" class="event__button event__button_active 
-                event__button_type_signup">Записаться</button>
-              <p class="event__participants-counter">Осталось 5 мест</p>
-            </div>
-            <button type="button" aria-label="Посмотреть детали" class="event__button event__button_active 
-              event__button_type_details"></button>
-          </div>
-        </article>
-        <article class="event">
-          <div class="event__info">
-            <p class="event__group">Волонтёры + дети</p>
-            <p class="event__month-and-weekday">декабрь / понедельник</p>
-          </div>
-          <div class="event__info">
-            <h2 class="event__title event__title_place_card">Субботний meet up: учимся проходить интевью</h2>
-            <p class="event__date">28</p>
-          </div>  
-          <ul class="event__additional-info">
-            <li class="event__additional-info-item event__additional-info-item_type_time">12:00–14:00</li>
-            <li class="event__additional-info-item event__additional-info-item_type_place">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</li>
-            <li class="event__additional-info-item event__additional-info-item_type_contact-person">Александра, +7 926 356-78-90</li>
-          </ul>
-          <div class="event__controls">
-            <div class="event__signup-container">
-              <button type="button" aria-label="Записаться" class="event__button event__button_active 
-                event__button_type_signup">Записаться</button>
-              <p class="event__participants-counter">Осталось 5 мест</p>
-            </div>
-            <button type="button" aria-label="Посмотреть детали" class="event__button event__button_active 
-              event__button_type_details"></button>
-          </div>
-        </article>
-      </section>
-      <section class="calendar-modal">
-        <button type="button" aria-label="Закрыть" class="calendar-modal__button_type_close"></button>
-        <div class="calendar-modal__content">
-          <div class="event__info">
-            <p class="event__group">Волонтёры + дети</p>
-            <p class="event__month-and-weekday">декабрь / понедельник</p>
-          </div>
-          <div class="event__info">
-            <h2 class="event__title event__title_place_card">Субботний meet up: учимся проходить интевью</h2>
-            <p class="event__date">05</p>
-          </div>
-          <ul class="event__additional-info">
-            <li class="event__additional-info-item event__additional-info-item_place_modal
-              event__additional-info-item_type_time">12:00–14:00</li>
-            <li class="event__additional-info-item event__additional-info-item_place_modal
-              event__additional-info-item_type_place">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</li>
-            <li class="event__additional-info-item event__additional-info-item_place_modal
-              event__additional-info-item_type_contact-person">Александра, +7 926 356-78-90</li>
-          </ul>
-          <p class = "calendar-modal__description">Наконец-то наступила весна и&nbsp;мы&nbsp;пережили эту долгую зиму! И&nbsp;возможно, что внутренних сил и&nbsp;ресурса сейчас не&nbsp;так много, а&nbsp;до&nbsp;окончания учебного года ещё целых несколько месяцев. Поэтому приглашаем вас на&nbsp;встречу нашего ресурсного клуба &laquo;Наставник PRO&raquo;, которую мы&nbsp;хотим посвятить теме поиска моральных сил, смыслов и&nbsp;внутреннего ресурса для общения и&nbsp;взаимодействия с&nbsp;нашими подопечными.</p>
+  <main class="calendar-page">
+    <h3 class="title">Календарь</h3>
+    <div class="filter">
+      <button type="button" aria-label="Все" class="filter__button filter__button_active">Декабрь</button>
+      <button type="button" aria-label="Выбор наставников" class="filter__button">Январь</button>
+    </div>
+    <section class="calendar__events-grid">
+      <article class="event event__signed">
+        <div class="event__info">
+          <p class="event__group">Волонтёры + дети</p>
+          <p class="event__month-and-weekday">декабрь / понедельник</p>
+        </div>
+        <div class="event__info">
+          <h2 class="event__title event__title_place_card">Субботний meet up: учимся проходить интевью</h2>
+          <p class="event__date">05</p>
+        </div>
+        <ul class="event__additional-info">
+          <li class="event__additional-info-item event__additional-info-item_type_time">12:00–14:00</li>
+          <li class="event__additional-info-item event__additional-info-item_type_place">Садовническая наб., д. 77 стр.
+            1 (офис компании Ernst&Young)</li>
+          <li class="event__additional-info-item event__additional-info-item_type_contact-person">Александра, +7 926
+            356-78-90</li>
+        </ul>
+        <div class="event__controls">
           <div class="event__signup-container">
-            <button type="button" aria-label="Записаться" class="event__button event__button_active 
-              event__button_type_signup">Записаться</button>
+            <button type="button" aria-label="Отменить запись" class="event__button event__button_active 
+                event__button_type_cancel">Отменить запись</button>
+          </div>
+          <button type="button" aria-label="Посмотреть детали" class="event__button event__button_active 
+              event__button_type_details"></button>
+        </div>
+      </article>
+      <article class="event">
+        <div class="event__info">
+          <p class="event__group">Волонтёры</p>
+          <p class="event__month-and-weekday">декабрь / понедельник</p>
+        </div>
+        <div class="event__info">
+          <h2 class="event__title event__title_place_card">Ресурсная группа «Вовлечение в волонтёрство</h2>
+          <p class="event__date">16</p>
+        </div>
+        <ul class="event__additional-info">
+          <li class="event__additional-info-item event__additional-info-item_type_time">12:00–14:00</li>
+          <li class="event__additional-info-item event__additional-info-item_type_place">Садовническая наб., д. 77 стр.
+            1 (офис компании Ernst&Young)</li>
+          <li class="event__additional-info-item event__additional-info-item_type_contact-person">Александра, +7 926
+            356-78-90</li>
+        </ul>
+        <div class="event__controls">
+          <div class="event__signup-container">
+            <button type="button" aria-label="Записаться"
+              class="event__button event__button_disabled">Записаться</button>
+            <p class="event__participants-counter">Запись закрыта</p>
+          </div>
+          <button type="button" aria-label="Посмотреть детали" class="event__button event__button_active 
+              event__button_type_details"></button>
+        </div>
+      </article>
+      <article class="event">
+        <div class="event__info">
+          <p class="event__group">Волонтёры + дети</p>
+          <p class="event__month-and-weekday">декабрь / понедельник</p>
+        </div>
+        <div class="event__info">
+          <h2 class="event__title event__title_place_card">Занятие с выпускниками: как составить резюме</h2>
+          <p class="event__date">20</p>
+        </div>
+        <ul class="event__additional-info">
+          <li class="event__additional-info-item event__additional-info-item_type_time">12:00–14:00</li>
+          <li class="event__additional-info-item event__additional-info-item_type_place">Садовническая наб., д. 77 стр.
+            1 (офис компании Ernst&Young)</li>
+          <li class="event__additional-info-item event__additional-info-item_type_contact-person">Александра, +7 926
+            356-78-90</li>
+        </ul>
+        <div class="event__controls">
+          <div class="event__signup-container">
+            <button type="button" aria-label="Записаться" class="event__button event__button_active
+                event__button_type_signup">Записаться</button>
             <p class="event__participants-counter">Осталось 5 мест</p>
           </div>
+          <button type="button" aria-label="Посмотреть детали" class="event__button event__button_active 
+              event__button_type_details"></button>
         </div>
-      </section>
-      <section class="calendar-modal calendar-modal_type_confirmation">
-        <button type="button" aria-label="Закрыть" class="calendar-modal__button_type_close"></button>
-        <div class="сalendar-modal__content calendar-modal__content_place_confirmation">
-          <p class="event__title event__title_place_confirmation">Подтвердить запись на мероприятие</p> 
-          <h2 class="event__title event__title_place_confirmation">«Субботний meet up: учимся проходить интервью»</h2>
-          <p class="event__title event__title_place_confirmation">5 декабря с 12:00–14:00.</p> 
-          <div class="event__signup-container event__confirmation-container">
-            <button type="button" aria-label="Подтвердить запись" class="event__button event__button_active 
-            event__button_type_signup calendar-modal__button_type_confirm">Подтвердить запись</button>
-            <button type="button" aria-label="Отменить запись" class="event__button calendar-modal__button_active 
-              calendar-modal__button_type_cancel">Отменить</button>
+      </article>
+      <article class="event">
+        <div class="event__info">
+          <p class="event__group">Волонтёры + дети</p>
+          <p class="event__month-and-weekday">декабрь / понедельник</p>
+        </div>
+        <div class="event__info">
+          <h2 class="event__title event__title_place_card">Субботний meet up: учимся проходить интевью</h2>
+          <p class="event__date">23</p>
+        </div>
+        <ul class="event__additional-info">
+          <li class="event__additional-info-item event__additional-info-item_type_time">12:00–14:00</li>
+          <li class="event__additional-info-item event__additional-info-item_type_place">Садовническая наб., д. 77 стр.
+            1 (офис компании Ernst&Young)</li>
+          <li class="event__additional-info-item event__additional-info-item_type_contact-person">Александра, +7 926
+            356-78-90</li>
+        </ul>
+        <div class="event__controls">
+          <div class="event__signup-container">
+            <button type="button" aria-label="Записаться" class="event__button event__button_active 
+                event__button_type_signup">Записаться</button>
+            <p class="event__participants-counter">Осталось 5 мест</p>
           </div>
+          <button type="button" aria-label="Посмотреть детали" class="event__button event__button_active 
+              event__button_type_details"></button>
         </div>
-      </section>
-      <section class="calendar-modal calendar-modal_type_after-confirmation">
-        <button type="button" aria-label="Закрыть" class="calendar-modal__button_type_close"></button>
-        <div class="сalendar-modal__content calendar-modal__content_place_after-confirmation">
-          <div class="calendar-modal__image"></div>
-          <p class="event__title event__title_place_after-confirmation">Вы записаны на мероприятие</p> 
-          <h2 class="event__title event__title_place_after-confirmation">«Субботний meet up: учимся проходить интервью»</h2>
-          <p class="event__title event__title_place_after-confirmation">5 декабря с 12:00–14:00.</p> 
-          <p class="event__title event__title_place_after-confirmation">Если у вас не получится прийти — отмените, пожалуйста, запись.</p>
-          <button type="button" aria-label="Вернуться к календарю" class="event__button calendar-modal__button_active 
-            calendar-modal__button_type_return-to-calendar">Вернуться к календарю</button>
+      </article>
+      <article class="event">
+        <div class="event__info">
+          <p class="event__group">Волонтёры + дети</p>
+          <p class="event__month-and-weekday">декабрь / понедельник</p>
         </div>
-      </section>
-    </main>
-    <footer class="footer">
-      <img class="footer__logo" src="../images/logo-BBBS-white.svg" alt="логотип BBBS">
-      <ul class="footer__list footer__list_content_navigation">
-        <li class="footer__list-item"><a class="footer__link" href="#">о проекте</a></li>
-        <li class="footer__list-item"><a class="footer__link" href="./calendar.html">календарь</a></li>
-        <li class="footer__list-item"><a class="footer__link" href="./where_to_go.html">куда пойти</a></li>
-        <li class="footer__list-item"><a class="footer__link" href="./answers.html">вопросы</a></li>
-        <li class="footer__list-item"><a class="footer__link" href="./read.html">читать и смотреть</a></li>
-        <li class="footer__list-item"><a class="footer__link" href="#">права детей</a></li>
-        <li class="footer__list-item"><a class="footer__link" href="#">истории</a></li>
-      </ul>
-      <ul class="footer__list footer__list_content_social">
-        <li class="footer__list-item"><a class="footer__link" href="#">facebook</a></li>
-        <li class="footer__list-item"><a class="footer__link" href="#">vkontakte</a></li>
-        <li class="footer__list-item"><a class="footer__link" href="#">instagram</a></li>
-        <li class="footer__list-item"><a class="footer__link" href="#">youtube</a></li>
-      </ul>
-      <button class="donate-btn">Помочь деньгами</button>
-      <div class="footer__owners">
-        <p class="footer__copyright"> &copy; Старшие Братья Старшие Сестры</p>
-        <div class="footer__authors">
-          <p class="footer__author">Разработка – студенты <a href="#" class="footer__author-site">Яндекс.Практикум</a>
-          </p>
-          <p class="footer__author">Концепия и дизайн – <a href="#" class="footer__author-site">krkr.design</a>
-          </p>
+        <div class="event__info">
+          <h2 class="event__title event__title_place_card">Субботний meet up: учимся проходить интевью</h2>
+          <p class="event__date">28</p>
+        </div>
+        <ul class="event__additional-info">
+          <li class="event__additional-info-item event__additional-info-item_type_time">12:00–14:00</li>
+          <li class="event__additional-info-item event__additional-info-item_type_place">Садовническая наб., д. 77 стр.
+            1 (офис компании Ernst&Young)</li>
+          <li class="event__additional-info-item event__additional-info-item_type_contact-person">Александра, +7 926
+            356-78-90</li>
+        </ul>
+        <div class="event__controls">
+          <div class="event__signup-container">
+            <button type="button" aria-label="Записаться" class="event__button event__button_active 
+                event__button_type_signup">Записаться</button>
+            <p class="event__participants-counter">Осталось 5 мест</p>
+          </div>
+          <button type="button" aria-label="Посмотреть детали" class="event__button event__button_active 
+              event__button_type_details"></button>
+        </div>
+      </article>
+    </section>
+    <section class="calendar-modal">
+      <button type="button" aria-label="Закрыть" class="calendar-modal__button_type_close"></button>
+      <div class="calendar-modal__content">
+        <div class="event__info">
+          <p class="event__group">Волонтёры + дети</p>
+          <p class="event__month-and-weekday">декабрь / понедельник</p>
+        </div>
+        <div class="event__info">
+          <h2 class="event__title event__title_place_card">Субботний meet up: учимся проходить интевью</h2>
+          <p class="event__date">05</p>
+        </div>
+        <ul class="event__additional-info">
+          <li class="event__additional-info-item event__additional-info-item_place_modal
+              event__additional-info-item_type_time">12:00–14:00</li>
+          <li class="event__additional-info-item event__additional-info-item_place_modal
+              event__additional-info-item_type_place">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</li>
+          <li class="event__additional-info-item event__additional-info-item_place_modal
+              event__additional-info-item_type_contact-person">Александра, +7 926 356-78-90</li>
+        </ul>
+        <p class="calendar-modal__description">Наконец-то наступила весна и&nbsp;мы&nbsp;пережили эту долгую зиму!
+          И&nbsp;возможно, что внутренних сил и&nbsp;ресурса сейчас не&nbsp;так много, а&nbsp;до&nbsp;окончания учебного
+          года ещё целых несколько месяцев. Поэтому приглашаем вас на&nbsp;встречу нашего ресурсного клуба
+          &laquo;Наставник PRO&raquo;, которую мы&nbsp;хотим посвятить теме поиска моральных сил, смыслов
+          и&nbsp;внутреннего ресурса для общения и&nbsp;взаимодействия с&nbsp;нашими подопечными.</p>
+        <div class="event__signup-container">
+          <button type="button" aria-label="Записаться" class="event__button event__button_active 
+              event__button_type_signup">Записаться</button>
+          <p class="event__participants-counter">Осталось 5 мест</p>
         </div>
       </div>
-    </footer>
-    <script src="./index.js"></script>
+    </section>
+    <section class="calendar-modal calendar-modal_type_confirmation">
+      <button type="button" aria-label="Закрыть" class="calendar-modal__button_type_close"></button>
+      <div class="сalendar-modal__content calendar-modal__content_place_confirmation">
+        <p class="event__title event__title_place_confirmation">Подтвердить запись на мероприятие</p>
+        <h2 class="event__title event__title_place_confirmation">«Субботний meet up: учимся проходить интервью»</h2>
+        <p class="event__title event__title_place_confirmation">5 декабря с 12:00–14:00.</p>
+        <div class="event__signup-container event__confirmation-container">
+          <button type="button" aria-label="Подтвердить запись" class="event__button event__button_active 
+            event__button_type_signup calendar-modal__button_type_confirm">Подтвердить запись</button>
+          <button type="button" aria-label="Отменить запись" class="event__button calendar-modal__button_active 
+              calendar-modal__button_type_cancel">Отменить</button>
+        </div>
+      </div>
+    </section>
+    <section class="calendar-modal calendar-modal_type_after-confirmation">
+      <button type="button" aria-label="Закрыть" class="calendar-modal__button_type_close"></button>
+      <div class="сalendar-modal__content calendar-modal__content_place_after-confirmation">
+        <div class="calendar-modal__image"></div>
+        <p class="event__title event__title_place_after-confirmation">Вы записаны на мероприятие</p>
+        <h2 class="event__title event__title_place_after-confirmation">«Субботний meet up: учимся проходить интервью»
+        </h2>
+        <p class="event__title event__title_place_after-confirmation">5 декабря с 12:00–14:00.</p>
+        <p class="event__title event__title_place_after-confirmation">Если у вас не получится прийти — отмените,
+          пожалуйста, запись.</p>
+        <button type="button" aria-label="Вернуться к календарю" class="event__button calendar-modal__button_active 
+            calendar-modal__button_type_return-to-calendar">Вернуться к календарю</button>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <img class="footer__logo" src="../images/logo-BBBS-white.svg" alt="логотип BBBS">
+    <ul class="footer__list footer__list_content_navigation">
+      <li class="footer__list-item"><a class="footer__link" href="#">о проекте</a></li>
+      <li class="footer__list-item"><a class="footer__link" href="./calendar.html">календарь</a></li>
+      <li class="footer__list-item"><a class="footer__link" href="./where_to_go.html">куда пойти</a></li>
+      <li class="footer__list-item"><a class="footer__link" href="./answers.html">вопросы</a></li>
+      <li class="footer__list-item"><a class="footer__link" href="./read.html">читать и смотреть</a></li>
+      <li class="footer__list-item"><a class="footer__link" href="#">права детей</a></li>
+      <li class="footer__list-item"><a class="footer__link" href="#">истории</a></li>
+    </ul>
+    <ul class="footer__list footer__list_content_social">
+      <li class="footer__list-item"><a class="footer__link" href="#">facebook</a></li>
+      <li class="footer__list-item"><a class="footer__link" href="#">vkontakte</a></li>
+      <li class="footer__list-item"><a class="footer__link" href="#">instagram</a></li>
+      <li class="footer__list-item"><a class="footer__link" href="#">youtube</a></li>
+    </ul>
+    <button class="donate-btn">Помочь деньгами</button>
+    <div class="footer__owners">
+      <p class="footer__copyright"> &copy; Старшие Братья Старшие Сестры</p>
+      <div class="footer__authors">
+        <p class="footer__author">Разработка – студенты <a href="#" class="footer__author-site">Яндекс.Практикум</a>
+        </p>
+        <p class="footer__author">Концепия и дизайн – <a href="#" class="footer__author-site">krkr.design</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+  <script src="./index.js"></script>
 </body>
+
 </html>

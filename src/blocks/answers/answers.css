@@ -1,7 +1,7 @@
 .answers {
-  margin: 0 475px 120px;
+  margin: 0 auto;
   padding: 80px 0 0;
-  width: calc(100% - 475px*2);
+  width: 70%;
   font-weight: 300;
   font-size: 23px;
   line-height: 1.30;
@@ -13,9 +13,8 @@
   
 @media screen and (max-width: 1440px) {
   .answers {
-    margin: 0 235px 120px;
+    width: 85%;
     padding: 80px 0 0;
-    width: calc(100% - 235px*2);
     font-size: 19px;
     line-height: 1.21;
   }
@@ -23,8 +22,6 @@
   
 @media screen and (max-width: 1024px) {
   .answers {
-    margin: 0 127px 50px;
-    width: calc(100% - 127px*2);
     padding: 80px 0 0;
     
   }
@@ -32,8 +29,7 @@
 
 @media screen and (max-width: 424px) {
   .answers {
-    margin: 0 15px 50px;
-    width: calc(100% - 15px*2);
+    width: 100%;
   }
 }
   

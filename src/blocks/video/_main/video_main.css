@@ -9,3 +9,15 @@
         flex-direction: column-reverse;
     }
 }
+
+@media screen and (max-width: 680px) {
+    .video_main {
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .video_main {
+        height: 350px;
+    }
+}

@@ -5,7 +5,8 @@
     align-items: center;
     flex-wrap: nowrap;
     margin-bottom: 15px;
-    overflow: hidden;
+    overflow-x: scroll;
+    overflow-y: hidden;
 }
 
 @media screen and (max-width: 1300px) {
@@ -17,6 +18,5 @@
 @media screen and (max-width: 600px) {
     .filter {
         justify-content: flex-start;
-        align-self: flex-start;
     }
 }
